@@ -93,22 +93,38 @@ Disposition spread across the twelve simulated agents: 4 enthusiastic, 4 skeptic
 
 ---
 
-## Recommended Changes Before v1.0
+## Recommended Changes Before v1.0 — Framework Response & Resolution Status
 
-1. **[Critical]** Make `CODEOWNERS.tmpl`'s "team-first" and "object-type" layout options actually equivalent: either teach `generate_browser.py` to read `paths.catalogFolders` by default and document the override, or stop calling the team-first layout "recommended" if the shipped tooling only supports object-type. As built, the template recommends a layout its own browser generator cannot read, with no error when it can't. This is the highest-priority fix because the failure is silent. *(Friction Log: 6 - CODEOWNERS/generate_browser mismatch)*
-2. **[Critical]** Wire `validate.py` into the workflow an adopter actually follows - at minimum, document that it exists and should be run before publishing; ideally, run it automatically before `generate_browser.py` and refuse to publish (or visibly flag, badge-by-badge) any object that fails. Discovered post-delivery that 26 of ~40 authored objects fail strict validation with zero indication from the published browser. This is now judged the single highest-priority fix, ahead of the CODEOWNERS mismatch, because it means the browser's "looks complete" signal and the framework's own compliance signal can disagree entirely with no way to notice. *(Friction Log: 9 - validate.py never surfaced)*
-3. **[High]** Add a visible note next to `requirement_group.activation: workspace` (in the schema description and in the workspace template's `activeRequirementGroups: []` default) explaining that workspace-activation groups require this second, separate list to be populated before they render as active - or better, default-activate every workspace-scoped group the catalog actually contains rather than requiring an opt-in list with no inline guidance. *(Friction Log: 7 - RequirementGroup activation)*
-4. **[High]** Either auto-generate `relationship` objects from existing `runtimeSpec.dependencies` / `runsOn` refs at build time, or state explicitly (in the schema docs and SKILL.md-equivalent onboarding material) that structured dependency fields elsewhere in the catalog do NOT automatically populate the topology diagram / relationship panels - a second, separate `relationship` object is required per edge even when the dependency is already fully declared elsewhere. *(Friction Log: 8 - SDP topology/DAG edges)*
-5. **[Critical]** Fix `draft-browser-sdp.css`'s SDP topology connection lines (and the matching connections-table/drawer badges) so they have a default visible color: add a base `stroke`/`background`/`color` rule to `.conn-path`/`.proto`/`.pill` rather than only styling the literal class names `.rest`/`.amqp`/`.other`, since the actual CSS class is the connection's raw protocol string and will not match any of those three for almost any real-world value. As shipped, a fully-correct relationship model renders as a topology diagram with zero visible connecting lines - silently, with no error. *(Friction Log: 10 - invisible SDP connection lines)*
-6. **[Critical]** Cut a tagged release (e.g. `v1.0.0-rc1`) of the framework repo so adopters can pin `framework.lock`'s `syncedTag` to a real tag instead of a raw commit SHA on `main`. *(Friction Log: 4a - framework.lock/tagging)*
-7. **[Critical]** Document the `requirement.applicability` dict's expected shape with at least one worked example in the schema or example catalog, rather than leaving it typed only as an opaque `dict`. *(Friction Log: 4b - applicability)*
-8. **[High]** Add a scheduled-task/batch-job-aware construct to the SDP model (e.g. a `cadence` field on deployable-object entries, or a distinct `scheduledTasks` collection alongside `serviceGroups`) so cron/batch workloads aren't forced into the same shape as long-running services. *(Friction Log: 5 - TimePay batch job)*
-9. **[High]** Add a build-time/library-dependency relationship or object type so internal shared libraries and infra modules consumed by other teams' SDPs at provisioning time - not deployed as their own running service - are representable in the catalog at all. *(Friction Log: 5 - Platform team)*
-10. **[Medium]** Allow `authenticationModel` (and similarly-shaped single-value enums) to accept multiple values, or document a supported multi-value pattern, for services that legitimately front more than one auth mechanism simultaneously. *(Friction Log: 4d - Identity Gateway)*
-11. **[Medium]** Give `data_store_service` a first-class way to express "one physical store, N logically-owned subdivisions" (e.g. a `logicalDatabases` sub-collection with per-subdivision owner/classification) instead of forcing an all-or-nothing single-object vs. multi-object choice. *(Friction Log: 4d - Data Platform)*
-12. **[Medium]** Scaffold a `configurations/requirement-groups/` folder in the workspace template, matching the framework's own internal layout convention, so company-authored RequirementGroups have a documented home. *(Friction Log: 4a - configurations scaffold)*
-13. **[Low]** State the `workflow` OAuth/PAT scope requirement explicitly in the vendoring/onboarding documentation, since the workflow templates fail silently (a GitHub-side rejection, not a DRAFT-side error) without it. *(Friction Log: 4a - workflow scope)*
-14. **[Low]** Reconcile any onboarding/quickstart documentation describing the catalog repo layout with the framework's actual `templates/workspace/` structure, so new adopters are not following two different layouts simultaneously. *(Friction Log: 3 - layout mismatch)*
+The DRAFT framework repository has triaged the 14 recommended changes. The structural layout bugs, validation gaps, styling defects, and template issues have been **Resolved** in framework commit `839d868`. Granular application lifecycle details and build-time script cataloging have been **Dismissed** as they fall outside the core design scope of an architectural control catalog.
+
+1. **[Critical]** Make `CODEOWNERS.tmpl`'s "team-first" and "object-type" layout options actually equivalent.
+   * **Status:** **Resolved**. `generate_browser.py` now recursively scans catalog folders by default if no explicit overrides are configured, enabling out-of-the-box support for both team-first and object-type layouts. *(Friction Log: 6)*
+2. **[Critical]** Wire `validate.py` into the workflow an adopter actually follows.
+   * **Status:** **Resolved**. The compiler (`generate_browser.py`) now runs `validate.py` automatically before starting and halts execution if validation failures occur (can be bypassed with `--skip-validation`). *(Friction Log: 9)*
+3. **[High]** Add a visible note next to `requirement_group.activation: workspace` and in templates.
+   * **Status:** **Resolved**. Added clear schema documentation to [requirement-group.schema.yaml](framework/schemas/requirement-group.schema.yaml) and templates regarding `activeRequirementGroups`. Fixed a browser payload bug so always-on groups are marked active automatically. *(Friction Log: 7)*
+4. **[High]** Auto-generate `relationship` objects from existing `runtimeSpec.dependencies` / `runsOn` refs.
+   * **Status:** **Resolved**. Deterministically-salted virtual relationships are now automatically derived from `runsOn` and `host` fields under `uid_utils.py` and rendered in the browser. *(Friction Log: 8)*
+5. **[Critical]** Fix `draft-browser-sdp.css`'s SDP topology connection lines.
+   * **Status:** **Resolved**. Added default `stroke: var(--proto-other)` and background/text colors for `.conn-path`, `.pill`, and `.proto` so custom protocols render visibly on-screen. *(Friction Log: 10)*
+6. **[Critical]** Cut a tagged release of the framework repo.
+   * **Status:** **Pending Framework Release**. This is an operational release step triggered automatically on PR merge. *(Friction Log: 4a)*
+7. **[Critical]** Document the `requirement.applicability` dict's expected shape.
+   * **Status:** **Resolved**. Added documentation and matches-shape examples inside `requirement-group.schema.yaml`. *(Friction Log: 4b)*
+8. **[High]** Add a scheduled-task/batch-job-aware construct to the SDP model.
+   * **Status:** **Dismissed (By Design)**. Architecture catalogs track deployment boundaries, substrates, and compliance bounds. Lifecycle details (periodic/one-shot batch runtime vs. daemon runtime) are operational details, not architectural topology. Scheduled tasks are already tracked at the product component layer (`scheduledJobs`). *(Friction Log: 5)*
+9. **[High]** Add a build-time/library-dependency relationship or object type.
+   * **Status:** **Dismissed (By Design)**. Shared modules and libraries are static code codebases, not independent deployed workloads. The catalog already allows modeling code libraries as `product_component` with `classification: library`. Creating custom deployment topology representations (SDPs) for static library code is a level-of-detail violation. *(Friction Log: 5)*
+10. **[Medium]** Allow `authenticationModel` to accept multiple values.
+    * **Status:** **Resolved**. Updated the schema validator to accept either a single string or a list of strings for enums like `authenticationModel`. *(Friction Log: 4d)*
+11. **[Medium]** Give `data_store_service` a first-class way to express logical subdivisions.
+    * **Status:** **Dismissed (By Design)**. Separating physical database storage (`data_store_service`) from logical schemas/contents (`data_component`) is a core framework design principle. Logical databases map to `data_components` that run on the physical cluster, avoiding redundant modeling inside the service object. *(Friction Log: 4d)*
+12. **[Medium]** Scaffold a `configurations/requirement-groups/` folder in the workspace template.
+    * **Status:** **Resolved**. Seeded a `.gitkeep` file so this folder is created automatically during bootstrap. *(Friction Log: 4a)*
+13. **[Low]** State the `workflow` OAuth/PAT scope requirement explicitly.
+    * **Status:** **Resolved**. Added an explicit warning to the workspaces documentation. *(Friction Log: 4a)*
+14. **[Low]** Reconcile onboarding/quickstart layout documentation.
+    * **Status:** **Dismissed / Reconciled**. Framework documentation is already fully aligned with the seeded workspace templates (`catalog/shared-services/...`). The mismatch arose from simplified instructions in the simulated exercise, not the framework code. *(Friction Log: 3)*
 
 ---
 
