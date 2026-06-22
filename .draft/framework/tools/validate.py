@@ -594,7 +594,6 @@ def validate_workspace_requirements(
     active_group_ids: set[str],
     catalog_by_id: dict[str, dict[str, Any]],
     failures: list[str],
-    warnings: list[str],
 ) -> None:
     config_path = workspace_root / ".draft" / "workspace.yaml"
     for group_id in sorted(active_group_ids):
@@ -604,7 +603,7 @@ def validate_workspace_requirements(
                 f"{config_path}: Activate only existing workspace-mode requirement groups; '{group_id}' was not found"
             )
         elif group.get("activation") != "workspace":
-            warnings.append(
+            failures.append(
                 f"{config_path}: Remove '{group_id}' from requirements.activeRequirementGroups; always-on requirement groups do not need workspace activation"
             )
 
@@ -1003,14 +1002,23 @@ def validate_schema_section(
         value = node.get(field)
         if value is None or value == "":
             continue
-        if value not in allowed_values:
-            failures.append(f"{context}: Set {field} to one of {allowed_values}; '{value}' is not valid")
+        if isinstance(value, list):
+            invalid = [item for item in value if item not in allowed_values]
+            if invalid:
+                failures.append(f"{context}: Set elements in list {field} to one of {allowed_values}; invalid values: {invalid}")
+        else:
+            if value not in allowed_values:
+                failures.append(f"{context}: Set {field} to one of {allowed_values}; '{value}' is not valid")
 
     for field, expected_type in (schema.get("fieldTypes") or {}).items():
         if field not in node or node.get(field) is None:
             continue
+        val = node.get(field)
+        if expected_type == "str" and isinstance(val, list):
+            if all(isinstance(item, str) for item in val):
+                continue
         checker = TYPE_CHECKERS.get(str(expected_type))
-        if checker and not isinstance(node.get(field), checker):
+        if checker and not isinstance(val, checker):
             failures.append(f"{context}: Change field '{field}' to type {expected_type}")
 
     for field, allowed_values in (schema.get("enumListFields") or {}).items():
@@ -4118,6 +4126,11 @@ def main(argv: list[str] | None = None) -> int:
         for obj in objects.values()
         if isinstance(obj, dict) and is_non_empty(obj.get("uid"))
     }
+    
+    from uid_utils import derive_inline_relationships
+    derived = derive_inline_relationships(catalog_by_id)
+    catalog_by_id.update(derived)
+
     requirement_groups = {
         object_id: obj for object_id, obj in catalog_by_id.items() if obj.get("type") == "requirement_group"
     }
@@ -4128,7 +4141,7 @@ def main(argv: list[str] | None = None) -> int:
     catalog_ids = set(catalog_by_id.keys())
     active_group_ids = workspace_requirements["active_groups"]
     require_active_group_disposition = workspace_requirements["require_active_group_disposition"]
-    validate_workspace_requirements(workspace_root, active_group_ids, catalog_by_id, failures, warnings)
+    validate_workspace_requirements(workspace_root, active_group_ids, catalog_by_id, failures)
     validate_workspace_vocabulary_references(objects, workspace_vocabulary, failures, warnings)
     validate_duplicate_capability_domain_names(objects, workspace_root, warnings)
 
