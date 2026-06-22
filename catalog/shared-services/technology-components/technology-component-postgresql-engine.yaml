@@ -1,0 +1,25 @@
+schemaVersion: '1.0'
+uid: MNV0EPA2AG-9CPF
+type: technology_component
+name: PostgreSQL Database Engine
+description: The relational database engine underlying Clifford's primary OLTP data platform, run as Amazon Aurora PostgreSQL-Compatible Edition. Each product line (Coverage, TimePay, Talent, People) provisions its own logical database on the shared cluster, isolated by IAM-scoped credentials and schema-level access control.
+version: '15.4'
+catalogStatus: complete
+classification: software
+vendor: PostgreSQL Global Development Group (engine), operated via Amazon Web Services Aurora
+productName: PostgreSQL
+productVersion: '15.4'
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- database
+- postgresql
+- aurora
+- oltp
+- shared-services
+capabilities:
+- 01KQQ4Q026-7T2H
+notes:
+  encryptionAtRest: Aurora storage-level encryption enabled using an AWS KMS customer-managed key, rotated annually.
+  failureDomain: A regional Aurora cluster outage affects every product line simultaneously; this is the single highest-blast-radius shared dependency in the Clifford catalog.

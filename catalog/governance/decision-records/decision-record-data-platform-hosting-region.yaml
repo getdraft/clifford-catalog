@@ -1,0 +1,23 @@
+schemaVersion: '1.0'
+uid: F8F4VF6QKB-419V
+type: decision_record
+name: Data Platform US-Only Hosting Region
+description: Decision to pin the shared Aurora PostgreSQL cluster to US AWS regions only, with no cross-region replication outside the US, to satisfy district data processing addenda.
+category: decision
+status: accepted
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+linkedObject: 5REFR4GN1D-SEAH
+decisionRationale: >-
+  Clifford's standard district Data Processing Addendum commits to US-only data residency for
+  any system touching employee or student-adjacent records. The primary cluster runs in
+  us-east-1 with a us-east-2 standby for disaster recovery; both are US regions, so this
+  decision satisfies the Data Residency & Classification RequirementGroup's hosting-region
+  requirement without requiring a per-product exception process.
+tags:
+- data-residency
+- ferpa
+- decision

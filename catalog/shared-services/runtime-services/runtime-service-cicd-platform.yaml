@@ -1,0 +1,42 @@
+schemaVersion: '1.0'
+uid: N6FMAR8Y15-NX57
+type: runtime_service
+name: Clifford CI/CD Platform
+description: Shared GitHub Actions organization configuration providing build, test, security-scan, and deploy pipelines for all five product repos and the catalog repo itself. Platform-engineering owns the reusable workflow templates and required-status-check policy; each product team owns its own pipeline customization layered on top.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- cicd
+- github-actions
+- pipeline
+- shared-services
+deliveryModel: saas
+vendor: GitHub, Inc.
+productName: GitHub Actions
+productVersion: Cloud (rolling release)
+networkPlacement: internal
+authenticationModel: oauth
+patchingOwner: vendor-managed
+capabilities:
+- 01KT0XNZEY-Q2TF
+vendorGovernance:
+  dataLeavesInfrastructure: true
+  dataResidencyCommitment: GitHub Actions runners are US-region hosted GitHub-hosted runners; no self-hosted runner fleet in scope for this exercise
+  vendorSLA: 99.9% per GitHub's published Actions SLA
+  incidentNotificationProcess: githubstatus.com subscription, escalation via GitHub Enterprise support
+notes:
+  productionChangeApproval: Required reviewers plus a branch-protection rule requiring the security-scan and test-execution status checks to pass before merge to main; schema/infra-affecting changes additionally require a platform-engineering CAB reviewer per Clifford policy.
+  rollbackStrategy: Each product SDP defines its own deployment strategy (rolling, blue/green, or canary); the CI/CD platform itself supports automated workflow re-run and one-click revert-to-previous-tag redeploy.
+requirementImplementations:
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: dependency-scanning
+  status: satisfied
+  mechanism: field

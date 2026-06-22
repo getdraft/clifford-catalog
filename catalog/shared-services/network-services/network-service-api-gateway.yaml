@@ -1,0 +1,34 @@
+schemaVersion: '1.0'
+uid: 8K6HX7GY2N-VH6A
+type: network_service
+name: Clifford API Gateway
+description: Shared Amazon API Gateway deployment fronting every product's public REST API (district admin console integrations, Clever/ClassLink roster sync callbacks, and the public Clifford partner API). Terminates TLS, enforces per-district rate limiting, and routes to each product's backend runtime service.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- api-gateway
+- network
+- shared-services
+deliveryModel: paas
+vendor: Amazon Web Services
+productName: Amazon API Gateway
+productVersion: Current (AWS managed)
+networkPlacement: public-facing
+networkFunction: API gateway and edge rate limiting for all public-facing Clifford product APIs
+networkTopology: Single regional API Gateway deployment in us-east-1, fronted by CloudFront; routes by path prefix to each product's backend runtime service in the shared VPC.
+protocols:
+- https
+- websocket
+authenticationModel: oauth
+patchingOwner: aws-managed
+capabilities:
+- 01KT0V5MCV-3A6F
+requirementImplementations:
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: relationship

@@ -1,0 +1,35 @@
+schemaVersion: '1.0'
+uid: Y1X0S7X9R9-F0DE
+type: runtime_service
+name: Clifford Event Bus
+description: Shared Amazon EventBridge bus plus per-consumer SQS queues used for asynchronous cross-product events - e.g., TimePay publishing an approved-timesheet event that Talent's payroll-eligibility check and People's HR record both subscribe to. Each product team owns its own event schemas and queue consumers; platform-engineering owns the bus, dead-letter-queue policy, and schema registry conventions.
+version: 1.0.0
+catalogStatus: incomplete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- messaging
+- event-bus
+- eventbridge
+- sqs
+- shared-services
+deliveryModel: paas
+vendor: Amazon Web Services
+productName: Amazon EventBridge & SQS
+productVersion: Current (AWS managed)
+networkPlacement: vpc-private
+authenticationModel: iam
+patchingOwner: aws-managed
+capabilities:
+- 01KT0V5MCV-KT72
+notes:
+  scalabilityModel: EventBridge scales automatically; per-consumer SQS queues are the practical throughput bottleneck and are sized per product team.
+  failureDomain: Event delivery delay during an EventBridge regional degradation is the most common cross-team incident category reported in the (simulated) Clifford incident log.
+  catalogStatusReason: Marked incomplete because the per-product schema registry conventions are still informally documented in a wiki rather than declared as DRAFT configuration objects - flagged as a follow-up rather than resolved during this exercise.
+requirementImplementations:
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: not-applicable
+  notes: This is a managed AWS service with no team-owned pipeline; schema/consumer changes ship through each consuming product's own pipeline instead.

@@ -1,0 +1,40 @@
+schemaVersion: '1.0'
+uid: DCER5BMV26-1Z6C
+type: runtime_service
+name: Clifford Observability Platform
+description: Shared Datadog organization providing APM tracing, log aggregation, infrastructure metrics, and SLA-breach alerting across all five product SDPs and every shared service. Each product team owns its own Datadog dashboards and monitors but shares the underlying account, billing, and ingestion pipeline configuration.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- observability
+- apm
+- logging
+- datadog
+- shared-services
+deliveryModel: saas
+vendor: Datadog, Inc.
+productName: Datadog
+productVersion: SaaS (rolling)
+networkPlacement: internal
+authenticationModel: saml
+capabilities:
+- 01KQQ4Q026-NB1W
+- 01KQQ4Q026-D04B
+vendorGovernance:
+  dataLeavesInfrastructure: true
+  dataResidencyCommitment: US1 region (datadoghq.com); no EU data residency add-on purchased
+  dpaNotes: Datadog DPA executed 2022, on file with legal; covers telemetry and log metadata, not customer PII (Clifford policy prohibits logging district PII into Datadog).
+  vendorSLA: 99.9% monthly uptime per Datadog's published SLA
+  incidentNotificationProcess: Datadog status page subscription plus a dedicated #datadog-vendor-status Slack channel monitored by platform-engineering on-call
+notes:
+  serviceLogging: All five product SDPs ship structured logs here via a shared Fluent Bit sidecar configuration.
+  healthWelfareMonitoring: Datadog Monitors page platform-engineering on-call for ingestion pipeline degradation itself - a second-order dependency the exercise flags as a single point of failure for SLA observability.
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship

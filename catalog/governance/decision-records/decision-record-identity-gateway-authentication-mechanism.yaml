@@ -1,0 +1,23 @@
+schemaVersion: '1.0'
+uid: CA6JK9KWNR-A8SX
+type: decision_record
+name: Identity Gateway Authentication Mechanism
+description: Decision to centralize authentication behind a single self-managed identity broker rather than letting each product integrate directly with Okta, Clever, and ClassLink.
+category: decision
+status: accepted
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+linkedObject: TX94DCX1HE-ZQX8
+decisionRationale: >-
+  Each of the four product teams would otherwise need to independently implement and maintain
+  SAML (Okta), and OAuth (Clever, ClassLink) integrations, tripling the attack surface and
+  making a district rostering-provider change a four-team migration instead of a one-team change.
+  Centralizing in a single gateway also gives platform-engineering one place to enforce the
+  Security & Access Controls RequirementGroup's authentication-mechanism requirement.
+tags:
+- identity
+- sso
+- decision

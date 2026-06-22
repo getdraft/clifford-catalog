@@ -1,0 +1,46 @@
+schemaVersion: '1.0'
+uid: TX94DCX1HE-ZQX8
+type: runtime_service
+name: Clifford Identity Gateway
+description: |
+  Self-managed Node.js identity broker that fronts authentication for every Clifford product. Internal staff and customer district administrators authenticate via Okta Workforce Identity (SAML/OIDC); district teachers and substitute staff authenticate via roster-linked single sign-on through Clever and ClassLink, the two dominant K-12 rostering/SSO standards. The gateway issues a normalized Clifford session token consumed by all five product SDPs so no product team integrates directly with a district SSO provider.
+version: 2.3.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- identity
+- sso
+- clever
+- classlink
+- okta
+- shared-services
+deliveryModel: self-managed
+networkPlacement: internal
+authenticationModel: saml
+patchingOwner: organization-scheduled
+capabilities:
+- 01KQQ4Q026-MHJM
+- 01KQQ4Q026-4JR6
+notes:
+  serviceAuthentication: Okta SAML/OIDC for internal staff and district admin console users; Clever Instant Login and ClassLink LaunchPad OAuth for teacher/substitute rostered sign-in.
+  secretsManagement: Okta client secret and Clever/ClassLink API keys stored in HashiCorp Vault, injected at deploy time.
+  scalabilityModel: Stateless service behind an ALB, horizontally scaled; session validation cached for 5 minutes to reduce IdP round-trips during back-to-school peak login spikes.
+  availabilityModel: Runs three replicas across two AWS AZs; treated as Critical tier since every product depends on it for login.
+  failureDomain: An outage here blocks login for all five products simultaneously - the single most consequential shared-services dependency in the catalog.
+decisionRecords:
+- ref: CA6JK9KWNR-A8SX
+  key: authenticationMechanism
+requirementImplementations:
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: decisionRecord
+  ref: CA6JK9KWNR-A8SX
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: availability-tier
+  status: satisfied
+  mechanism: decisionRecord
+  ref: CA6JK9KWNR-A8SX

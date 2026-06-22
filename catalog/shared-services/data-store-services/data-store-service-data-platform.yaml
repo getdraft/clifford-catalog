@@ -1,0 +1,51 @@
+schemaVersion: '1.0'
+uid: 5REFR4GN1D-SEAH
+type: data_store_service
+name: Clifford Data Platform
+description: Shared Amazon Aurora PostgreSQL cluster providing the primary OLTP data store for all four product lines. Each product owns a dedicated logical database (coverage, timepay, talent, people) on the shared cluster, with IAM-scoped credentials per product and no cross-database joins permitted - cross-product reporting goes through the analytics warehouse instead, not direct database access.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- database
+- aurora
+- postgresql
+- oltp
+- shared-services
+deliveryModel: paas
+vendor: Amazon Web Services
+productName: Amazon Aurora PostgreSQL-Compatible Edition
+productVersion: '15.4'
+primaryTechnologyComponent: MNV0EPA2AG-9CPF
+networkPlacement: vpc-private
+authenticationModel: iam
+patchingOwner: aws-managed
+capabilities:
+- 01KQQ4Q026-7T2H
+- 01KQQ4Q026-H3B5
+vendorGovernance:
+  dataLeavesInfrastructure: false
+  dataResidencyCommitment: US-only - cluster pinned to us-east-1 with a us-east-2 standby region for disaster recovery; no cross-region replication outside the US
+  vendorSLA: 99.99% per AWS Aurora SLA for Multi-AZ deployments
+  incidentNotificationProcess: AWS Health Dashboard plus AWS Business Support case escalation
+notes:
+  encryptionAtRest: KMS customer-managed key, automatic Aurora storage encryption.
+  recoverabilityModel: Automated snapshots every 6 hours, continuous backup via Aurora's underlying storage layer, point-in-time restore available for the prior 35 days.
+  scalabilityModel: Aurora read replicas added per product as read traffic grows; People (core HR) is the largest logical database by row count.
+  failureDomain: A cluster-wide outage affects all four product databases simultaneously, since they share one Aurora cluster - the exercise's Admin agent flagged this as a concentration risk worth a future per-product-line cluster split, logged as a friction/recommendation item rather than resolved here.
+decisionRecords:
+- ref: F8F4VF6QKB-419V
+  key: hostingRegion
+requirementImplementations:
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: hosting-region
+  status: satisfied
+  mechanism: decisionRecord
+  ref: F8F4VF6QKB-419V
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: access-control-model
+  status: satisfied
+  mechanism: relationship
