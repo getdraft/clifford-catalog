@@ -1,0 +1,36 @@
+schemaVersion: '1.0'
+uid: R44AEYXYT7-BARZ
+type: data_component
+name: Coverage Database
+description: Logical PostgreSQL database holding absence records, substitute eligibility, and matching-job history for the Coverage product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-coverage-product
+owner:
+  team: coverage
+  contact: coverage-team@clifford.example
+runsOn: 5REFR4GN1D-SEAH
+targetEngine: postgresql
+dataClassification: confidential
+containsPII: true
+tags:
+- coverage
+- database
+tables:
+- name: absences
+  description: One row per reported absence with required credential type and school site.
+  containsPII: true
+- name: substitutes
+  description: Substitute staff eligibility, credential type, and prior-assignment history.
+  containsPII: true
+  classification: confidential
+- name: matching_jobs
+  description: BullMQ job audit trail for the substitute-matching engine.
+  containsPII: false
+scheduledJobs:
+- name: purge-stale-matching-jobs
+  schedule: daily at 03:00
+  description: Removes completed matching-job audit records older than 90 days.
+  purpose: maintenance
+retentionPolicy: Absence and substitute eligibility records retained 7 years per Clifford's standard records-retention policy; matching-job audit trail purged after 90 days.

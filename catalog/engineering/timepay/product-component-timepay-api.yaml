@@ -1,0 +1,51 @@
+schemaVersion: '1.0'
+uid: GPPADF0FWM-GWB6
+type: product_component
+name: TimePay API
+description: Spring Boot API service handling clock-in/out events, timesheet approval workflow, and the trigger point for the nightly Spring Batch payroll export.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-timepay-product
+owner:
+  team: timepay
+  contact: timepay-team@clifford.example
+classification: api-service
+language: Java
+tags:
+- timepay
+- time-and-attendance
+- payroll
+interfaces:
+- name: TimePay Client API
+  protocol: REST
+  path: /v1/clock-events
+  authenticationModel: oauth
+  description: Kiosk and supervisor client API for clock events and timesheet approval.
+networkBindings:
+- port: 8080
+  protocol: HTTPS
+  direction: inbound
+runtimeSpec:
+  ports:
+  - number: 8080
+    protocol: HTTP
+    name: web
+    direction: inbound
+  dependencies:
+  - ref: 5REFR4GN1D-SEAH
+    purpose: Primary OLTP store for timesheets and clock events
+    interface: timepay logical database
+  - ref: TX94DCX1HE-ZQX8
+    purpose: All authentication delegated to the Identity Gateway
+  - ref: Y1X0S7X9R9-F0DE
+    purpose: Publishes timesheet.approved, subscribes to employee.hired/employee.terminated
+environmentConfiguration:
+- name: SPRING_DATASOURCE_URL
+  description: Aurora connection string for the timepay logical database
+  required: true
+  sensitive: true
+- name: PAYROLL_EXPORT_BUCKET
+  description: S3 bucket name for district payroll export file drop
+  required: true
+  sensitive: false

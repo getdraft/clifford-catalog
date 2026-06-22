@@ -1,0 +1,31 @@
+schemaVersion: '1.0'
+uid: B7D1D3WT1A-9RDP
+type: data_component
+name: People Database
+description: Logical PostgreSQL database holding the canonical employees table, org-structure taxonomy, and lifecycle state for every Clifford employee.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-people-product
+owner:
+  team: people
+  contact: people-team@clifford.example
+runsOn: 5REFR4GN1D-SEAH
+targetEngine: postgresql
+dataClassification: confidential
+containsPII: true
+tags:
+- people
+- database
+- system-of-record
+tables:
+- name: employees
+  description: Canonical employee identity record referenced by ID from every other product (no cross-database foreign keys - lookups via API or event payloads only).
+  containsPII: true
+- name: org_structure
+  description: District org-structure taxonomy and position assignments.
+  containsPII: false
+- name: lifecycle_transitions
+  description: Audit trail of employee lifecycle state machine transitions.
+  containsPII: true
+retentionPolicy: Employee records retained 7 years post-separation per Clifford's standard records-retention policy.

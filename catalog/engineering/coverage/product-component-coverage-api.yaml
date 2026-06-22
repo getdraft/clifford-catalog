@@ -1,0 +1,51 @@
+schemaVersion: '1.0'
+uid: FCDCMP9CV4-FHEX
+type: product_component
+name: Coverage API
+description: NestJS API service implementing absence creation, the substitute-matching engine, and notification fan-out for the Coverage product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-coverage-product
+owner:
+  team: coverage
+  contact: coverage-team@clifford.example
+classification: api-service
+language: TypeScript
+tags:
+- coverage
+- absence-management
+- substitute-matching
+interfaces:
+- name: Coverage Partner API
+  protocol: REST
+  path: /v1/absences
+  authenticationModel: oauth
+  description: Public partner API for district SIS vendors to push absence records.
+networkBindings:
+- port: 3000
+  protocol: HTTPS
+  direction: inbound
+runtimeSpec:
+  ports:
+  - number: 3000
+    protocol: HTTP
+    name: web
+    direction: inbound
+  dependencies:
+  - ref: 5REFR4GN1D-SEAH
+    purpose: Primary OLTP store for absence and substitute-matching records
+    interface: coverage logical database
+  - ref: TX94DCX1HE-ZQX8
+    purpose: All authentication delegated to the Identity Gateway
+  - ref: Y1X0S7X9R9-F0DE
+    purpose: Publishes absence.created/absence.filled/substitute.declined, subscribes to employee.terminated
+environmentConfiguration:
+- name: DATABASE_URL
+  description: Aurora connection string for the coverage logical database
+  required: true
+  sensitive: true
+- name: TWILIO_API_KEY
+  description: Substitute SMS notification provider credential
+  required: true
+  sensitive: true

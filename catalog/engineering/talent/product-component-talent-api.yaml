@@ -1,0 +1,51 @@
+schemaVersion: '1.0'
+uid: M8FWWA842S-VADG
+type: product_component
+name: Talent API
+description: FastAPI service implementing job postings, applicant pipeline, and the Celery-backed background-check workflow for the Talent product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-talent-product
+owner:
+  team: talent
+  contact: talent-team@clifford.example
+classification: api-service
+language: Python
+tags:
+- talent
+- recruiting
+- background-check
+interfaces:
+- name: Talent Public & HR API
+  protocol: REST
+  path: /v1/applications
+  authenticationModel: TBD
+  description: Public unauthenticated careers-site application endpoint plus OAuth-protected HR console endpoints under the same service.
+networkBindings:
+- port: 8000
+  protocol: HTTPS
+  direction: inbound
+runtimeSpec:
+  ports:
+  - number: 8000
+    protocol: HTTP
+    name: web
+    direction: inbound
+  dependencies:
+  - ref: 5REFR4GN1D-SEAH
+    purpose: Primary OLTP store for applicants and restricted background-check results
+    interface: talent logical database
+  - ref: TX94DCX1HE-ZQX8
+    purpose: Authenticates internal HR console users only; public careers site is unauthenticated
+  - ref: Y1X0S7X9R9-F0DE
+    purpose: Publishes candidate.applied and candidate.hired
+environmentConfiguration:
+- name: DATABASE_URL
+  description: Aurora connection string for the talent logical database
+  required: true
+  sensitive: true
+- name: CHECKR_API_KEY
+  description: Background-check vendor credential
+  required: true
+  sensitive: true

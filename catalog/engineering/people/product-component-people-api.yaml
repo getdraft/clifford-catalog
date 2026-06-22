@@ -1,0 +1,47 @@
+schemaVersion: '1.0'
+uid: ZSNCNFHWJP-99XP
+type: product_component
+name: People API
+description: NestJS API service implementing the canonical employee record, org-structure taxonomy, and the employee lifecycle state machine for the People product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-people-product
+owner:
+  team: people
+  contact: people-team@clifford.example
+classification: api-service
+language: TypeScript
+tags:
+- people
+- hr-core
+- system-of-record
+interfaces:
+- name: People Internal Lookup API
+  protocol: REST
+  path: /v1/employees/{employeeId}
+  authenticationModel: oauth
+  description: Internal employee-lookup API called by Coverage, TimePay, and Talent.
+networkBindings:
+- port: 3000
+  protocol: HTTPS
+  direction: inbound
+runtimeSpec:
+  ports:
+  - number: 3000
+    protocol: HTTP
+    name: web
+    direction: inbound
+  dependencies:
+  - ref: 5REFR4GN1D-SEAH
+    purpose: System-of-record OLTP store for canonical employee identity
+    interface: people logical database
+  - ref: TX94DCX1HE-ZQX8
+    purpose: All authentication delegated to the Identity Gateway
+  - ref: Y1X0S7X9R9-F0DE
+    purpose: Subscribes to candidate.hired, publishes employee.hired and employee.terminated
+environmentConfiguration:
+- name: DATABASE_URL
+  description: Aurora connection string for the people logical database
+  required: true
+  sensitive: true

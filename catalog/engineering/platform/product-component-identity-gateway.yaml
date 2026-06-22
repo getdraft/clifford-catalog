@@ -1,0 +1,51 @@
+schemaVersion: '1.0'
+uid: G5JM9CZA6X-4V82
+type: product_component
+name: Identity Gateway Service
+description: Express application that is the first-party code backing the Clifford Identity Gateway shared service - the deployable artifact Platform owns and operates.
+version: 2.3.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-platform-product
+owner:
+  team: platform
+  contact: platform-engineering@clifford.example
+classification: api-service
+language: TypeScript
+tags:
+- platform
+- identity
+- sso
+interfaces:
+- name: Identity Gateway Session API
+  protocol: REST
+  authenticationModel: saml
+  description: Issues normalized Clifford session tokens after Okta SAML or Clever/ClassLink OAuth sign-in.
+networkBindings:
+- port: 4000
+  protocol: HTTPS
+  direction: inbound
+runtimeSpec:
+  ports:
+  - number: 4000
+    protocol: HTTP
+    name: web
+    direction: inbound
+  dependencies:
+  - ref: 8MF78PZNG4-738A
+    purpose: Retrieves Okta client secret and Clever/ClassLink API keys at deploy time
+environmentConfiguration:
+- name: OKTA_CLIENT_SECRET
+  description: Okta SAML/OIDC client secret
+  required: true
+  sensitive: true
+- name: CLEVER_API_KEY
+  description: Clever Instant Login API key
+  required: true
+  sensitive: true
+- name: CLASSLINK_API_KEY
+  description: ClassLink LaunchPad API key
+  required: true
+  sensitive: true
+notes:
+  runsOnNote: This component IS the Clifford Identity Gateway runtime_service (TX94DCX1HE-ZQX8) - declared separately here as required by the product_component/runtime_service split, with runsOn intentionally omitted since the SDP's serviceGroup substrate declares the hosting relationship instead, per the schema's own guidance for when runsOn may be omitted.

@@ -1,0 +1,37 @@
+schemaVersion: '1.0'
+uid: 091XCJENF7-HN4C
+type: data_component
+name: Talent Database
+description: Logical PostgreSQL database holding job postings, applicant pipeline state, and restricted background-check adjudication results for the Talent product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-talent-product
+owner:
+  team: talent
+  contact: talent-team@clifford.example
+runsOn: 5REFR4GN1D-SEAH
+targetEngine: postgresql
+dataClassification: restricted
+containsPII: true
+tags:
+- talent
+- database
+- background-check
+tables:
+- name: candidates
+  description: Applicant profile and pipeline stage.
+  containsPII: true
+- name: background_check_results
+  description: Adjudication result and vendor reference ID only - no raw report content stored. Restricted classification.
+  containsPII: true
+  classification: restricted
+- name: job_postings
+  description: District job postings configuration.
+  containsPII: false
+scheduledJobs:
+- name: purge-rejected-candidate-background-checks
+  schedule: daily at 04:00
+  description: Purges background-check references for rejected candidates after 1 year with no hire.
+  purpose: maintenance
+retentionPolicy: Background-check adjudication results retained 7 years post-decision per Security & Access Controls RequirementGroup; rejected-candidate references purged after 1 year.

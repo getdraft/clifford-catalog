@@ -1,0 +1,39 @@
+schemaVersion: '1.0'
+uid: 4S7K3NQ3P1-BDZA
+type: data_component
+name: TimePay Database
+description: Logical PostgreSQL database holding clock events, timesheets, and payroll export run history for the TimePay product.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+repoUrl: https://github.com/getdraft/clifford-timepay-product
+owner:
+  team: timepay
+  contact: timepay-team@clifford.example
+runsOn: 5REFR4GN1D-SEAH
+targetEngine: postgresql
+dataClassification: confidential
+containsPII: true
+tags:
+- timepay
+- database
+tables:
+- name: clock_events
+  description: Raw clock-in/clock-out events from kiosk and mobile clients.
+  containsPII: true
+- name: timesheets
+  description: Aggregated, supervisor-approved timesheets per pay period.
+  containsPII: true
+- name: export_runs
+  description: Payroll export run log with row counts and checksum per district per run.
+  containsPII: false
+storedProcedures:
+- name: aggregate_timesheet
+  description: Aggregates approved clock events into a pay-period timesheet row.
+  purpose: transformation
+scheduledJobs:
+- name: nightly-payroll-export
+  schedule: cron 0 2 * * *
+  description: Spring Batch job exporting approved timesheets to each district's configured payroll format.
+  purpose: reporting
+retentionPolicy: Timesheet and clock-event records retained 7 years per Clifford's standard payroll records-retention policy.
