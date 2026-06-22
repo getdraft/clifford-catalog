@@ -1,0 +1,62 @@
+schemaVersion: '1.0'
+uid: Y53Z3HXWX6-11KR
+type: requirement_group
+name: Change Management & Deployment Gates RequirementGroup
+description: Activated control set requiring every SoftwareDeploymentPattern to declare its CI/CD pipeline and the approval gate required before a production schema or infrastructure change, in line with Clifford's change advisory process.
+version: 1.0.0
+catalogStatus: complete
+authority:
+  name: Clifford Change Advisory Board Policy
+  shortName: Clifford CAB
+  source: Internal engineering change-management policy, modeled on SOC 2 CC8.1 change management criteria
+activation: workspace
+appliesTo:
+- software_deployment_pattern
+requirements:
+- id: cicd-pipeline
+  name: Declared CI/CD Pipeline
+  description: The object must declare the pipeline used to build, test, and deploy it.
+  rationale: A deployment pattern with no declared pipeline cannot be reasoned about for release cadence, rollback capability, or gate enforcement.
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: 01KT0XNZEY-Q2TF
+    example: A relationship to the clifford-cicd-platform runtime_service.
+  minimumSatisfactions: 1
+  relatedCapability: 01KT0XNZEY-Q2TF
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - relationship
+- id: production-change-approval
+  name: Production Change Approval Gate
+  description: The object must declare who or what approves a production deployment (automated quality gate, peer review, or CAB review for schema/infra changes).
+  rationale: Clifford's CAB requires schema-altering and infrastructure-altering changes to receive an explicit second approval distinct from normal code review, to reduce the risk of unreviewed changes to systems holding employee and district data.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: productionChangeApproval
+    example: 'A committed DecisionRecord describing the approval gate (e.g., automated CI gate plus required CAB sign-off for migrations).'
+  minimumSatisfactions: 1
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+- id: rollback-strategy
+  name: Rollback Strategy
+  description: The object must declare how a bad deployment is rolled back (blue/green, canary with automated revert, or documented manual rollback runbook).
+  rationale: Without a declared rollback strategy, the CAB cannot evaluate the blast radius of approving a given change.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: rollbackStrategy
+    example: 'A committed DecisionRecord describing the rollback mechanism.'
+  minimumSatisfactions: 1
+  requirementMode: mandatory
+  naAllowed: true
+  validAnswerTypes:
+  - decisionRecord
+lifecycleStatus: candidate
+tags:
+- change-management
+- cicd
+- deployment-gates
+- clifford

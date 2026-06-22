@@ -1,0 +1,72 @@
+schemaVersion: '1.0'
+uid: 6T3RS5BZGK-ZD6Z
+type: requirement_group
+name: Data Residency & Classification RequirementGroup
+description: Activated control set ensuring every data-bearing object declares a data classification level and a hosting region consistent with Clifford's US-only residency commitment for FERPA- and COPPA-adjacent K-12 workforce data.
+version: 1.0.0
+catalogStatus: complete
+authority:
+  name: FERPA (34 CFR Part 99) and Clifford customer data processing addenda
+  shortName: FERPA/DPA
+  source: Family Educational Rights and Privacy Act, as applied contractually to Clifford's district customers
+activation: workspace
+appliesTo:
+- data_store_service
+- data_component
+- software_deployment_pattern
+requirements:
+- id: data-classification
+  name: Data Classification Level
+  description: The object must declare a data classification (public, internal, confidential, or restricted) covering the most sensitive data it stores or processes.
+  rationale: Districts require Clifford to demonstrate it knows which systems hold student-adjacent (dependent/family) and employee PII so handling controls can be tiered appropriately.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: dataClassification
+    example: 'A committed DecisionRecord recording the classification level and the rationale for it.'
+  minimumSatisfactions: 1
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+- id: hosting-region
+  name: Hosting Region Declaration
+  description: The object must declare that underlying storage and processing occurs in US AWS regions only.
+  rationale: Clifford's standard district Data Processing Addendum commits to US-only data residency; this requirement gives the Draftsman a way to catch a service that would violate that commitment before it ships.
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: 01KQQ4Q026-7T2H
+    example: A relationship to a host or data store service whose region is documented as us-east-1 / us-west-2.
+  - mechanism: decisionRecord
+    key: hostingRegion
+    example: 'A committed DecisionRecord declaring the AWS region(s) used.'
+  minimumSatisfactions: 1
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+  - relationship
+- id: retention-policy
+  name: Data Retention Policy
+  description: The object must declare a retention period and deletion mechanism for the data it stores, particularly for former-employee and former-applicant records.
+  rationale: Districts periodically request confirmation that separated employees' and rejected applicants' records are purged on a defined schedule.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: retentionPolicy
+    example: 'A committed DecisionRecord stating the retention window (e.g., 7 years post-separation for payroll records) and deletion mechanism.'
+  minimumSatisfactions: 1
+  requirementMode: conditional
+  applicability:
+    field: dataClassification
+    matches:
+    - confidential
+    - restricted
+  naAllowed: true
+  validAnswerTypes:
+  - decisionRecord
+lifecycleStatus: candidate
+tags:
+- data-residency
+- ferpa
+- classification
+- clifford

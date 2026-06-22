@@ -1,0 +1,68 @@
+schemaVersion: '1.0'
+uid: TXKTEP0GVA-00VQ
+type: requirement_group
+name: SLA & Availability Tiers RequirementGroup
+description: Activated control set requiring every SoftwareDeploymentPattern and shared RuntimeService to declare an availability tier and the observability mechanism used to monitor against it, so on-call and customer-facing SLA commitments are traceable to real monitoring coverage.
+version: 1.0.0
+catalogStatus: complete
+authority:
+  name: Clifford Customer SLA Policy
+  shortName: Clifford SLA
+  source: Internal customer-facing SLA schedule (Critical / High / Standard / Low tiers), referenced from district master service agreements
+activation: workspace
+appliesTo:
+- software_deployment_pattern
+- runtime_service
+requirements:
+- id: availability-tier
+  name: Declared Availability Tier
+  description: The object must declare one of Critical (99.9% during school hours, e.g. Coverage's substitute-matching path), High (99.5%, e.g. TimePay clock-in), Standard (99.0%, e.g. Talent), or Low (best-effort, internal tooling).
+  rationale: Without a declared tier, on-call rotation, paging thresholds, and customer-facing SLA credits cannot be derived consistently across teams.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: availabilityTier
+    example: 'A committed DecisionRecord stating the tier and the customer-facing justification.'
+  minimumSatisfactions: 1
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+- id: monitoring-coverage
+  name: Monitoring & Alerting Coverage
+  description: The object must declare the observability/APM mechanism used to detect and alert on SLA breaches.
+  rationale: A declared tier with no monitoring behind it is not an enforceable SLA; this requirement forces the link between the commitment and the telemetry.
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: 01KQQ4Q026-NB1W
+    example: A relationship to the clifford-observability-platform runtime_service.
+  minimumSatisfactions: 1
+  relatedCapability: 01KQQ4Q026-NB1W
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - relationship
+- id: disaster-recovery-objective
+  name: Recovery Time / Point Objective
+  description: Critical and High tier objects must declare an RTO/RPO consistent with their tier.
+  rationale: A Critical-tier service (e.g. substitute matching during school hours) with an undefined recovery objective cannot be meaningfully called Critical.
+  applicability:
+    field: availabilityTier
+    matches:
+    - Critical
+    - High
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: disasterRecoveryObjective
+    example: 'A committed DecisionRecord stating RTO and RPO.'
+  minimumSatisfactions: 1
+  requirementMode: conditional
+  naAllowed: true
+  validAnswerTypes:
+  - decisionRecord
+lifecycleStatus: candidate
+tags:
+- sla
+- availability
+- observability
+- clifford

@@ -1,0 +1,99 @@
+schemaVersion: '1.0'
+uid: SFSE49JDWK-FKPD
+type: requirement_group
+name: Security & Access Controls RequirementGroup
+description: Activated control set for Clifford's SOC 2 Type II program. Applies to every SoftwareDeploymentPattern and shared RuntimeService/DataStoreService that touches district employee, applicant, or student-adjacent HCM data, requiring a declared authentication mechanism, an access control model, and secrets management approach before the object can be marked deployment-ready.
+version: 1.0.0
+catalogStatus: complete
+authority:
+  name: SOC 2 Type II Trust Services Criteria (Security)
+  shortName: SOC 2
+  source: AICPA Trust Services Criteria, as adopted by Clifford's internal security program
+activation: workspace
+appliesTo:
+- software_deployment_pattern
+- runtime_service
+- data_store_service
+requirements:
+- id: authentication-mechanism
+  name: Declared Authentication Mechanism
+  description: The object must declare how callers and end users authenticate to it (district SSO via Clever/ClassLink, internal SAML/OIDC, or service-to-service credential).
+  rationale: SOC 2 CC6.1 requires logical access to be restricted via authentication; Clifford's K-12 customers further require district-level SSO support so school IT staff are not provisioning local accounts.
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: 961FZVC89R-PW1R
+    example: A relationship to the clifford-identity-gateway runtime_service, which fronts Clever/ClassLink/SAML auth.
+  - mechanism: decisionRecord
+    key: authenticationMechanism
+    example: 'A committed DecisionRecord, referenced from decisionRecords with key: authenticationMechanism.'
+  minimumSatisfactions: 1
+  relatedCapability: 01KQQ4Q026-MHJM
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+  - relationship
+- id: access-control-model
+  name: Declared Access Control Model
+  description: The object must declare its authorization model (role-based access control tied to district/employee roles, or service-account scoping for internal services).
+  rationale: District administrators expect role-scoped visibility (e.g., a substitute teacher cannot see payroll data); SOC 2 CC6.3 requires access to be authorized based on role.
+  canBeSatisfiedBy:
+  - mechanism: decisionRecord
+    key: accessControlModel
+    example: 'A committed DecisionRecord describing the RBAC model and role catalog used by this object.'
+  - mechanism: relationship
+    criteria:
+      capability: 01KQQ4Q026-4JR6
+    example: A relationship to a shared entitlements/authorization service.
+  minimumSatisfactions: 1
+  relatedCapability: 01KQQ4Q026-4JR6
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - decisionRecord
+  - relationship
+- id: secrets-management
+  name: Secrets Management Approach
+  description: The object must declare where its credentials, API keys, and database secrets are stored and rotated.
+  rationale: Hardcoded or unmanaged secrets are the most common SOC 2 exception finding observed in prior Clifford audits (per internal audit history, simulated).
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: P0VYG7NE7F-6Q09
+    example: A relationship to the clifford-vault secrets-management technology_component.
+  minimumSatisfactions: 1
+  relatedCapability: 01KQQ4Q026-DTJJ
+  requirementMode: mandatory
+  naAllowed: false
+  validAnswerTypes:
+  - relationship
+- id: background-check-data-handling
+  name: Sensitive HR Data Handling Declaration
+  description: For objects that store or process candidate background-check results or I-9/eligibility data, the object must declare its encryption-at-rest approach and retention period.
+  rationale: Background-check and eligibility-verification data is among the most sensitive data Clifford processes on behalf of districts (via the Talent product line) and carries elevated regulatory exposure if mishandled.
+  applicability:
+    field: dataClassification
+    matches:
+    - restricted
+    - confidential
+  canBeSatisfiedBy:
+  - mechanism: relationship
+    criteria:
+      capability: 01KQQ4Q026-H3B5
+    example: A relationship to an encryption-at-rest-capable data store.
+  - mechanism: decisionRecord
+    key: backgroundCheckDataHandling
+    example: 'A committed DecisionRecord describing retention period and encryption approach for background-check data.'
+  minimumSatisfactions: 1
+  requirementMode: conditional
+  naAllowed: true
+  validAnswerTypes:
+  - decisionRecord
+  - relationship
+lifecycleStatus: candidate
+tags:
+- security
+- access-control
+- soc2
+- clifford
