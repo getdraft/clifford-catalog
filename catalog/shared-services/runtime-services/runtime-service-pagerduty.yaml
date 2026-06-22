@@ -1,0 +1,38 @@
+schemaVersion: '1.0'
+uid: X98AFF5FTK-4TN6
+type: runtime_service
+name: Clifford Incident Paging
+description: Shared PagerDuty account that receives SLA-breach and availability alerts from the Observability Platform and routes them to the correct product team's on-call rotation. Added during the shared-services domain-owner review of the Observability Platform object after the reviewer pointed out that Datadog monitors with no paging integration behind them cannot actually enforce the SLA & Availability Tiers RequirementGroup's monitoring-coverage requirement in practice.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- paging
+- on-call
+- incident-management
+- pagerduty
+- shared-services
+deliveryModel: saas
+vendor: PagerDuty, Inc.
+productName: PagerDuty
+productVersion: SaaS (rolling)
+networkPlacement: internal
+authenticationModel: oauth
+patchingOwner: vendor-managed
+capabilities:
+- 01KQQ4Q026-NB1W
+vendorGovernance:
+  dataLeavesInfrastructure: true
+  dataResidencyCommitment: US-hosted PagerDuty account; alert payloads are restricted by policy to system/service identifiers only, no district PII
+  vendorSLA: 99.95% per PagerDuty's published SLA
+  incidentNotificationProcess: status.pagerduty.com subscription plus an internal #pagerduty-vendor-status channel
+notes:
+  escalationPolicy: Each product team owns its own escalation policy and on-call schedule; platform-engineering owns the shared account, billing, and the default escalation policy used by services without a team-specific one yet.
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship

@@ -1,0 +1,34 @@
+schemaVersion: '1.0'
+uid: Q1QPAVZZS4-N1CP
+type: network_service
+name: Clifford Web Application Firewall
+description: AWS WAF deployed in front of the Clifford API Gateway and CloudFront distribution, providing managed rule groups (SQLi, XSS, known bad inputs) and custom rate-based rules per district tenant. Added during the shared-services domain-owner review of the API Gateway object after the reviewer flagged that a gateway with no WAF in front of it was an incomplete picture of the public network edge.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- waf
+- security
+- network
+- shared-services
+deliveryModel: paas
+vendor: Amazon Web Services
+productName: AWS WAF
+productVersion: Current (AWS managed)
+networkPlacement: public-facing
+networkFunction: Web application firewall and DDoS-adjacent rate limiting in front of the API Gateway and CloudFront edge.
+networkTopology: Attached to the CloudFront distribution and API Gateway stage; evaluates every request before it reaches Clifford's VPC.
+protocols:
+- https
+authenticationModel: TBD
+patchingOwner: aws-managed
+capabilities:
+- 01KT0V5MCV-3A6F
+requirementImplementations:
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: not-applicable
+  notes: WAF is a network-edge filtering control, not an authentication boundary; authentication is enforced downstream by the Identity Gateway and API Gateway.
