@@ -19,13 +19,15 @@ tags:
 - shared-services
 deliveryModel: self-managed
 networkPlacement: internal
-authenticationModel: saml
+authenticationModel:
+- saml
+- oauth
 patchingOwner: organization-scheduled
 capabilities:
 - 01KQQ4Q026-MHJM
 - 01KQQ4Q026-4JR6
 notes:
-  serviceAuthentication: Okta SAML/OIDC for internal staff and district admin console users; Clever Instant Login and ClassLink LaunchPad OAuth for teacher/substitute rostered sign-in.
+  serviceAuthentication: Okta SAML/OIDC for internal staff and district admin console users; Clever Instant Login and ClassLink LaunchPad OAuth for teacher/substitute rostered sign-in. Both mechanisms are now declared directly in authenticationModel (DRAFT 0.61.0 added list support for enumFields) rather than only in this free-text note.
   secretsManagement: Okta client secret and Clever/ClassLink API keys stored in HashiCorp Vault, injected at deploy time.
   scalabilityModel: Stateless service behind an ALB, horizontally scaled; session validation cached for 5 minutes to reduce IdP round-trips during back-to-school peak login spikes.
   availabilityModel: Runs three replicas across two AWS AZs; treated as Critical tier since every product depends on it for login.

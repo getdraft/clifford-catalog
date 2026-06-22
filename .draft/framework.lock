@@ -3,13 +3,14 @@ framework:
   source: https://github.com/getdraft/draftsman.git
   vendoredPath: .draft/framework
   updatePolicy: explicit
-  # NOTE: as of this sync, `main` had not advanced past the previously-synced
-  # commit (8a1f3bb, v0.60.0). The fix/inline-relationships branch below is an
-  # OPEN, UNMERGED PR (titled "Resolve DRAFT v1.0 readiness exercise feedback
-  # and styling defects") that we adopted ahead of merge because it directly
-  # and substantially resolves multiple findings from EXERCISE_REPORT.md. See
-  # the report's "Version Update" section for the full rationale.
-  syncedRef: fix/inline-relationships
-  version: "0.59.0-unreleased+inline-relationships"
+  # NOTE: the fix/inline-relationships branch we previously pinned to has
+  # since been merged into main and released as part of the 0.61.0
+  # changelog entry. We are now synced to main again, not a branch - the
+  # one remaining gap is that main has not yet been tagged v0.61.0 (only
+  # v0.60.0 exists as a tag at the time of this sync), so syncedTag is
+  # still empty. See EXERCISE_REPORT.md's "Version Update" section for
+  # the full history and rationale.
+  syncedRef: main
+  version: "0.61.0"
   syncedTag: ""
-  syncedCommit: 839d86898a3e130382596a88879249472fa0ce39
+  syncedCommit: 2d25d16a7776d6a9e725408cbe3b7704ab5b0819
