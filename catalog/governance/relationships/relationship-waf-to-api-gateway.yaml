@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JG-EN80
+type: relationship
+name: Clifford Web Application Firewall → Clifford API Gateway
+source: Q1QPAVZZS4-N1CP
+target: 8K6HX7GY2N-VH6A
+label: filters and forwards traffic to
+technology: HTTPS
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: Materializes the WAF→Gateway edge path implied by the SDP descriptions for Coverage, TimePay, and
+  Talent ("deployed behind the shared Clifford API Gateway").

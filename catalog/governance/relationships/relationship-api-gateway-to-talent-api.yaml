@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JH-RRS9
+type: relationship
+name: Clifford API Gateway → Talent API
+source: 8K6HX7GY2N-VH6A
+target: M8FWWA842S-VADG
+label: routes requests to
+technology: HTTPS/REST
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes software-deployment-pattern-talent.yaml description: "deployed behind the shared
+  Clifford API Gateway."'

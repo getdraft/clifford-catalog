@@ -2,7 +2,9 @@ schemaVersion: '1.0'
 uid: VZ4EGYZP2B-5VD6
 type: software_deployment_pattern
 name: People Deployment Pattern
-description: Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.
+description: Deployment pattern for the People HR core product - the canonical employee-record system
+  of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed
+  by TimePay and Coverage.
 version: 1.0.0
 catalogStatus: complete
 lifecycleStatus: preferred
@@ -17,7 +19,9 @@ businessContext:
   pillar: engineering
   productFamily: People
   ownerNode: people
-  notes: High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up.
+  notes: High availability tier - People is the canonical employee system of record; an outage stalls
+    onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay
+    up.
 networkZones:
 - id: edge
   name: Public Edge
@@ -52,24 +56,54 @@ serviceGroups:
   - ref: Y1X0S7X9R9-F0DE
     networkZone: app
     diagramTier: application
+- name: people-shared-dependencies
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: Q1QPAVZZS4-N1CP
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: 8K6HX7GY2N-VH6A
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: TX94DCX1HE-ZQX8
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: 8MF78PZNG4-738A
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: DCER5BMV26-1Z6C
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: N6FMAR8Y15-NX57
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: Y1X0S7X9R9-F0DE
+    networkZone: app
+    diagramTier: utility
+    intent: ha
 scalingUnits:
 - name: people-api
   type: replicable
   instanceCount: 2
 notes:
-  availabilityTarget: '99.5%'
+  availabilityTarget: 99.5%
   failureDomain:
     scope: cross-team
-    description: People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers.
-  teamContribution: >-
-    The People team's reviewer (enthusiastic disposition) validated the
-    admin's draft SDP without raising blocking questions, and additionally
-    flagged that the messaging-platform shared service (event bus) should be
-    explicitly listed as a deployable object in the people-data service
-    group rather than only implied by the stack.yaml event-publishing
-    description, since People is the most event-publish-heavy team in the
-    company and the cross-team failure-domain note above depends on that
-    dependency being visible in the SDP itself. Incorporated directly above.
+    description: People's events are consumed downstream by TimePay and Coverage; a People outage does
+      not take those services down but does stall onboarding/offboarding propagation across the company
+      until People recovers.
+  teamContribution: The People team's reviewer (enthusiastic disposition) validated the admin's draft
+    SDP without raising blocking questions, and additionally flagged that the messaging-platform shared
+    service (event bus) should be explicitly listed as a deployable object in the people-data service
+    group rather than only implied by the stack.yaml event-publishing description, since People is the
+    most event-publish-heavy team in the company and the cross-team failure-domain note above depends
+    on that dependency being visible in the SDP itself. Incorporated directly above.
 decisionRecords:
 - ref: CA6JK9KWNR-A8SX
 requirementImplementations:
@@ -85,7 +119,8 @@ requirementImplementations:
   requirementId: disaster-recovery-objective
   status: satisfied
   mechanism: field
-  notes: RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime.
+  notes: RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify
+    the cost of extended People downtime.
 - requirementGroup: Y53Z3HXWX6-11KR
   requirementId: cicd-pipeline
   status: satisfied

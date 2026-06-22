@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JG-S5PT
+type: relationship
+name: Clifford API Gateway → TimePay API
+source: 8K6HX7GY2N-VH6A
+target: GPPADF0FWM-GWB6
+label: routes requests to
+technology: HTTPS/REST
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes software-deployment-pattern-timepay.yaml description: "deployed behind the shared
+  Clifford API Gateway and Identity Gateway."'

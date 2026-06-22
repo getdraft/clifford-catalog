@@ -2,7 +2,9 @@ schemaVersion: '1.0'
 uid: M8255Y9CNY-HXXJ
 type: software_deployment_pattern
 name: Coverage Deployment Pattern
-description: Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.
+description: Deployment pattern for the Coverage absence and substitute-management product - a single
+  containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the
+  shared Clifford API Gateway and Identity Gateway.
 version: 1.0.0
 catalogStatus: complete
 lifecycleStatus: preferred
@@ -16,12 +18,14 @@ businessContext:
   pillar: engineering
   productFamily: Coverage
   ownerNode: coverage
-  notes: One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows.
+  notes: One of Clifford's four district-facing product lines; Critical availability tier because substitute
+    matching runs during live school-day absence reporting windows.
 networkZones:
 - id: edge
   name: Public Edge
   tier: frontend
-  description: Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone.
+  description: Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching
+    the application zone.
 - id: app
   name: Application Zone
   tier: application
@@ -48,16 +52,50 @@ serviceGroups:
   - ref: 5REFR4GN1D-SEAH
     networkZone: data
     diagramTier: data
+- name: coverage-shared-dependencies
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: Q1QPAVZZS4-N1CP
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: 8K6HX7GY2N-VH6A
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: TX94DCX1HE-ZQX8
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: 8MF78PZNG4-738A
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: DCER5BMV26-1Z6C
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: N6FMAR8Y15-NX57
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: Y1X0S7X9R9-F0DE
+    networkZone: app
+    diagramTier: utility
+    intent: ha
 scalingUnits:
 - name: coverage-api
   type: replicable
   instanceCount: 3
-  notes: Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time).
+  notes: Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local
+    time).
 notes:
-  availabilityTarget: '99.9%'
+  availabilityTarget: 99.9%
   failureDomain:
     scope: service-group
-    description: A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages.
+    description: A Coverage-specific outage is isolated to the coverage-api service group; it does not
+      affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and
+      Data Platform cluster-wide outages.
 decisionRecords:
 - ref: CA6JK9KWNR-A8SX
 requirementImplementations:
@@ -73,7 +111,8 @@ requirementImplementations:
   requirementId: disaster-recovery-objective
   status: satisfied
   mechanism: field
-  notes: RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier.
+  notes: RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora
+    cluster's RTO 2h / continuous-replication RPO for the data tier.
 - requirementGroup: Y53Z3HXWX6-11KR
   requirementId: cicd-pipeline
   status: satisfied

@@ -21,7 +21,12 @@ paths:
   configurations: configurations
 
 requirements:
-  activeRequirementGroups: []
+  activeRequirementGroups:
+    - SFSE49JDWK-FKPD  # Security & Access Controls
+    - 6T3RS5BZGK-ZD6Z  # Data Residency & Classification
+    - TXKTEP0GVA-00VQ  # SLA & Availability Tiers
+    - Y53Z3HXWX6-11KR  # Change Management & Deployment Gates
+    - BVQAD2CJKY-C45E  # Vulnerability Management
   requireActiveRequirementGroupDisposition: false
 
 contribution:

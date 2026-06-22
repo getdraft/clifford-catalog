@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JV-57CR
+type: relationship
+name: Talent API → Clifford Data Platform
+source: M8FWWA842S-VADG
+target: 5REFR4GN1D-SEAH
+label: reads/writes via
+technology: PostgreSQL wire protocol
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-talent-api.yaml runtimeSpec.dependencies entry: "Primary OLTP store
+  for applicants and restricted background-check results."'

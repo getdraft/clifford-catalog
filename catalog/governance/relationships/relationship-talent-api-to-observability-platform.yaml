@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JM-8N69
+type: relationship
+name: Talent API → Clifford Observability Platform
+source: M8FWWA842S-VADG
+target: DCER5BMV26-1Z6C
+label: emits metrics, logs, and traces to
+technology: OpenTelemetry / Prometheus remote-write
+direction: asynchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Backs the monitoring-coverage requirementImplementation (mechanism: relationship) in software-deployment-pattern-talent.yaml.'

@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JJ-789P
+type: relationship
+name: Talent API → Clifford Identity Gateway
+source: M8FWWA842S-VADG
+target: TX94DCX1HE-ZQX8
+label: authenticates HR console users via
+technology: SAML/OAuth2 (OIDC)
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-talent-api.yaml runtimeSpec.dependencies entry: "Authenticates
+  internal HR console users only; public careers site is unauthenticated."'

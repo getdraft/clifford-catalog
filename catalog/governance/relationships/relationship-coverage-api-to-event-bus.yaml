@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JQ-FWPF
+type: relationship
+name: Coverage API → Clifford Event Bus
+source: FCDCMP9CV4-FHEX
+target: Y1X0S7X9R9-F0DE
+label: publishes absence.created/absence.filled/substitute.declined to; subscribes to employee.terminated
+  from
+technology: Event Bus (Kafka)
+direction: event
+flow: bidirectional
+catalogStatus: complete
+notes: Materializes product-component-coverage-api.yaml runtimeSpec.dependencies entry.

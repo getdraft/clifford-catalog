@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JV-VMKF
+type: relationship
+name: Coverage Database → Clifford Data Platform
+source: R44AEYXYT7-BARZ
+target: 5REFR4GN1D-SEAH
+label: persists to
+technology: Aurora PostgreSQL
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes data-component-coverage-database.yaml runsOn: 5REFR4GN1D-SEAH.'

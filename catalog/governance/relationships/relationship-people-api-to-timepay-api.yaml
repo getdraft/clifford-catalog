@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JR-ZC51
+type: relationship
+name: People API → TimePay API
+source: ZSNCNFHWJP-99XP
+target: GPPADF0FWM-GWB6
+label: publishes employee.hired/employee.terminated (relayed via the Event Bus) to
+technology: Event Bus (Kafka)
+direction: event
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes software-deployment-pattern-people.yaml description: "publishing employee.hired and
+  employee.terminated events consumed by TimePay and Coverage."'

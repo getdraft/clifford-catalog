@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JQ-E6BB
+type: relationship
+name: TimePay API → Clifford Event Bus
+source: GPPADF0FWM-GWB6
+target: Y1X0S7X9R9-F0DE
+label: publishes timesheet.approved to; subscribes to employee.hired/employee.terminated from
+technology: Event Bus (Kafka)
+direction: event
+flow: bidirectional
+catalogStatus: complete
+notes: Materializes product-component-timepay-api.yaml runtimeSpec.dependencies entry.

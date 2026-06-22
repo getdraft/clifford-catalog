@@ -2,7 +2,9 @@ schemaVersion: '1.0'
 uid: 8SDKKYYD2D-Y8BP
 type: software_deployment_pattern
 name: Talent Deployment Pattern
-description: Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers site left unauthenticated by design.
+description: Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus
+  a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers
+  site left unauthenticated by design.
 version: 1.0.0
 catalogStatus: complete
 lifecycleStatus: preferred
@@ -17,12 +19,14 @@ businessContext:
   pillar: engineering
   productFamily: Talent
   ownerNode: talent
-  notes: Standard availability tier - hiring workflows are important but not time-critical the way live school-day operations are.
+  notes: Standard availability tier - hiring workflows are important but not time-critical the way live
+    school-day operations are.
 networkZones:
 - id: public-careers
   name: Public Careers Site
   tier: frontend
-  description: Unauthenticated public application-submission surface, rate-limited at the shared API Gateway rather than authenticated.
+  description: Unauthenticated public application-submission surface, rate-limited at the shared API Gateway
+    rather than authenticated.
 - id: app
   name: Application Zone
   tier: application
@@ -30,7 +34,8 @@ networkZones:
 - id: data
   name: Data Zone
   tier: data
-  description: Talent logical database, including the restricted-classification background-check result columns.
+  description: Talent logical database, including the restricted-classification background-check result
+    columns.
 serviceGroups:
 - name: talent-api
   deploymentTarget: aws-us-east-1
@@ -49,34 +54,60 @@ serviceGroups:
   - ref: 5REFR4GN1D-SEAH
     networkZone: data
     diagramTier: data
+- name: talent-shared-dependencies
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: Q1QPAVZZS4-N1CP
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: 8K6HX7GY2N-VH6A
+    networkZone: edge
+    diagramTier: presentation
+    intent: ha
+  - ref: TX94DCX1HE-ZQX8
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: 8MF78PZNG4-738A
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: DCER5BMV26-1Z6C
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: N6FMAR8Y15-NX57
+    networkZone: app
+    diagramTier: utility
+    intent: ha
+  - ref: Y1X0S7X9R9-F0DE
+    networkZone: app
+    diagramTier: utility
+    intent: ha
 scalingUnits:
 - name: talent-api
   type: replicable
   instanceCount: 2
 notes:
-  availabilityTarget: '99.0%'
+  availabilityTarget: 99.0%
   failureDomain:
     scope: service-group
-    description: Talent outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.
-  teamQuestions: >-
-    The Talent team's reviewer (informed disposition, having read the
-    vendor docs) asked three questions before contributing: (1) does the
-    background-check-data-handling requirement's "restricted" applicability
-    match correctly resolve against this SDP, given the requirement is
-    declared on the RequirementGroup with applicability.field: dataClassification, but the SDP itself has no single dataClassification
-    field - only the underlying data_component does; (2) should the public
-    careers site's unauthenticated interface be modeled as a separate
-    networkZone with no tier, given it doesn't cleanly match frontend/
-    application/data; and (3) whether naAllowed:true on a background-check
-    requirement is appropriate at all, given background checks are mandatory
-    for every K-12 hire. The admin resolved (1) by noting the requirement's
-    applicability is evaluated against the data_component it's actually
-    answered on (talent-database, classification restricted), not the SDP -
-    a real ambiguity in how applicability composes across object types, kept
-    on the data_component rather than duplicated here; resolved (2) by
-    keeping the public-careers zone tagged frontend since it is the
-    internet-facing zone even though it carries no authentication; left (3)
-    as a valid open question carried to Recommended Changes.
+    description: Talent outages are isolated to its own service group except for shared Compute Platform
+      and Data Platform cluster-wide failures.
+  teamQuestions: 'The Talent team''s reviewer (informed disposition, having read the vendor docs) asked
+    three questions before contributing: (1) does the background-check-data-handling requirement''s "restricted"
+    applicability match correctly resolve against this SDP, given the requirement is declared on the RequirementGroup
+    with applicability.field: dataClassification, but the SDP itself has no single dataClassification
+    field - only the underlying data_component does; (2) should the public careers site''s unauthenticated
+    interface be modeled as a separate networkZone with no tier, given it doesn''t cleanly match frontend/
+    application/data; and (3) whether naAllowed:true on a background-check requirement is appropriate
+    at all, given background checks are mandatory for every K-12 hire. The admin resolved (1) by noting
+    the requirement''s applicability is evaluated against the data_component it''s actually answered on
+    (talent-database, classification restricted), not the SDP - a real ambiguity in how applicability
+    composes across object types, kept on the data_component rather than duplicated here; resolved (2)
+    by keeping the public-careers zone tagged frontend since it is the internet-facing zone even though
+    it carries no authentication; left (3) as a valid open question carried to Recommended Changes.'
 decisionRecords:
 - ref: CA6JK9KWNR-A8SX
 requirementImplementations:
@@ -129,7 +160,8 @@ requirementImplementations:
   requirementId: background-check-data-handling
   status: satisfied
   mechanism: field
-  notes: Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level.
+  notes: Answered on the Talent data_component (restricted classification, 7-year retention, no raw report
+    content stored), not duplicated at the SDP level.
 - requirementGroup: 6T3RS5BZGK-ZD6Z
   requirementId: data-classification
   status: satisfied

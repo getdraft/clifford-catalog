@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JR-5CG3
+type: relationship
+name: Talent API → Clifford Event Bus
+source: M8FWWA842S-VADG
+target: Y1X0S7X9R9-F0DE
+label: publishes candidate.applied and candidate.hired to
+technology: Event Bus (Kafka)
+direction: event
+flow: outbound
+catalogStatus: complete
+notes: Materializes product-component-talent-api.yaml runtimeSpec.dependencies entry.

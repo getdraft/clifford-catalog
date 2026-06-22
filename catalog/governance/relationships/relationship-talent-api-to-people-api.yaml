@@ -1,0 +1,14 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JR-BTKY
+type: relationship
+name: Talent API → People API
+source: M8FWWA842S-VADG
+target: ZSNCNFHWJP-99XP
+label: publishes candidate.hired (relayed via the Event Bus) to
+technology: Event Bus (Kafka)
+direction: event
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes the cross-product dependency chain described in software-deployment-pattern-people.yaml
+  and the matching dependencies entries on both product_components: Talent publishes candidate.hired,
+  which People subscribes to.'

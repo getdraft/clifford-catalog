@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JQ-BD2K
+type: relationship
+name: Identity Gateway Service → Clifford CI/CD Platform
+source: G5JM9CZA6X-4V82
+target: N6FMAR8Y15-NX57
+label: builds, scans, and deploys via
+technology: GitHub Actions
+direction: asynchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Backs the cicd-pipeline, patch-management-mechanism, and dependency-scanning requirementImplementations
+  (mechanism: relationship) in software-deployment-pattern-platform.yaml.'

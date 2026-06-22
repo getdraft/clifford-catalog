@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JR-PBKG
+type: relationship
+name: People API → Clifford Event Bus
+source: ZSNCNFHWJP-99XP
+target: Y1X0S7X9R9-F0DE
+label: subscribes to candidate.hired from; publishes employee.hired/employee.terminated to
+technology: Event Bus (Kafka)
+direction: event
+flow: bidirectional
+catalogStatus: complete
+notes: Materializes product-component-people-api.yaml runtimeSpec.dependencies entry.

@@ -1,0 +1,14 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JS-J9WQ
+type: relationship
+name: People API → Coverage API
+source: ZSNCNFHWJP-99XP
+target: FCDCMP9CV4-FHEX
+label: publishes employee.terminated (relayed via the Event Bus) to
+technology: Event Bus (Kafka)
+direction: event
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes software-deployment-pattern-people.yaml description: "publishing employee.hired and
+  employee.terminated events consumed by TimePay and Coverage," and Coverage''s own dependencies entry
+  ("subscribes to employee.terminated").'

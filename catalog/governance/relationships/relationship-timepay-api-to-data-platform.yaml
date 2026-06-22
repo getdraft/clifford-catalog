@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JT-Q9ZH
+type: relationship
+name: TimePay API → Clifford Data Platform
+source: GPPADF0FWM-GWB6
+target: 5REFR4GN1D-SEAH
+label: reads/writes via
+technology: PostgreSQL wire protocol
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-timepay-api.yaml runtimeSpec.dependencies entry: "Primary OLTP
+  store for timesheets and clock events."'

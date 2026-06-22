@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JM-122Z
+type: relationship
+name: TimePay API → Clifford Observability Platform
+source: GPPADF0FWM-GWB6
+target: DCER5BMV26-1Z6C
+label: emits metrics, logs, and traces to
+technology: OpenTelemetry / Prometheus remote-write
+direction: asynchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Backs the monitoring-coverage requirementImplementation (mechanism: relationship) in software-deployment-pattern-timepay.yaml.'

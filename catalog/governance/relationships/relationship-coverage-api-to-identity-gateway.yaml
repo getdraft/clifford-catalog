@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JH-Z9CJ
+type: relationship
+name: Coverage API → Clifford Identity Gateway
+source: FCDCMP9CV4-FHEX
+target: TX94DCX1HE-ZQX8
+label: delegates authentication to
+technology: SAML/OAuth2 (OIDC)
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-coverage-api.yaml runtimeSpec.dependencies entry: "All authentication
+  delegated to the Identity Gateway."'

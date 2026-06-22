@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JW-D2V9
+type: relationship
+name: Talent Database → Clifford Data Platform
+source: 091XCJENF7-HN4C
+target: 5REFR4GN1D-SEAH
+label: persists to
+technology: Aurora PostgreSQL
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes data-component-talent-database.yaml runsOn: 5REFR4GN1D-SEAH.'

@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JS-RSD6
+type: relationship
+name: TimePay API → People API
+source: GPPADF0FWM-GWB6
+target: ZSNCNFHWJP-99XP
+label: looks up canonical employee records via
+technology: HTTPS/REST
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-people-api.yaml interface description: "Internal employee-lookup
+  API called by Coverage, TimePay, and Talent."'

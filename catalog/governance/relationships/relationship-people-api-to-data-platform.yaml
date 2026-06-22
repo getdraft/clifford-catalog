@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JV-6907
+type: relationship
+name: People API → Clifford Data Platform
+source: ZSNCNFHWJP-99XP
+target: 5REFR4GN1D-SEAH
+label: reads/writes via
+technology: PostgreSQL wire protocol
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Materializes product-component-people-api.yaml runtimeSpec.dependencies entry: "System-of-record
+  OLTP store for canonical employee identity."'

@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JH-DXK4
+type: relationship
+name: Clifford API Gateway → People API
+source: 8K6HX7GY2N-VH6A
+target: ZSNCNFHWJP-99XP
+label: routes requests to
+technology: HTTPS/REST
+direction: synchronous
+flow: outbound
+catalogStatus: complete
+notes: People API sits behind the same shared edge gateway as the other three product lines; consistent
+  with its public-facing inbound networkBinding on port 3000/HTTPS.

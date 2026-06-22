@@ -1,0 +1,13 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JP-88DD
+type: relationship
+name: People API → Clifford CI/CD Platform
+source: ZSNCNFHWJP-99XP
+target: N6FMAR8Y15-NX57
+label: builds, scans, and deploys via
+technology: GitHub Actions
+direction: asynchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Backs the cicd-pipeline, patch-management-mechanism, and dependency-scanning requirementImplementations
+  (mechanism: relationship) in software-deployment-pattern-people.yaml.'

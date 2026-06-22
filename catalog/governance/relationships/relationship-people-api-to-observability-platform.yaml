@@ -1,0 +1,12 @@
+schemaVersion: '1.0'
+uid: 01KVPXD9JN-23HW
+type: relationship
+name: People API → Clifford Observability Platform
+source: ZSNCNFHWJP-99XP
+target: DCER5BMV26-1Z6C
+label: emits metrics, logs, and traces to
+technology: OpenTelemetry / Prometheus remote-write
+direction: asynchronous
+flow: outbound
+catalogStatus: complete
+notes: 'Backs the monitoring-coverage requirementImplementation (mechanism: relationship) in software-deployment-pattern-people.yaml.'
