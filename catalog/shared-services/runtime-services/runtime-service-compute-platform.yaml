@@ -1,0 +1,44 @@
+schemaVersion: '1.0'
+uid: 6A9ECMX3KC-5078
+type: runtime_service
+name: Clifford Compute Platform
+description: |
+  Shared Amazon ECS Fargate cluster that hosts every product's containerized
+  API and worker services (Coverage, TimePay, Talent, People APIs; the
+  Identity Gateway; the Talent background-check Celery worker). Surfaced
+  late in this exercise: the Phase 2 inferred shared-services list
+  (identity, observability, data platform, messaging, CI/CD, secrets,
+  API gateway) did not originally include a generic compute/container
+  substrate, and the gap only became visible once Phase 5 needed a
+  concrete RuntimeService UID for each SDP's serviceGroup.substrate field.
+  Logged as a friction point: SDP construction is itself an effective way
+  to surface missing shared-services inventory that a Phase-2-style
+  up-front brainstorm can miss.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform-engineering
+  contact: platform-engineering@clifford.example
+tags:
+- compute
+- ecs
+- fargate
+- shared-services
+deliveryModel: paas
+vendor: Amazon Web Services
+productName: Amazon ECS (Fargate launch type)
+productVersion: Current (AWS managed)
+networkPlacement: vpc-private
+authenticationModel: iam
+patchingOwner: aws-managed
+capabilities:
+- 01KT0XNZEY-Q2TF
+notes:
+  scalabilityModel: Each service's desired task count is set independently per product SDP; the cluster itself has no fixed capacity ceiling under Fargate.
+  failureDomain: An AZ-level capacity event affects every product simultaneously since all five teams share one cluster - same concentration-risk shape as the shared Aurora cluster.
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship
