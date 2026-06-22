@@ -1,0 +1,19 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-AJCD
+type: object_patch
+name: Clifford Log Management — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Log Management capability, overlaid via object_patch so the framework's
+  vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-D04B
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: DCER5BMV26-1Z6C
+    lifecycleStatus: preferred
+    notes: Clifford Observability Platform is the approved centralized logging destination.

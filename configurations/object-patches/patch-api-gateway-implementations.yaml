@@ -1,0 +1,23 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-4C25
+type: object_patch
+name: Clifford API Gateway — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline API Gateway capability, overlaid via object_patch so the framework's
+  vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KT0V5MCV-3A6F
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: 8K6HX7GY2N-VH6A
+    lifecycleStatus: preferred
+    notes: Clifford API Gateway is the approved ingress for product APIs.
+  - ref: Q1QPAVZZS4-N1CP
+    lifecycleStatus: existing-only
+    notes: Clifford WAF sits in front of the API Gateway; kept here because it carries
+      this capability tag in the catalog today.

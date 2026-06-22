@@ -1,0 +1,19 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-EQFX
+type: object_patch
+name: Clifford Access Control Model — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Access Control Model capability, overlaid via object_patch so the
+  framework's vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-4JR6
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: TX94DCX1HE-ZQX8
+    lifecycleStatus: preferred
+    notes: Clifford Identity Gateway enforces the company's access control model.

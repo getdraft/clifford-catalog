@@ -1,0 +1,24 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-WK3R
+type: object_patch
+name: Clifford Application Performance Monitoring — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Application Performance Monitoring capability, overlaid via object_patch
+  so the framework's vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-NB1W
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: DCER5BMV26-1Z6C
+    lifecycleStatus: preferred
+    notes: Clifford Observability Platform is the approved APM tool.
+  - ref: X98AFF5FTK-4TN6
+    lifecycleStatus: existing-only
+    notes: Clifford Incident Paging consumes APM signals for alert routing; not itself
+      an APM tool, kept here because it carries this capability tag in the catalog
+      today.

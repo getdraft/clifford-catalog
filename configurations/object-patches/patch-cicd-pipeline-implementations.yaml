@@ -1,0 +1,23 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-AYFY
+type: object_patch
+name: Clifford CI/CD Pipeline — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline CI/CD Pipeline capability, overlaid via object_patch so the framework's
+  vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KT0XNZEY-Q2TF
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: N6FMAR8Y15-NX57
+    lifecycleStatus: preferred
+    notes: Clifford CI/CD Platform is the approved pipeline tooling.
+  - ref: 6A9ECMX3KC-5078
+    lifecycleStatus: existing-only
+    notes: Compute Platform hosts CI/CD runners; kept here because it carries this
+      capability tag in the catalog today.

@@ -38,7 +38,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -54,7 +57,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "TX94DCX1HE-ZQX8",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Identity Gateway enforces the company's access control model."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -89,6 +98,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-71PY",
           "path": "domain"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -119,6 +132,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[5].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-EQFX",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -167,7 +184,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-4JR6\",\n  \"type\": \"capability\",\n  \"name\": \"Access Control Model\",\n  \"description\": \"Authorization model that controls access to a service or data platform.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-access-control-model.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-4JR6\",\n  \"type\": \"capability\",\n  \"name\": \"Access Control Model\",\n  \"description\": \"Authorization model that controls access to a service or data platform.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [\n    {\n      \"ref\": \"TX94DCX1HE-ZQX8\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Identity Gateway enforces the company's access control model.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-access-control-model.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -485,7 +502,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -501,7 +521,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "8K6HX7GY2N-VH6A",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford API Gateway is the approved ingress for product APIs."
+        },
+        {
+          "ref": "Q1QPAVZZS4-N1CP",
+          "lifecycleStatus": "existing-only",
+          "notes": "Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -536,12 +567,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-4WKE",
           "path": "domain"
+        },
+        {
+          "target": "8K6HX7GY2N-VH6A",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "Q1QPAVZZS4-N1CP",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[0].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "target"
         },
         {
           "source": "8K6HX7GY2N-VH6A",
@@ -590,7 +633,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-3A6F\",\n  \"type\": \"capability\",\n  \"name\": \"API Gateway\",\n  \"description\": \"Inbound API traffic is routed, authenticated, rate-limited, and transformed at a managed entry point in front of backend services.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-4WKE\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-api-gateway.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-3A6F\",\n  \"type\": \"capability\",\n  \"name\": \"API Gateway\",\n  \"description\": \"Inbound API traffic is routed, authenticated, rate-limited, and transformed at a managed entry point in front of backend services.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-4WKE\",\n  \"implementations\": [\n    {\n      \"ref\": \"8K6HX7GY2N-VH6A\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford API Gateway is the approved ingress for product APIs.\"\n    },\n    {\n      \"ref\": \"Q1QPAVZZS4-N1CP\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-api-gateway.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -633,7 +676,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -649,7 +695,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "DCER5BMV26-1Z6C",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Observability Platform is the approved APM tool."
+        },
+        {
+          "ref": "X98AFF5FTK-4TN6",
+          "lifecycleStatus": "existing-only",
+          "notes": "Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -684,12 +741,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-C213",
           "path": "domain"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "X98AFF5FTK-4TN6",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KSF29JTP-SRVE",
           "path": "requirements[0].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "target"
         },
         {
           "source": "TXKTEP0GVA-00VQ",
@@ -742,7 +811,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-NB1W\",\n  \"type\": \"capability\",\n  \"name\": \"Application Performance Monitoring\",\n  \"description\": \"Tracing and performance analysis of application runtimes.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-apm.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-NB1W\",\n  \"type\": \"capability\",\n  \"name\": \"Application Performance Monitoring\",\n  \"description\": \"Tracing and performance analysis of application runtimes.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [\n    {\n      \"ref\": \"DCER5BMV26-1Z6C\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Observability Platform is the approved APM tool.\"\n    },\n    {\n      \"ref\": \"X98AFF5FTK-4TN6\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-apm.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -1065,7 +1134,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -1081,7 +1153,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "TX94DCX1HE-ZQX8",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -1116,6 +1194,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-71PY",
           "path": "domain"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -1142,6 +1224,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-THYN",
           "path": "requirements[2].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-95VJ",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -1190,7 +1276,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-MHJM\",\n  \"type\": \"capability\",\n  \"name\": \"Authentication\",\n  \"description\": \"Identity and access authentication capability for users, services, administrators, or workloads.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-authentication.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-MHJM\",\n  \"type\": \"capability\",\n  \"name\": \"Authentication\",\n  \"description\": \"Identity and access authentication capability for users, services, administrators, or workloads.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [\n    {\n      \"ref\": \"TX94DCX1HE-ZQX8\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-authentication.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -1653,7 +1739,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -1669,7 +1758,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "N6FMAR8Y15-NX57",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford CI/CD Platform is the approved pipeline tooling."
+        },
+        {
+          "ref": "6A9ECMX3KC-5078",
+          "lifecycleStatus": "existing-only",
+          "notes": "Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -1704,12 +1804,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KT0XNZEY-GXYR",
           "path": "domain"
+        },
+        {
+          "target": "N6FMAR8Y15-NX57",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[11].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "target"
         },
         {
           "source": "Y53Z3HXWX6-11KR",
@@ -1762,7 +1874,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0XNZEY-Q2TF\",\n  \"type\": \"capability\",\n  \"name\": \"CI/CD Pipeline\",\n  \"description\": \"Source code is automatically built, tested, and promoted through environments by an automated continuous integration and delivery pipeline.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KT0XNZEY-GXYR\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-cicd-pipeline.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0XNZEY-Q2TF\",\n  \"type\": \"capability\",\n  \"name\": \"CI/CD Pipeline\",\n  \"description\": \"Source code is automatically built, tested, and promoted through environments by an automated continuous integration and delivery pipeline.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KT0XNZEY-GXYR\",\n  \"implementations\": [\n    {\n      \"ref\": \"N6FMAR8Y15-NX57\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford CI/CD Platform is the approved pipeline tooling.\"\n    },\n    {\n      \"ref\": \"6A9ECMX3KC-5078\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-cicd-pipeline.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -2509,7 +2621,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -2525,7 +2640,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "5REFR4GN1D-SEAH",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Data Platform - approved enterprise pattern for resilient data storage."
+        },
+        {
+          "ref": "MNV0EPA2AG-9CPF",
+          "lifecycleStatus": "existing-only",
+          "notes": "Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -2560,6 +2686,14 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-QHKZ",
           "path": "domain"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "MNV0EPA2AG-9CPF",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
@@ -2586,6 +2720,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[6].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "target"
         },
         {
           "source": "5REFR4GN1D-SEAH",
@@ -2634,7 +2772,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-7T2H\",\n  \"type\": \"capability\",\n  \"name\": \"Data Resilience\",\n  \"description\": \"Resilience of data against loss or corruption through backup, restore, replication, and recovery capabilities.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-data-resilience.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-7T2H\",\n  \"type\": \"capability\",\n  \"name\": \"Data Resilience\",\n  \"description\": \"Resilience of data against loss or corruption through backup, restore, replication, and recovery capabilities.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [\n    {\n      \"ref\": \"5REFR4GN1D-SEAH\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Data Platform - approved enterprise pattern for resilient data storage.\"\n    },\n    {\n      \"ref\": \"MNV0EPA2AG-9CPF\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-data-resilience.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -2957,7 +3095,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -2973,7 +3114,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "5REFR4GN1D-SEAH",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Data Platform provides encryption at rest for all hosted logical databases."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -3008,6 +3155,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-QHKZ",
           "path": "domain"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -3026,6 +3177,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[4].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74G-T9AE",
+          "path": "target"
         },
         {
           "source": "5REFR4GN1D-SEAH",
@@ -3070,7 +3225,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-H3B5\",\n  \"type\": \"capability\",\n  \"name\": \"Encryption At Rest\",\n  \"description\": \"Protection of persisted data through encryption or equivalent storage safeguards.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-encryption-at-rest.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-H3B5\",\n  \"type\": \"capability\",\n  \"name\": \"Encryption At Rest\",\n  \"description\": \"Protection of persisted data through encryption or equivalent storage safeguards.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [\n    {\n      \"ref\": \"5REFR4GN1D-SEAH\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Data Platform provides encryption at rest for all hosted logical databases.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-encryption-at-rest.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -3549,7 +3704,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -3565,7 +3723,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "DCER5BMV26-1Z6C",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Observability Platform is the approved centralized logging destination."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -3600,6 +3764,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-C213",
           "path": "domain"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -3622,6 +3790,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-THYN",
           "path": "requirements[3].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-AJCD",
+          "path": "target"
         },
         {
           "source": "DCER5BMV26-1Z6C",
@@ -3666,7 +3838,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-D04B\",\n  \"type\": \"capability\",\n  \"name\": \"Log Management\",\n  \"description\": \"Aggregation, retention, searchability, and forwarding of system or application logs.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-log-management.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-D04B\",\n  \"type\": \"capability\",\n  \"name\": \"Log Management\",\n  \"description\": \"Aggregation, retention, searchability, and forwarding of system or application logs.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [\n    {\n      \"ref\": \"DCER5BMV26-1Z6C\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Observability Platform is the approved centralized logging destination.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-log-management.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -3709,7 +3881,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -3725,7 +3900,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "Y1X0S7X9R9-F0DE",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Event Bus is the approved async messaging backbone."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -3760,12 +3941,20 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-ZTHF",
           "path": "domain"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[7].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-P4E3",
+          "path": "target"
         },
         {
           "source": "Y1X0S7X9R9-F0DE",
@@ -3810,7 +3999,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-KT72\",\n  \"type\": \"capability\",\n  \"name\": \"Messaging\",\n  \"description\": \"Asynchronous messages and events are accepted, queued, and delivered between producers and consumers.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-ZTHF\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-messaging.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-KT72\",\n  \"type\": \"capability\",\n  \"name\": \"Messaging\",\n  \"description\": \"Asynchronous messages and events are accepted, queued, and delivered between producers and consumers.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-ZTHF\",\n  \"implementations\": [\n    {\n      \"ref\": \"Y1X0S7X9R9-F0DE\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Event Bus is the approved async messaging backbone.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-messaging.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -5122,7 +5311,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -5138,7 +5330,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "8MF78PZNG4-738A",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Secrets Vault is the sole approved secrets store."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -5173,6 +5371,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-GY67",
           "path": "domain"
+        },
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -5195,6 +5397,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-K5DR",
           "path": "requirements[3].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-QJ2P",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -5243,7 +5449,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-DTJJ\",\n  \"type\": \"capability\",\n  \"name\": \"Secrets Management\",\n  \"description\": \"Secure storage, rotation, and access mediation for secrets and authenticators.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-GY67\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-secrets-management.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-DTJJ\",\n  \"type\": \"capability\",\n  \"name\": \"Secrets Management\",\n  \"description\": \"Secure storage, rotation, and access mediation for secrets and authenticators.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-GY67\",\n  \"implementations\": [\n    {\n      \"ref\": \"8MF78PZNG4-738A\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Secrets Vault is the sole approved secrets store.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-secrets-management.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -17081,6 +17287,1422 @@ window.DRAFT_BROWSER_DATA = {
       "inboundRelationships": []
     },
     {
+      "id": "01KVRNF74H-EQFX",
+      "uid": "01KVRNF74H-EQFX",
+      "name": "Clifford Access Control Model \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Access Control Model capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-access-control-model-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-4JR6",
+          "path": "target"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-EQFX\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Access Control Model \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Access Control Model capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-4JR6\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Identity Gateway enforces the company's access control model.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-access-control-model-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-4C25",
+      "uid": "01KVRNF74H-4C25",
+      "name": "Clifford API Gateway \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline API Gateway capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-api-gateway-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0V5MCV-3A6F",
+          "path": "target"
+        },
+        {
+          "target": "8K6HX7GY2N-VH6A",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "Q1QPAVZZS4-N1CP",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-4C25\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford API Gateway \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline API Gateway capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0V5MCV-3A6F\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"8K6HX7GY2N-VH6A\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford API Gateway is the approved ingress for product APIs.\"\n      },\n      {\n        \"ref\": \"Q1QPAVZZS4-N1CP\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-api-gateway-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-WK3R",
+      "uid": "01KVRNF74H-WK3R",
+      "name": "Clifford Application Performance Monitoring \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Application Performance Monitoring capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-application-performance-monitoring-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-NB1W",
+          "path": "target"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "X98AFF5FTK-4TN6",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-WK3R\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Application Performance Monitoring \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Application Performance Monitoring capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-NB1W\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"DCER5BMV26-1Z6C\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Observability Platform is the approved APM tool.\"\n      },\n      {\n        \"ref\": \"X98AFF5FTK-4TN6\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-application-performance-monitoring-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-95VJ",
+      "uid": "01KVRNF74H-95VJ",
+      "name": "Clifford Authentication \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Authentication capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-authentication-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-MHJM",
+          "path": "target"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-95VJ\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Authentication \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Authentication capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-MHJM\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-authentication-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-AYFY",
+      "uid": "01KVRNF74H-AYFY",
+      "name": "Clifford CI/CD Pipeline \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline CI/CD Pipeline capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-cicd-pipeline-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0XNZEY-Q2TF",
+          "path": "target"
+        },
+        {
+          "target": "N6FMAR8Y15-NX57",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-AYFY\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford CI/CD Pipeline \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline CI/CD Pipeline capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0XNZEY-Q2TF\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"N6FMAR8Y15-NX57\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford CI/CD Platform is the approved pipeline tooling.\"\n      },\n      {\n        \"ref\": \"6A9ECMX3KC-5078\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-cicd-pipeline-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74G-H5V4",
+      "uid": "01KVRNF74G-H5V4",
+      "name": "Clifford Data Resilience \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Data Resilience capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-data-resilience-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-7T2H",
+          "path": "target"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "MNV0EPA2AG-9CPF",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74G-H5V4\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Data Resilience \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Data Resilience capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-7T2H\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Data Platform - approved enterprise pattern for resilient data storage.\"\n      },\n      {\n        \"ref\": \"MNV0EPA2AG-9CPF\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-data-resilience-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74G-T9AE",
+      "uid": "01KVRNF74G-T9AE",
+      "name": "Clifford Encryption At Rest \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Encryption At Rest capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-encryption-at-rest-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-H3B5",
+          "path": "target"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74G-T9AE\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Encryption At Rest \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Encryption At Rest capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-H3B5\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Data Platform provides encryption at rest for all hosted logical databases.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-encryption-at-rest-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-AJCD",
+      "uid": "01KVRNF74H-AJCD",
+      "name": "Clifford Log Management \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Log Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-log-management-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-D04B",
+          "path": "target"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-AJCD\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Log Management \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Log Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-D04B\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"DCER5BMV26-1Z6C\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Observability Platform is the approved centralized logging destination.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-log-management-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-P4E3",
+      "uid": "01KVRNF74H-P4E3",
+      "name": "Clifford Messaging \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Messaging capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-messaging-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0V5MCV-KT72",
+          "path": "target"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-P4E3\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Messaging \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Messaging capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0V5MCV-KT72\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Event Bus is the approved async messaging backbone.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-messaging-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "01KVRNF74H-QJ2P",
+      "uid": "01KVRNF74H-QJ2P",
+      "name": "Clifford Secrets Management \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Secrets Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-secrets-management-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-DTJJ",
+          "path": "target"
+        },
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-QJ2P\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Secrets Management \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Secrets Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-DTJJ\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"8MF78PZNG4-738A\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Secrets Vault is the sole approved secrets store.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-secrets-management-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
       "id": "Y53Z3HXWX6-11KR",
       "uid": "Y53Z3HXWX6-11KR",
       "name": "Change Management & Deployment Gates RequirementGroup",
@@ -27731,6 +29353,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KQQ4Q026-7T2H",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-H3B5",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74G-T9AE",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "R44AEYXYT7-BARZ",
           "path": "runsOn"
         },
@@ -28122,6 +29760,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-3A6F",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[1].ref"
         },
@@ -28421,6 +30067,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-3A6F",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "patch.implementations[1].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[0].ref"
         },
@@ -28673,6 +30327,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KT0XNZEY-Q2TF",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[5].ref"
@@ -28989,6 +30651,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0XNZEY-Q2TF",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "patch.implementations[1].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[0].substrate"
         },
@@ -29264,6 +30934,22 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-4JR6",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-MHJM",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-EQFX",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-95VJ",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "FCDCMP9CV4-FHEX",
           "path": "runtimeSpec.dependencies[1].ref"
@@ -29586,6 +31272,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-KT72",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-P4E3",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "FCDCMP9CV4-FHEX",
           "path": "runtimeSpec.dependencies[2].ref"
         },
@@ -29907,6 +31601,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KQQ4Q026-NB1W",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-D04B",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-AJCD",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[4].ref"
         },
@@ -30220,7 +31930,16 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "01KQQ4Q026-NB1W",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -30432,6 +32151,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-DTJJ",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-QJ2P",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "G5JM9CZA6X-4V82",
           "path": "runtimeSpec.dependencies[0].ref"
@@ -30741,6 +32468,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-7T2H",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "patch.implementations[1].ref"
+        },
         {
           "source": "5REFR4GN1D-SEAH",
           "path": "primaryTechnologyComponent"
@@ -33280,7 +35015,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -33296,7 +35034,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "TX94DCX1HE-ZQX8",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Identity Gateway enforces the company's access control model."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -33331,6 +35075,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-71PY",
           "path": "domain"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -33361,6 +35109,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[5].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-EQFX",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -33409,7 +35161,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-4JR6\",\n  \"type\": \"capability\",\n  \"name\": \"Access Control Model\",\n  \"description\": \"Authorization model that controls access to a service or data platform.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-access-control-model.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-4JR6\",\n  \"type\": \"capability\",\n  \"name\": \"Access Control Model\",\n  \"description\": \"Authorization model that controls access to a service or data platform.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [\n    {\n      \"ref\": \"TX94DCX1HE-ZQX8\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Identity Gateway enforces the company's access control model.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-access-control-model.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -33727,7 +35479,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -33743,7 +35498,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "8K6HX7GY2N-VH6A",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford API Gateway is the approved ingress for product APIs."
+        },
+        {
+          "ref": "Q1QPAVZZS4-N1CP",
+          "lifecycleStatus": "existing-only",
+          "notes": "Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -33778,12 +35544,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-4WKE",
           "path": "domain"
+        },
+        {
+          "target": "8K6HX7GY2N-VH6A",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "Q1QPAVZZS4-N1CP",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[0].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "target"
         },
         {
           "source": "8K6HX7GY2N-VH6A",
@@ -33832,7 +35610,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-3A6F\",\n  \"type\": \"capability\",\n  \"name\": \"API Gateway\",\n  \"description\": \"Inbound API traffic is routed, authenticated, rate-limited, and transformed at a managed entry point in front of backend services.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-4WKE\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-api-gateway.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-3A6F\",\n  \"type\": \"capability\",\n  \"name\": \"API Gateway\",\n  \"description\": \"Inbound API traffic is routed, authenticated, rate-limited, and transformed at a managed entry point in front of backend services.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-4WKE\",\n  \"implementations\": [\n    {\n      \"ref\": \"8K6HX7GY2N-VH6A\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford API Gateway is the approved ingress for product APIs.\"\n    },\n    {\n      \"ref\": \"Q1QPAVZZS4-N1CP\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-api-gateway.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -33875,7 +35653,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -33891,7 +35672,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "DCER5BMV26-1Z6C",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Observability Platform is the approved APM tool."
+        },
+        {
+          "ref": "X98AFF5FTK-4TN6",
+          "lifecycleStatus": "existing-only",
+          "notes": "Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -33926,12 +35718,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-C213",
           "path": "domain"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "X98AFF5FTK-4TN6",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KSF29JTP-SRVE",
           "path": "requirements[0].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "target"
         },
         {
           "source": "TXKTEP0GVA-00VQ",
@@ -33984,7 +35788,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-NB1W\",\n  \"type\": \"capability\",\n  \"name\": \"Application Performance Monitoring\",\n  \"description\": \"Tracing and performance analysis of application runtimes.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-apm.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-NB1W\",\n  \"type\": \"capability\",\n  \"name\": \"Application Performance Monitoring\",\n  \"description\": \"Tracing and performance analysis of application runtimes.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [\n    {\n      \"ref\": \"DCER5BMV26-1Z6C\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Observability Platform is the approved APM tool.\"\n    },\n    {\n      \"ref\": \"X98AFF5FTK-4TN6\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-apm.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -34307,7 +36111,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -34323,7 +36130,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "TX94DCX1HE-ZQX8",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -34358,6 +36171,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-71PY",
           "path": "domain"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -34384,6 +36201,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-THYN",
           "path": "requirements[2].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-95VJ",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -34432,7 +36253,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-MHJM\",\n  \"type\": \"capability\",\n  \"name\": \"Authentication\",\n  \"description\": \"Identity and access authentication capability for users, services, administrators, or workloads.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-authentication.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-MHJM\",\n  \"type\": \"capability\",\n  \"name\": \"Authentication\",\n  \"description\": \"Identity and access authentication capability for users, services, administrators, or workloads.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-71PY\",\n  \"implementations\": [\n    {\n      \"ref\": \"TX94DCX1HE-ZQX8\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-authentication.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -34895,7 +36716,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -34911,7 +36735,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "N6FMAR8Y15-NX57",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford CI/CD Platform is the approved pipeline tooling."
+        },
+        {
+          "ref": "6A9ECMX3KC-5078",
+          "lifecycleStatus": "existing-only",
+          "notes": "Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -34946,12 +36781,24 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KT0XNZEY-GXYR",
           "path": "domain"
+        },
+        {
+          "target": "N6FMAR8Y15-NX57",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[11].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "target"
         },
         {
           "source": "Y53Z3HXWX6-11KR",
@@ -35004,7 +36851,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0XNZEY-Q2TF\",\n  \"type\": \"capability\",\n  \"name\": \"CI/CD Pipeline\",\n  \"description\": \"Source code is automatically built, tested, and promoted through environments by an automated continuous integration and delivery pipeline.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KT0XNZEY-GXYR\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-cicd-pipeline.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0XNZEY-Q2TF\",\n  \"type\": \"capability\",\n  \"name\": \"CI/CD Pipeline\",\n  \"description\": \"Source code is automatically built, tested, and promoted through environments by an automated continuous integration and delivery pipeline.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KT0XNZEY-GXYR\",\n  \"implementations\": [\n    {\n      \"ref\": \"N6FMAR8Y15-NX57\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford CI/CD Platform is the approved pipeline tooling.\"\n    },\n    {\n      \"ref\": \"6A9ECMX3KC-5078\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-cicd-pipeline.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -35751,7 +37598,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -35767,7 +37617,18 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "5REFR4GN1D-SEAH",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Data Platform - approved enterprise pattern for resilient data storage."
+        },
+        {
+          "ref": "MNV0EPA2AG-9CPF",
+          "lifecycleStatus": "existing-only",
+          "notes": "Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -35802,6 +37663,14 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-QHKZ",
           "path": "domain"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "implementations[0].ref"
+        },
+        {
+          "target": "MNV0EPA2AG-9CPF",
+          "path": "implementations[1].ref"
         }
       ],
       "referencedBy": [
@@ -35828,6 +37697,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[6].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "target"
         },
         {
           "source": "5REFR4GN1D-SEAH",
@@ -35876,7 +37749,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-7T2H\",\n  \"type\": \"capability\",\n  \"name\": \"Data Resilience\",\n  \"description\": \"Resilience of data against loss or corruption through backup, restore, replication, and recovery capabilities.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-data-resilience.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-7T2H\",\n  \"type\": \"capability\",\n  \"name\": \"Data Resilience\",\n  \"description\": \"Resilience of data against loss or corruption through backup, restore, replication, and recovery capabilities.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [\n    {\n      \"ref\": \"5REFR4GN1D-SEAH\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Data Platform - approved enterprise pattern for resilient data storage.\"\n    },\n    {\n      \"ref\": \"MNV0EPA2AG-9CPF\",\n      \"lifecycleStatus\": \"existing-only\",\n      \"notes\": \"Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-data-resilience.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -36199,7 +38072,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -36215,7 +38091,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "5REFR4GN1D-SEAH",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Data Platform provides encryption at rest for all hosted logical databases."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -36250,6 +38132,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-QHKZ",
           "path": "domain"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -36268,6 +38154,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-1GHC",
           "path": "requirements[4].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74G-T9AE",
+          "path": "target"
         },
         {
           "source": "5REFR4GN1D-SEAH",
@@ -36312,7 +38202,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-H3B5\",\n  \"type\": \"capability\",\n  \"name\": \"Encryption At Rest\",\n  \"description\": \"Protection of persisted data through encryption or equivalent storage safeguards.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-encryption-at-rest.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-H3B5\",\n  \"type\": \"capability\",\n  \"name\": \"Encryption At Rest\",\n  \"description\": \"Protection of persisted data through encryption or equivalent storage safeguards.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-QHKZ\",\n  \"implementations\": [\n    {\n      \"ref\": \"5REFR4GN1D-SEAH\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Data Platform provides encryption at rest for all hosted logical databases.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-encryption-at-rest.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -36791,7 +38681,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -36807,7 +38700,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "DCER5BMV26-1Z6C",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Observability Platform is the approved centralized logging destination."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -36842,6 +38741,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-C213",
           "path": "domain"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -36864,6 +38767,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-THYN",
           "path": "requirements[3].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-AJCD",
+          "path": "target"
         },
         {
           "source": "DCER5BMV26-1Z6C",
@@ -36908,7 +38815,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-D04B\",\n  \"type\": \"capability\",\n  \"name\": \"Log Management\",\n  \"description\": \"Aggregation, retention, searchability, and forwarding of system or application logs.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-log-management.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-D04B\",\n  \"type\": \"capability\",\n  \"name\": \"Log Management\",\n  \"description\": \"Aggregation, retention, searchability, and forwarding of system or application logs.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-C213\",\n  \"implementations\": [\n    {\n      \"ref\": \"DCER5BMV26-1Z6C\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Observability Platform is the approved centralized logging destination.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-log-management.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -36951,7 +38858,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -36967,7 +38877,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "Y1X0S7X9R9-F0DE",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Event Bus is the approved async messaging backbone."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -37002,12 +38918,20 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KQQ4Q027-ZTHF",
           "path": "domain"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
         {
           "source": "01KT0VM061-CRN7",
           "path": "requirements[7].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-P4E3",
+          "path": "target"
         },
         {
           "source": "Y1X0S7X9R9-F0DE",
@@ -37052,7 +38976,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-KT72\",\n  \"type\": \"capability\",\n  \"name\": \"Messaging\",\n  \"description\": \"Asynchronous messages and events are accepted, queued, and delivered between producers and consumers.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-ZTHF\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-messaging.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KT0V5MCV-KT72\",\n  \"type\": \"capability\",\n  \"name\": \"Messaging\",\n  \"description\": \"Asynchronous messages and events are accepted, queued, and delivered between producers and consumers.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KQQ4Q027-ZTHF\",\n  \"implementations\": [\n    {\n      \"ref\": \"Y1X0S7X9R9-F0DE\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Event Bus is the approved async messaging backbone.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-messaging.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -38364,7 +40288,10 @@ window.DRAFT_BROWSER_DATA = {
       "vendorSLA": "",
       "authenticationModel": "",
       "incidentNotificationProcess": "",
-      "owner": {},
+      "owner": {
+        "team": "platform-engineering",
+        "contact": "platform-engineering@clifford.example"
+      },
       "definitionOwner": {
         "provider": "draft-framework",
         "team": "cloud-architecture",
@@ -38380,7 +40307,13 @@ window.DRAFT_BROWSER_DATA = {
       "internalComponents": [],
       "notes": {},
       "requirements": [],
-      "implementations": [],
+      "implementations": [
+        {
+          "ref": "8MF78PZNG4-738A",
+          "lifecycleStatus": "preferred",
+          "notes": "Clifford Secrets Vault is the sole approved secrets store."
+        }
+      ],
       "appliesTo": {},
       "inherits": "",
       "scalingUnits": [],
@@ -38415,6 +40348,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "target": "01KSWVZSZ5-GY67",
           "path": "domain"
+        },
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "implementations[0].ref"
         }
       ],
       "referencedBy": [
@@ -38437,6 +40374,10 @@ window.DRAFT_BROWSER_DATA = {
         {
           "source": "01KQQ4Q027-K5DR",
           "path": "requirements[3].relatedCapability"
+        },
+        {
+          "source": "01KVRNF74H-QJ2P",
+          "path": "target"
         },
         {
           "source": "SFSE49JDWK-FKPD",
@@ -38485,7 +40426,7 @@ window.DRAFT_BROWSER_DATA = {
         },
         "schemaPath": "framework/schemas/capability.schema.yaml"
       },
-      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-DTJJ\",\n  \"type\": \"capability\",\n  \"name\": \"Secrets Management\",\n  \"description\": \"Secure storage, rotation, and access mediation for secrets and authenticators.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-GY67\",\n  \"implementations\": [],\n  \"_source\": \"framework/configurations/capabilities/capability-secrets-management.yaml\"\n}",
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KQQ4Q026-DTJJ\",\n  \"type\": \"capability\",\n  \"name\": \"Secrets Management\",\n  \"description\": \"Secure storage, rotation, and access mediation for secrets and authenticators.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"definitionOwner\": {\n    \"provider\": \"draft-framework\",\n    \"team\": \"cloud-architecture\",\n    \"contact\": \"cloud-architecture@example.com\"\n  },\n  \"domain\": \"01KSWVZSZ5-GY67\",\n  \"implementations\": [\n    {\n      \"ref\": \"8MF78PZNG4-738A\",\n      \"lifecycleStatus\": \"preferred\",\n      \"notes\": \"Clifford Secrets Vault is the sole approved secrets store.\"\n    }\n  ],\n  \"_source\": \"framework/configurations/capabilities/capability-secrets-management.yaml\",\n  \"owner\": {\n    \"team\": \"platform-engineering\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  }\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -50322,6 +52263,1422 @@ window.DRAFT_BROWSER_DATA = {
       "outboundRelationships": [],
       "inboundRelationships": []
     },
+    "01KVRNF74H-EQFX": {
+      "id": "01KVRNF74H-EQFX",
+      "uid": "01KVRNF74H-EQFX",
+      "name": "Clifford Access Control Model \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Access Control Model capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-access-control-model-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-4JR6",
+          "path": "target"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-EQFX\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Access Control Model \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Access Control Model capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-4JR6\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Identity Gateway enforces the company's access control model.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-access-control-model-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-4C25": {
+      "id": "01KVRNF74H-4C25",
+      "uid": "01KVRNF74H-4C25",
+      "name": "Clifford API Gateway \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline API Gateway capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-api-gateway-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0V5MCV-3A6F",
+          "path": "target"
+        },
+        {
+          "target": "8K6HX7GY2N-VH6A",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "Q1QPAVZZS4-N1CP",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-4C25\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford API Gateway \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline API Gateway capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0V5MCV-3A6F\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"8K6HX7GY2N-VH6A\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford API Gateway is the approved ingress for product APIs.\"\n      },\n      {\n        \"ref\": \"Q1QPAVZZS4-N1CP\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-api-gateway-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-WK3R": {
+      "id": "01KVRNF74H-WK3R",
+      "uid": "01KVRNF74H-WK3R",
+      "name": "Clifford Application Performance Monitoring \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Application Performance Monitoring capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-application-performance-monitoring-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-NB1W",
+          "path": "target"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "X98AFF5FTK-4TN6",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-WK3R\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Application Performance Monitoring \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Application Performance Monitoring capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-NB1W\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"DCER5BMV26-1Z6C\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Observability Platform is the approved APM tool.\"\n      },\n      {\n        \"ref\": \"X98AFF5FTK-4TN6\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-application-performance-monitoring-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-95VJ": {
+      "id": "01KVRNF74H-95VJ",
+      "uid": "01KVRNF74H-95VJ",
+      "name": "Clifford Authentication \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Authentication capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-authentication-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-MHJM",
+          "path": "target"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-95VJ\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Authentication \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Authentication capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-MHJM\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-authentication-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-AYFY": {
+      "id": "01KVRNF74H-AYFY",
+      "uid": "01KVRNF74H-AYFY",
+      "name": "Clifford CI/CD Pipeline \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline CI/CD Pipeline capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-cicd-pipeline-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0XNZEY-Q2TF",
+          "path": "target"
+        },
+        {
+          "target": "N6FMAR8Y15-NX57",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-AYFY\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford CI/CD Pipeline \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline CI/CD Pipeline capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0XNZEY-Q2TF\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"N6FMAR8Y15-NX57\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford CI/CD Platform is the approved pipeline tooling.\"\n      },\n      {\n        \"ref\": \"6A9ECMX3KC-5078\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-cicd-pipeline-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74G-H5V4": {
+      "id": "01KVRNF74G-H5V4",
+      "uid": "01KVRNF74G-H5V4",
+      "name": "Clifford Data Resilience \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Data Resilience capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-data-resilience-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-7T2H",
+          "path": "target"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "target": "MNV0EPA2AG-9CPF",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74G-H5V4\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Data Resilience \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Data Resilience capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-7T2H\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Data Platform - approved enterprise pattern for resilient data storage.\"\n      },\n      {\n        \"ref\": \"MNV0EPA2AG-9CPF\",\n        \"lifecycleStatus\": \"existing-only\",\n        \"notes\": \"Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-data-resilience-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74G-T9AE": {
+      "id": "01KVRNF74G-T9AE",
+      "uid": "01KVRNF74G-T9AE",
+      "name": "Clifford Encryption At Rest \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Encryption At Rest capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-encryption-at-rest-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-H3B5",
+          "path": "target"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74G-T9AE\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Encryption At Rest \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Encryption At Rest capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-H3B5\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Data Platform provides encryption at rest for all hosted logical databases.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-encryption-at-rest-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-AJCD": {
+      "id": "01KVRNF74H-AJCD",
+      "uid": "01KVRNF74H-AJCD",
+      "name": "Clifford Log Management \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Log Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-log-management-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-D04B",
+          "path": "target"
+        },
+        {
+          "target": "DCER5BMV26-1Z6C",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-AJCD\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Log Management \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Log Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-D04B\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"DCER5BMV26-1Z6C\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Observability Platform is the approved centralized logging destination.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-log-management-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-P4E3": {
+      "id": "01KVRNF74H-P4E3",
+      "uid": "01KVRNF74H-P4E3",
+      "name": "Clifford Messaging \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Messaging capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-messaging-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KT0V5MCV-KT72",
+          "path": "target"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-P4E3\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Messaging \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Messaging capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KT0V5MCV-KT72\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Event Bus is the approved async messaging backbone.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-messaging-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "01KVRNF74H-QJ2P": {
+      "id": "01KVRNF74H-QJ2P",
+      "uid": "01KVRNF74H-QJ2P",
+      "name": "Clifford Secrets Management \u2014 Approved Implementations",
+      "aliases": [],
+      "type": "object_patch",
+      "typeLabel": "Object Patch",
+      "filterType": "object_patch",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Clifford's approved TechnologyComponent/shared-service implementations for the baseline Secrets Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {},
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "configurations/object-patches/patch-secrets-management-implementations.yaml",
+      "tags": [],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "01KQQ4Q026-DTJJ",
+          "path": "target"
+        },
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "patch.implementations[0].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "target",
+          "patch",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "notes"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "patch": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {},
+        "schemaPath": "framework/schemas/object-patch.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"01KVRNF74H-QJ2P\",\n  \"type\": \"object_patch\",\n  \"name\": \"Clifford Secrets Management \\u2014 Approved Implementations\",\n  \"description\": \"Clifford's approved TechnologyComponent/shared-service implementations for the baseline Secrets Management capability, overlaid via object_patch so the framework's vendor-neutral definition does not need to be forked.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"target\": \"01KQQ4Q026-DTJJ\",\n  \"patch\": {\n    \"owner\": {\n      \"team\": \"platform-engineering\",\n      \"contact\": \"platform-engineering@clifford.example\"\n    },\n    \"implementations\": [\n      {\n        \"ref\": \"8MF78PZNG4-738A\",\n        \"lifecycleStatus\": \"preferred\",\n        \"notes\": \"Clifford Secrets Vault is the sole approved secrets store.\"\n      }\n    ]\n  },\n  \"_source\": \"configurations/object-patches/patch-secrets-management-implementations.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
     "Y53Z3HXWX6-11KR": {
       "id": "Y53Z3HXWX6-11KR",
       "uid": "Y53Z3HXWX6-11KR",
@@ -60973,6 +64330,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KQQ4Q026-7T2H",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-H3B5",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74G-T9AE",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "R44AEYXYT7-BARZ",
           "path": "runsOn"
         },
@@ -61364,6 +64737,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-3A6F",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[1].ref"
         },
@@ -61663,6 +65044,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-3A6F",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-4C25",
+          "path": "patch.implementations[1].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[0].ref"
         },
@@ -61915,6 +65304,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KT0XNZEY-Q2TF",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[5].ref"
@@ -62231,6 +65628,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0XNZEY-Q2TF",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-AYFY",
+          "path": "patch.implementations[1].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[0].substrate"
         },
@@ -62506,6 +65911,22 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-4JR6",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-MHJM",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-EQFX",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-95VJ",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "FCDCMP9CV4-FHEX",
           "path": "runtimeSpec.dependencies[1].ref"
@@ -62828,6 +66249,14 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KT0V5MCV-KT72",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-P4E3",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "FCDCMP9CV4-FHEX",
           "path": "runtimeSpec.dependencies[2].ref"
         },
@@ -63149,6 +66578,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "01KQQ4Q026-NB1W",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KQQ4Q026-D04B",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "patch.implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-AJCD",
+          "path": "patch.implementations[0].ref"
+        },
+        {
           "source": "M8255Y9CNY-HXXJ",
           "path": "serviceGroups[2].deployableObjects[4].ref"
         },
@@ -63462,7 +66907,16 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "01KQQ4Q026-NB1W",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74H-WK3R",
+          "path": "patch.implementations[1].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -63674,6 +67128,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-DTJJ",
+          "path": "implementations[0].ref"
+        },
+        {
+          "source": "01KVRNF74H-QJ2P",
+          "path": "patch.implementations[0].ref"
+        },
         {
           "source": "G5JM9CZA6X-4V82",
           "path": "runtimeSpec.dependencies[0].ref"
@@ -63983,6 +67445,14 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "01KQQ4Q026-7T2H",
+          "path": "implementations[1].ref"
+        },
+        {
+          "source": "01KVRNF74G-H5V4",
+          "path": "patch.implementations[1].ref"
+        },
         {
           "source": "5REFR4GN1D-SEAH",
           "path": "primaryTechnologyComponent"
@@ -66498,6 +69968,7 @@ window.DRAFT_BROWSER_DATA = {
     "decision_record",
     "domain",
     "network_service",
+    "object_patch",
     "product_component",
     "relationship",
     "requirement_group",
@@ -66518,6 +69989,80 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q026-MHJM",
         "path": "domain"
+      }
+    ],
+    "TX94DCX1HE-ZQX8": [
+      {
+        "source": "01KQQ4Q026-4JR6",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KQQ4Q026-MHJM",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-EQFX",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-95VJ",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[2].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[2].ref"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[1].deployableObjects[0].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[2].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[2].ref"
+      },
+      {
+        "source": "CA6JK9KWNR-A8SX",
+        "path": "linkedObject"
+      },
+      {
+        "source": "N4RPTM5SB2-A3F7",
+        "path": "target"
+      },
+      {
+        "source": "33H32WBBQS-ECCQ",
+        "path": "target"
+      },
+      {
+        "source": "AQMFNG89M1-WGFN",
+        "path": "target"
+      },
+      {
+        "source": "MKGJA4FA12-ZQBN",
+        "path": "target"
       }
     ],
     "01KTWS3D6T-ABD1": [
@@ -66574,6 +70119,82 @@ window.DRAFT_BROWSER_DATA = {
         "path": "domain"
       }
     ],
+    "8K6HX7GY2N-VH6A": [
+      {
+        "source": "01KT0V5MCV-3A6F",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-4C25",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[1].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[1].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[1].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[1].ref"
+      },
+      {
+        "source": "01KVPXD9JG-4GZH",
+        "path": "source"
+      },
+      {
+        "source": "01KVPXD9JH-DXK4",
+        "path": "source"
+      },
+      {
+        "source": "01KVPXD9JH-RRS9",
+        "path": "source"
+      },
+      {
+        "source": "01KVPXD9JG-S5PT",
+        "path": "source"
+      },
+      {
+        "source": "01KVPXD9JG-EN80",
+        "path": "target"
+      }
+    ],
+    "Q1QPAVZZS4-N1CP": [
+      {
+        "source": "01KT0V5MCV-3A6F",
+        "path": "implementations[1].ref"
+      },
+      {
+        "source": "01KVRNF74H-4C25",
+        "path": "patch.implementations[1].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[0].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[0].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[0].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[0].ref"
+      },
+      {
+        "source": "01KVPXD9JG-EN80",
+        "path": "source"
+      }
+    ],
     "01KQQ4Q027-C213": [
       {
         "source": "01KQQ4Q026-NB1W",
@@ -66586,6 +70207,74 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q026-D04B",
         "path": "domain"
+      }
+    ],
+    "DCER5BMV26-1Z6C": [
+      {
+        "source": "01KQQ4Q026-NB1W",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KQQ4Q026-D04B",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-WK3R",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-AJCD",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[4].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[4].ref"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[1].deployableObjects[2].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[4].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[4].ref"
+      },
+      {
+        "source": "01KVPXD9JM-DAFF",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JN-AJCD",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JN-23HW",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JM-8N69",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JM-122Z",
+        "path": "target"
+      }
+    ],
+    "X98AFF5FTK-4TN6": [
+      {
+        "source": "01KQQ4Q026-NB1W",
+        "path": "implementations[1].ref"
+      },
+      {
+        "source": "01KVRNF74H-WK3R",
+        "path": "patch.implementations[1].ref"
       }
     ],
     "01KQQ4Q027-ZTHF": [
@@ -66654,6 +70343,86 @@ window.DRAFT_BROWSER_DATA = {
         "path": "domain"
       }
     ],
+    "N6FMAR8Y15-NX57": [
+      {
+        "source": "01KT0XNZEY-Q2TF",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-AYFY",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[5].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[5].ref"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[1].deployableObjects[3].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[5].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[5].ref"
+      },
+      {
+        "source": "01KVPXD9JN-S6WB",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JQ-BD2K",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JP-88DD",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JP-X4A8",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JP-M3AD",
+        "path": "target"
+      }
+    ],
+    "6A9ECMX3KC-5078": [
+      {
+        "source": "01KT0XNZEY-Q2TF",
+        "path": "implementations[1].ref"
+      },
+      {
+        "source": "01KVRNF74H-AYFY",
+        "path": "patch.implementations[1].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[0].substrate"
+      }
+    ],
     "01KT0XNZEY-QY0Y": [
       {
         "source": "01KT0XNZEY-DENJ",
@@ -66690,6 +70459,184 @@ window.DRAFT_BROWSER_DATA = {
         "path": "domain"
       }
     ],
+    "5REFR4GN1D-SEAH": [
+      {
+        "source": "01KQQ4Q026-7T2H",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KQQ4Q026-H3B5",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74G-H5V4",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74G-T9AE",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "R44AEYXYT7-BARZ",
+        "path": "runsOn"
+      },
+      {
+        "source": "B7D1D3WT1A-9RDP",
+        "path": "runsOn"
+      },
+      {
+        "source": "091XCJENF7-HN4C",
+        "path": "runsOn"
+      },
+      {
+        "source": "4S7K3NQ3P1-BDZA",
+        "path": "runsOn"
+      },
+      {
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "F8F4VF6QKB-419V",
+        "path": "linkedObject"
+      },
+      {
+        "source": "BVBDQ4P3XP-020X",
+        "path": "target"
+      },
+      {
+        "source": "W0ZAS1T3AF-64MX",
+        "path": "target"
+      },
+      {
+        "source": "FFR5QQJDPT-G6WQ",
+        "path": "target"
+      },
+      {
+        "source": "XEC12XT66T-4N56",
+        "path": "target"
+      },
+      {
+        "source": "QX52P49GBP-1DKM",
+        "path": "target"
+      },
+      {
+        "source": "6ZCP6V9T7Z-ZC3E",
+        "path": "target"
+      },
+      {
+        "source": "NY9GGYZWP9-448F",
+        "path": "target"
+      },
+      {
+        "source": "WHPX1P54DT-F4T6",
+        "path": "target"
+      }
+    ],
+    "MNV0EPA2AG-9CPF": [
+      {
+        "source": "01KQQ4Q026-7T2H",
+        "path": "implementations[1].ref"
+      },
+      {
+        "source": "01KVRNF74G-H5V4",
+        "path": "patch.implementations[1].ref"
+      },
+      {
+        "source": "5REFR4GN1D-SEAH",
+        "path": "primaryTechnologyComponent"
+      }
+    ],
+    "Y1X0S7X9R9-F0DE": [
+      {
+        "source": "01KT0V5MCV-KT72",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-P4E3",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[6].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[1].deployableObjects[2].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[6].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[6].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[6].ref"
+      },
+      {
+        "source": "P595FYK4NY-X3CA",
+        "path": "target"
+      },
+      {
+        "source": "A3V9T0P6PQ-QM6Y",
+        "path": "target"
+      },
+      {
+        "source": "3HS68YWEMQ-69W0",
+        "path": "target"
+      },
+      {
+        "source": "7SK8JHP93D-VRWQ",
+        "path": "target"
+      }
+    ],
     "01KQQ4Q027-SGHR": [
       {
         "source": "01KQQ4Q026-S5J6",
@@ -66706,6 +70653,60 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q026-58Q3",
         "path": "domain"
+      }
+    ],
+    "8MF78PZNG4-738A": [
+      {
+        "source": "01KQQ4Q026-DTJJ",
+        "path": "implementations[0].ref"
+      },
+      {
+        "source": "01KVRNF74H-QJ2P",
+        "path": "patch.implementations[0].ref"
+      },
+      {
+        "source": "G5JM9CZA6X-4V82",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[2].deployableObjects[3].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[2].deployableObjects[3].ref"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[2].deployableObjects[3].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[2].deployableObjects[3].ref"
+      },
+      {
+        "source": "01KVPXD9JJ-S4DZ",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JK-XSN5",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JK-FB7H",
+        "path": "target"
+      },
+      {
+        "source": "01KVPXD9JK-BYXQ",
+        "path": "target"
+      },
+      {
+        "source": "QT3S8G7NCP-QYTD",
+        "path": "target"
       }
     ],
     "01KQQ4Q026-7T2H": [
@@ -66734,6 +70735,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[6].relatedCapability"
       },
       {
+        "source": "01KVRNF74G-H5V4",
+        "path": "target"
+      },
+      {
         "source": "5REFR4GN1D-SEAH",
         "path": "capabilities[0]"
       },
@@ -66758,6 +70763,10 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q027-1GHC",
         "path": "requirements[4].relatedCapability"
+      },
+      {
+        "source": "01KVRNF74G-T9AE",
+        "path": "target"
       },
       {
         "source": "5REFR4GN1D-SEAH",
@@ -66792,6 +70801,10 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q027-1GHC",
         "path": "requirements[5].relatedCapability"
+      },
+      {
+        "source": "01KVRNF74H-EQFX",
+        "path": "target"
       },
       {
         "source": "SFSE49JDWK-FKPD",
@@ -66834,6 +70847,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[2].relatedCapability"
       },
       {
+        "source": "01KVRNF74H-95VJ",
+        "path": "target"
+      },
+      {
         "source": "SFSE49JDWK-FKPD",
         "path": "requirements[0].relatedCapability"
       },
@@ -66862,6 +70879,10 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KQQ4Q027-THYN",
         "path": "requirements[3].relatedCapability"
+      },
+      {
+        "source": "01KVRNF74H-AJCD",
+        "path": "target"
       },
       {
         "source": "DCER5BMV26-1Z6C",
@@ -66964,6 +70985,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[3].relatedCapability"
       },
       {
+        "source": "01KVRNF74H-QJ2P",
+        "path": "target"
+      },
+      {
         "source": "SFSE49JDWK-FKPD",
         "path": "requirements[2].relatedCapability"
       },
@@ -67018,6 +71043,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[0].relatedCapability"
       },
       {
+        "source": "01KVRNF74H-4C25",
+        "path": "target"
+      },
+      {
         "source": "8K6HX7GY2N-VH6A",
         "path": "capabilities[0]"
       },
@@ -67068,6 +71097,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[7].relatedCapability"
       },
       {
+        "source": "01KVRNF74H-P4E3",
+        "path": "target"
+      },
+      {
         "source": "Y1X0S7X9R9-F0DE",
         "path": "capabilities[0]"
       }
@@ -67094,6 +71127,10 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KT0VM061-CRN7",
         "path": "requirements[11].relatedCapability"
+      },
+      {
+        "source": "01KVRNF74H-AYFY",
+        "path": "target"
       },
       {
         "source": "Y53Z3HXWX6-11KR",
@@ -67162,6 +71199,10 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[0].relatedCapability"
       },
       {
+        "source": "01KVRNF74H-WK3R",
+        "path": "target"
+      },
+      {
         "source": "TXKTEP0GVA-00VQ",
         "path": "requirements[1].relatedCapability"
       },
@@ -67184,272 +71225,6 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "01KSF29JTP-SRVE",
         "path": "requirements[2].relatedCapability"
-      }
-    ],
-    "5REFR4GN1D-SEAH": [
-      {
-        "source": "R44AEYXYT7-BARZ",
-        "path": "runsOn"
-      },
-      {
-        "source": "B7D1D3WT1A-9RDP",
-        "path": "runsOn"
-      },
-      {
-        "source": "091XCJENF7-HN4C",
-        "path": "runsOn"
-      },
-      {
-        "source": "4S7K3NQ3P1-BDZA",
-        "path": "runsOn"
-      },
-      {
-        "source": "FCDCMP9CV4-FHEX",
-        "path": "runtimeSpec.dependencies[0].ref"
-      },
-      {
-        "source": "ZSNCNFHWJP-99XP",
-        "path": "runtimeSpec.dependencies[0].ref"
-      },
-      {
-        "source": "M8FWWA842S-VADG",
-        "path": "runtimeSpec.dependencies[0].ref"
-      },
-      {
-        "source": "GPPADF0FWM-GWB6",
-        "path": "runtimeSpec.dependencies[0].ref"
-      },
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[1].deployableObjects[1].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[1].deployableObjects[1].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[1].deployableObjects[1].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[1].deployableObjects[1].ref"
-      },
-      {
-        "source": "F8F4VF6QKB-419V",
-        "path": "linkedObject"
-      },
-      {
-        "source": "BVBDQ4P3XP-020X",
-        "path": "target"
-      },
-      {
-        "source": "W0ZAS1T3AF-64MX",
-        "path": "target"
-      },
-      {
-        "source": "FFR5QQJDPT-G6WQ",
-        "path": "target"
-      },
-      {
-        "source": "XEC12XT66T-4N56",
-        "path": "target"
-      },
-      {
-        "source": "QX52P49GBP-1DKM",
-        "path": "target"
-      },
-      {
-        "source": "6ZCP6V9T7Z-ZC3E",
-        "path": "target"
-      },
-      {
-        "source": "NY9GGYZWP9-448F",
-        "path": "target"
-      },
-      {
-        "source": "WHPX1P54DT-F4T6",
-        "path": "target"
-      }
-    ],
-    "TX94DCX1HE-ZQX8": [
-      {
-        "source": "FCDCMP9CV4-FHEX",
-        "path": "runtimeSpec.dependencies[1].ref"
-      },
-      {
-        "source": "ZSNCNFHWJP-99XP",
-        "path": "runtimeSpec.dependencies[1].ref"
-      },
-      {
-        "source": "M8FWWA842S-VADG",
-        "path": "runtimeSpec.dependencies[1].ref"
-      },
-      {
-        "source": "GPPADF0FWM-GWB6",
-        "path": "runtimeSpec.dependencies[1].ref"
-      },
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[2].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[2].ref"
-      },
-      {
-        "source": "CDR0FRKQHE-EZM9",
-        "path": "serviceGroups[1].deployableObjects[0].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[2].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[2].ref"
-      },
-      {
-        "source": "CA6JK9KWNR-A8SX",
-        "path": "linkedObject"
-      },
-      {
-        "source": "N4RPTM5SB2-A3F7",
-        "path": "target"
-      },
-      {
-        "source": "33H32WBBQS-ECCQ",
-        "path": "target"
-      },
-      {
-        "source": "AQMFNG89M1-WGFN",
-        "path": "target"
-      },
-      {
-        "source": "MKGJA4FA12-ZQBN",
-        "path": "target"
-      }
-    ],
-    "Y1X0S7X9R9-F0DE": [
-      {
-        "source": "FCDCMP9CV4-FHEX",
-        "path": "runtimeSpec.dependencies[2].ref"
-      },
-      {
-        "source": "ZSNCNFHWJP-99XP",
-        "path": "runtimeSpec.dependencies[2].ref"
-      },
-      {
-        "source": "M8FWWA842S-VADG",
-        "path": "runtimeSpec.dependencies[2].ref"
-      },
-      {
-        "source": "GPPADF0FWM-GWB6",
-        "path": "runtimeSpec.dependencies[2].ref"
-      },
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[6].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[1].deployableObjects[2].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[6].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[6].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[6].ref"
-      },
-      {
-        "source": "P595FYK4NY-X3CA",
-        "path": "target"
-      },
-      {
-        "source": "A3V9T0P6PQ-QM6Y",
-        "path": "target"
-      },
-      {
-        "source": "3HS68YWEMQ-69W0",
-        "path": "target"
-      },
-      {
-        "source": "7SK8JHP93D-VRWQ",
-        "path": "target"
-      }
-    ],
-    "8MF78PZNG4-738A": [
-      {
-        "source": "G5JM9CZA6X-4V82",
-        "path": "runtimeSpec.dependencies[0].ref"
-      },
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[3].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[3].ref"
-      },
-      {
-        "source": "CDR0FRKQHE-EZM9",
-        "path": "serviceGroups[1].deployableObjects[1].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[3].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[3].ref"
-      },
-      {
-        "source": "01KVPXD9JJ-S4DZ",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JK-XSN5",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JK-FB7H",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JK-BYXQ",
-        "path": "target"
-      },
-      {
-        "source": "QT3S8G7NCP-QYTD",
-        "path": "target"
-      }
-    ],
-    "6A9ECMX3KC-5078": [
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[0].substrate"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[0].substrate"
-      },
-      {
-        "source": "CDR0FRKQHE-EZM9",
-        "path": "serviceGroups[0].substrate"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[0].substrate"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[0].substrate"
       }
     ],
     "FCDCMP9CV4-FHEX": [
@@ -67502,150 +71277,6 @@ window.DRAFT_BROWSER_DATA = {
       {
         "source": "BVBDQ4P3XP-020X",
         "path": "source"
-      }
-    ],
-    "Q1QPAVZZS4-N1CP": [
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[0].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[0].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[0].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[0].ref"
-      },
-      {
-        "source": "01KVPXD9JG-EN80",
-        "path": "source"
-      }
-    ],
-    "8K6HX7GY2N-VH6A": [
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[1].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[1].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[1].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[1].ref"
-      },
-      {
-        "source": "01KVPXD9JG-4GZH",
-        "path": "source"
-      },
-      {
-        "source": "01KVPXD9JH-DXK4",
-        "path": "source"
-      },
-      {
-        "source": "01KVPXD9JH-RRS9",
-        "path": "source"
-      },
-      {
-        "source": "01KVPXD9JG-S5PT",
-        "path": "source"
-      },
-      {
-        "source": "01KVPXD9JG-EN80",
-        "path": "target"
-      }
-    ],
-    "DCER5BMV26-1Z6C": [
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[4].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[4].ref"
-      },
-      {
-        "source": "CDR0FRKQHE-EZM9",
-        "path": "serviceGroups[1].deployableObjects[2].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[4].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[4].ref"
-      },
-      {
-        "source": "01KVPXD9JM-DAFF",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JN-AJCD",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JN-23HW",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JM-8N69",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JM-122Z",
-        "path": "target"
-      }
-    ],
-    "N6FMAR8Y15-NX57": [
-      {
-        "source": "M8255Y9CNY-HXXJ",
-        "path": "serviceGroups[2].deployableObjects[5].ref"
-      },
-      {
-        "source": "VZ4EGYZP2B-5VD6",
-        "path": "serviceGroups[2].deployableObjects[5].ref"
-      },
-      {
-        "source": "CDR0FRKQHE-EZM9",
-        "path": "serviceGroups[1].deployableObjects[3].ref"
-      },
-      {
-        "source": "8SDKKYYD2D-Y8BP",
-        "path": "serviceGroups[2].deployableObjects[5].ref"
-      },
-      {
-        "source": "Z1E81AD5T8-0S75",
-        "path": "serviceGroups[2].deployableObjects[5].ref"
-      },
-      {
-        "source": "01KVPXD9JN-S6WB",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JQ-BD2K",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JP-88DD",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JP-X4A8",
-        "path": "target"
-      },
-      {
-        "source": "01KVPXD9JP-M3AD",
-        "path": "target"
       }
     ],
     "CA6JK9KWNR-A8SX": [
@@ -68239,12 +71870,6 @@ window.DRAFT_BROWSER_DATA = {
         "source": "XEC12XT66T-4N56",
         "path": "source"
       }
-    ],
-    "MNV0EPA2AG-9CPF": [
-      {
-        "source": "5REFR4GN1D-SEAH",
-        "path": "primaryTechnologyComponent"
-      }
     ]
   },
   "indexes": {
@@ -68351,9 +71976,19 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KT0V5MCV-KT72",
               "name": "Messaging",
               "description": "Asynchronous messages and events are accepted, queued, and delivered between producers and consumers.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "Y1X0S7X9R9-F0DE",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Event Bus is the approved async messaging backbone."
+                }
+              ]
             },
             {
               "id": "01KQQ4Q026-QM2X",
@@ -68413,18 +72048,44 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KQQ4Q026-7T2H",
               "name": "Data Resilience",
               "description": "Resilience of data against loss or corruption through backup, restore, replication, and recovery capabilities.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 2,
+              "implementations": [
+                {
+                  "ref": "5REFR4GN1D-SEAH",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Data Platform - approved enterprise pattern for resilient data storage."
+                },
+                {
+                  "ref": "MNV0EPA2AG-9CPF",
+                  "lifecycleStatus": "existing-only",
+                  "configuration": "",
+                  "notes": "Underlying PostgreSQL engine; use via Data Platform for new workloads rather than directly."
+                }
+              ]
             },
             {
               "id": "01KQQ4Q026-H3B5",
               "uid": "01KQQ4Q026-H3B5",
               "name": "Encryption At Rest",
               "description": "Protection of persisted data through encryption or equivalent storage safeguards.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "5REFR4GN1D-SEAH",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Data Platform provides encryption at rest for all hosted logical databases."
+                }
+              ]
             },
             {
               "id": "01KT0V5MCV-924J",
@@ -68457,18 +72118,38 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KQQ4Q026-4JR6",
               "name": "Access Control Model",
               "description": "Authorization model that controls access to a service or data platform.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "TX94DCX1HE-ZQX8",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Identity Gateway enforces the company's access control model."
+                }
+              ]
             },
             {
               "id": "01KQQ4Q026-MHJM",
               "uid": "01KQQ4Q026-MHJM",
               "name": "Authentication",
               "description": "Identity and access authentication capability for users, services, administrators, or workloads.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "TX94DCX1HE-ZQX8",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Identity Gateway fronts SAML and OAuth authentication for all product lines."
+                }
+              ]
             }
           ]
         },
@@ -68518,9 +72199,25 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KT0V5MCV-3A6F",
               "name": "API Gateway",
               "description": "Inbound API traffic is routed, authenticated, rate-limited, and transformed at a managed entry point in front of backend services.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 2,
+              "implementations": [
+                {
+                  "ref": "8K6HX7GY2N-VH6A",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford API Gateway is the approved ingress for product APIs."
+                },
+                {
+                  "ref": "Q1QPAVZZS4-N1CP",
+                  "lifecycleStatus": "existing-only",
+                  "configuration": "",
+                  "notes": "Clifford WAF sits in front of the API Gateway; kept here because it carries this capability tag in the catalog today."
+                }
+              ]
             },
             {
               "id": "01KT0V5MCV-HZ37",
@@ -68598,9 +72295,25 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KQQ4Q026-NB1W",
               "name": "Application Performance Monitoring",
               "description": "Tracing and performance analysis of application runtimes.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 2,
+              "implementations": [
+                {
+                  "ref": "DCER5BMV26-1Z6C",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Observability Platform is the approved APM tool."
+                },
+                {
+                  "ref": "X98AFF5FTK-4TN6",
+                  "lifecycleStatus": "existing-only",
+                  "configuration": "",
+                  "notes": "Clifford Incident Paging consumes APM signals for alert routing; not itself an APM tool, kept here because it carries this capability tag in the catalog today."
+                }
+              ]
             },
             {
               "id": "01KQQ4Q026-98VD",
@@ -68616,9 +72329,19 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KQQ4Q026-D04B",
               "name": "Log Management",
               "description": "Aggregation, retention, searchability, and forwarding of system or application logs.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "DCER5BMV26-1Z6C",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Observability Platform is the approved centralized logging destination."
+                }
+              ]
             }
           ]
         },
@@ -68642,9 +72365,19 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KQQ4Q026-DTJJ",
               "name": "Secrets Management",
               "description": "Secure storage, rotation, and access mediation for secrets and authenticators.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 1,
+              "implementations": [
+                {
+                  "ref": "8MF78PZNG4-738A",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford Secrets Vault is the sole approved secrets store."
+                }
+              ]
             },
             {
               "id": "01KQQ4Q026-JW52",
@@ -68677,9 +72410,25 @@ window.DRAFT_BROWSER_DATA = {
               "uid": "01KT0XNZEY-Q2TF",
               "name": "CI/CD Pipeline",
               "description": "Source code is automatically built, tested, and promoted through environments by an automated continuous integration and delivery pipeline.",
-              "owner": {},
-              "implementationCount": 0,
-              "implementations": []
+              "owner": {
+                "team": "platform-engineering",
+                "contact": "platform-engineering@clifford.example"
+              },
+              "implementationCount": 2,
+              "implementations": [
+                {
+                  "ref": "6A9ECMX3KC-5078",
+                  "lifecycleStatus": "existing-only",
+                  "configuration": "",
+                  "notes": "Compute Platform hosts CI/CD runners; kept here because it carries this capability tag in the catalog today."
+                },
+                {
+                  "ref": "N6FMAR8Y15-NX57",
+                  "lifecycleStatus": "preferred",
+                  "configuration": "",
+                  "notes": "Clifford CI/CD Platform is the approved pipeline tooling."
+                }
+              ]
             },
             {
               "id": "01KT0XNZEY-35Y2",

@@ -1,0 +1,20 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74H-95VJ
+type: object_patch
+name: Clifford Authentication — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Authentication capability, overlaid via object_patch so the framework's
+  vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-MHJM
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: TX94DCX1HE-ZQX8
+    lifecycleStatus: preferred
+    notes: Clifford Identity Gateway fronts SAML and OAuth authentication for all
+      product lines.

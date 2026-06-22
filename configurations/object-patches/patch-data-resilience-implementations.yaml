@@ -1,0 +1,24 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74G-H5V4
+type: object_patch
+name: Clifford Data Resilience — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Data Resilience capability, overlaid via object_patch so the framework's
+  vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-7T2H
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: 5REFR4GN1D-SEAH
+    lifecycleStatus: preferred
+    notes: Clifford Data Platform - approved enterprise pattern for resilient data
+      storage.
+  - ref: MNV0EPA2AG-9CPF
+    lifecycleStatus: existing-only
+    notes: Underlying PostgreSQL engine; use via Data Platform for new workloads rather
+      than directly.

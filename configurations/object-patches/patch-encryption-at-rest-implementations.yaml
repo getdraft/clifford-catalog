@@ -1,0 +1,20 @@
+schemaVersion: '1.0'
+uid: 01KVRNF74G-T9AE
+type: object_patch
+name: Clifford Encryption At Rest — Approved Implementations
+description: Clifford's approved TechnologyComponent/shared-service implementations
+  for the baseline Encryption At Rest capability, overlaid via object_patch so the
+  framework's vendor-neutral definition does not need to be forked.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+target: 01KQQ4Q026-H3B5
+patch:
+  owner:
+    team: platform-engineering
+    contact: platform-engineering@clifford.example
+  implementations:
+  - ref: 5REFR4GN1D-SEAH
+    lifecycleStatus: preferred
+    notes: Clifford Data Platform provides encryption at rest for all hosted logical
+      databases.
