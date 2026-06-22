@@ -19008,6 +19008,66 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
           "source": "N6FMAR8Y15-NX57",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -19248,6 +19308,46 @@ window.DRAFT_BROWSER_DATA = {
       "hasRiskRef": false,
       "outboundRefs": [],
       "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
         {
           "source": "5REFR4GN1D-SEAH",
           "path": "requirementImplementations[0].requirementGroup"
@@ -19539,6 +19639,70 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
           "source": "TX94DCX1HE-ZQX8",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -19791,6 +19955,58 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
           "source": "6A9ECMX3KC-5078",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -20040,6 +20256,66 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
           "source": "N6FMAR8Y15-NX57",
           "path": "requirementImplementations[1].requirementGroup"
         }
@@ -20103,6 +20379,3603 @@ window.DRAFT_BROWSER_DATA = {
         "schemaPath": "framework/schemas/requirement-group.schema.yaml"
       },
       "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"BVQAD2CJKY-C45E\",\n  \"type\": \"requirement_group\",\n  \"name\": \"Vulnerability Management RequirementGroup\",\n  \"description\": \"Activated control set requiring every SoftwareDeploymentPattern and shared TechnologyComponent to declare its patching cadence and vulnerability remediation SLA, aligned to Clifford's 30/60/90-day severity-based remediation policy.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"authority\": {\n    \"name\": \"Clifford Vulnerability Management Policy\",\n    \"shortName\": \"Clifford VM\",\n    \"source\": \"Internal security policy aligned to SOC 2 CC7.1 (vulnerability identification) and CC7.2 (remediation), informally benchmarked against NIST CSF\"\n  },\n  \"activation\": \"workspace\",\n  \"appliesTo\": [\n    \"software_deployment_pattern\",\n    \"technology_component\"\n  ],\n  \"requirements\": [\n    {\n      \"id\": \"patch-management-mechanism\",\n      \"name\": \"Declared Patch Management Mechanism\",\n      \"description\": \"The object must declare how OS- and dependency-level patches are applied (automated base-image rebuilds, dependency-bot PRs, managed-service auto-patching).\",\n      \"rationale\": \"Unpatched dependencies are the most common finding in Clifford's quarterly penetration tests (simulated baseline assumption); a declared mechanism lets the Draftsman flag components with no patching story at all.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"relationship\",\n          \"criteria\": {\n            \"capability\": \"01KQQ4Q026-BH6E\"\n          },\n          \"example\": \"A relationship to a patch-management-capable platform service.\"\n        },\n        {\n          \"mechanism\": \"decisionRecord\",\n          \"key\": \"patchManagementMechanism\",\n          \"example\": \"A committed DecisionRecord describing the patching mechanism.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"relatedCapability\": \"01KQQ4Q026-BH6E\",\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": false,\n      \"validAnswerTypes\": [\n        \"decisionRecord\",\n        \"relationship\"\n      ]\n    },\n    {\n      \"id\": \"remediation-sla\",\n      \"name\": \"Vulnerability Remediation SLA\",\n      \"description\": \"The object must declare the remediation SLA it follows for Critical/High/Medium/Low severity findings (Clifford baseline: 7/30/60/90 days respectively).\",\n      \"rationale\": \"A patching mechanism without a declared SLA gives the CAB no way to measure whether remediation is happening fast enough for the object's risk level.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"decisionRecord\",\n          \"key\": \"remediationSla\",\n          \"example\": \"A committed DecisionRecord stating the remediation SLA by severity, or confirming the Clifford baseline (7/30/60/90 days) applies unmodified.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": false,\n      \"validAnswerTypes\": [\n        \"decisionRecord\"\n      ]\n    },\n    {\n      \"id\": \"dependency-scanning\",\n      \"name\": \"Dependency / Image Scanning Coverage\",\n      \"description\": \"The object must declare whether automated dependency and container image scanning runs as part of its pipeline.\",\n      \"rationale\": \"Scanning coverage is the leading indicator of whether the patch-management and remediation-SLA commitments above are even detectable in practice.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"relationship\",\n          \"criteria\": {\n            \"capability\": \"01KT0XNZEY-Q2TF\"\n          },\n          \"example\": \"A relationship to the CI/CD platform that runs dependency/image scanning as a pipeline stage.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": true,\n      \"validAnswerTypes\": [\n        \"relationship\"\n      ]\n    }\n  ],\n  \"lifecycleStatus\": \"candidate\",\n  \"tags\": [\n    \"vulnerability-management\",\n    \"patching\",\n    \"security\",\n    \"clifford\"\n  ],\n  \"_source\": \"configurations/requirement-groups/requirement-group-vulnerability-management.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "FCDCMP9CV4-FHEX",
+      "uid": "FCDCMP9CV4-FHEX",
+      "name": "Coverage API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "NestJS API service implementing absence creation, the substitute-matching engine, and notification fan-out for the Coverage product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-coverage-api.yaml",
+      "tags": [
+        "coverage",
+        "absence-management",
+        "substitute-matching"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"FCDCMP9CV4-FHEX\",\n  \"type\": \"product_component\",\n  \"name\": \"Coverage API\",\n  \"description\": \"NestJS API service implementing absence creation, the substitute-matching engine, and notification fan-out for the Coverage product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-coverage-product\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"coverage\",\n    \"absence-management\",\n    \"substitute-matching\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Coverage Partner API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/absences\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Public partner API for district SIS vendors to push absence records.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 3000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 3000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for absence and substitute-matching records\",\n        \"interface\": \"coverage logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes absence.created/absence.filled/substitute.declined, subscribes to employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the coverage logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"TWILIO_API_KEY\",\n      \"description\": \"Substitute SMS notification provider credential\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-coverage-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "G5JM9CZA6X-4V82",
+      "uid": "G5JM9CZA6X-4V82",
+      "name": "Identity Gateway Service",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Express application that is the first-party code backing the Clifford Identity Gateway shared service - the deployable artifact Platform owns and operates.",
+      "version": "2.3.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "platform",
+        "contact": "platform-engineering@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-identity-gateway.yaml",
+      "tags": [
+        "platform",
+        "identity",
+        "sso"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "runsOnNote": "This component IS the Clifford Identity Gateway runtime_service (TX94DCX1HE-ZQX8) - declared separately here as required by the product_component/runtime_service split, with runsOn intentionally omitted since the SDP's serviceGroup substrate declares the hosting relationship instead, per the schema's own guidance for when runsOn may be omitted."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "runtimeSpec.dependencies[0].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"G5JM9CZA6X-4V82\",\n  \"type\": \"product_component\",\n  \"name\": \"Identity Gateway Service\",\n  \"description\": \"Express application that is the first-party code backing the Clifford Identity Gateway shared service - the deployable artifact Platform owns and operates.\",\n  \"version\": \"2.3.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-platform-product\",\n  \"owner\": {\n    \"team\": \"platform\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"platform\",\n    \"identity\",\n    \"sso\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Identity Gateway Session API\",\n      \"protocol\": \"REST\",\n      \"authenticationModel\": \"saml\",\n      \"description\": \"Issues normalized Clifford session tokens after Okta SAML or Clever/ClassLink OAuth sign-in.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 4000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 4000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"8MF78PZNG4-738A\",\n        \"purpose\": \"Retrieves Okta client secret and Clever/ClassLink API keys at deploy time\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"OKTA_CLIENT_SECRET\",\n      \"description\": \"Okta SAML/OIDC client secret\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CLEVER_API_KEY\",\n      \"description\": \"Clever Instant Login API key\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CLASSLINK_API_KEY\",\n      \"description\": \"ClassLink LaunchPad API key\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"notes\": {\n    \"runsOnNote\": \"This component IS the Clifford Identity Gateway runtime_service (TX94DCX1HE-ZQX8) - declared separately here as required by the product_component/runtime_service split, with runsOn intentionally omitted since the SDP's serviceGroup substrate declares the hosting relationship instead, per the schema's own guidance for when runsOn may be omitted.\"\n  },\n  \"_source\": \"catalog/engineering/product-components/product-component-identity-gateway.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "ZSNCNFHWJP-99XP",
+      "uid": "ZSNCNFHWJP-99XP",
+      "name": "People API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "NestJS API service implementing the canonical employee record, org-structure taxonomy, and the employee lifecycle state machine for the People product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-people-api.yaml",
+      "tags": [
+        "people",
+        "hr-core",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"ZSNCNFHWJP-99XP\",\n  \"type\": \"product_component\",\n  \"name\": \"People API\",\n  \"description\": \"NestJS API service implementing the canonical employee record, org-structure taxonomy, and the employee lifecycle state machine for the People product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-people-product\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"people\",\n    \"hr-core\",\n    \"system-of-record\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"People Internal Lookup API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/employees/{employeeId}\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Internal employee-lookup API called by Coverage, TimePay, and Talent.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 3000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 3000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"System-of-record OLTP store for canonical employee identity\",\n        \"interface\": \"people logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Subscribes to candidate.hired, publishes employee.hired and employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the people logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-people-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "M8FWWA842S-VADG",
+      "uid": "M8FWWA842S-VADG",
+      "name": "Talent API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "FastAPI service implementing job postings, applicant pipeline, and the Celery-backed background-check workflow for the Talent product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-talent-api.yaml",
+      "tags": [
+        "talent",
+        "recruiting",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"M8FWWA842S-VADG\",\n  \"type\": \"product_component\",\n  \"name\": \"Talent API\",\n  \"description\": \"FastAPI service implementing job postings, applicant pipeline, and the Celery-backed background-check workflow for the Talent product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-talent-product\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"Python\",\n  \"tags\": [\n    \"talent\",\n    \"recruiting\",\n    \"background-check\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Talent Public & HR API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/applications\",\n      \"authenticationModel\": \"TBD\",\n      \"description\": \"Public unauthenticated careers-site application endpoint plus OAuth-protected HR console endpoints under the same service.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 8000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 8000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for applicants and restricted background-check results\",\n        \"interface\": \"talent logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"Authenticates internal HR console users only; public careers site is unauthenticated\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes candidate.applied and candidate.hired\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the talent logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CHECKR_API_KEY\",\n      \"description\": \"Background-check vendor credential\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-talent-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "GPPADF0FWM-GWB6",
+      "uid": "GPPADF0FWM-GWB6",
+      "name": "TimePay API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Spring Boot API service handling clock-in/out events, timesheet approval workflow, and the trigger point for the nightly Spring Batch payroll export.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-timepay-api.yaml",
+      "tags": [
+        "timepay",
+        "time-and-attendance",
+        "payroll"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"GPPADF0FWM-GWB6\",\n  \"type\": \"product_component\",\n  \"name\": \"TimePay API\",\n  \"description\": \"Spring Boot API service handling clock-in/out events, timesheet approval workflow, and the trigger point for the nightly Spring Batch payroll export.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-timepay-product\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"Java\",\n  \"tags\": [\n    \"timepay\",\n    \"time-and-attendance\",\n    \"payroll\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"TimePay Client API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/clock-events\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Kiosk and supervisor client API for clock events and timesheet approval.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 8080,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 8080,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for timesheets and clock events\",\n        \"interface\": \"timepay logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes timesheet.approved, subscribes to employee.hired/employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"SPRING_DATASOURCE_URL\",\n      \"description\": \"Aurora connection string for the timepay logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"PAYROLL_EXPORT_BUCKET\",\n      \"description\": \"S3 bucket name for district payroll export file drop\",\n      \"required\": true,\n      \"sensitive\": false\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-timepay-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "R44AEYXYT7-BARZ",
+      "uid": "R44AEYXYT7-BARZ",
+      "name": "Coverage Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding absence records, substitute eligibility, and matching-job history for the Coverage product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-coverage-database.yaml",
+      "tags": [
+        "coverage",
+        "database"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"R44AEYXYT7-BARZ\",\n  \"type\": \"data_component\",\n  \"name\": \"Coverage Database\",\n  \"description\": \"Logical PostgreSQL database holding absence records, substitute eligibility, and matching-job history for the Coverage product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-coverage-product\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"coverage\",\n    \"database\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"absences\",\n      \"description\": \"One row per reported absence with required credential type and school site.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"substitutes\",\n      \"description\": \"Substitute staff eligibility, credential type, and prior-assignment history.\",\n      \"containsPII\": true,\n      \"classification\": \"confidential\"\n    },\n    {\n      \"name\": \"matching_jobs\",\n      \"description\": \"BullMQ job audit trail for the substitute-matching engine.\",\n      \"containsPII\": false\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"purge-stale-matching-jobs\",\n      \"schedule\": \"daily at 03:00\",\n      \"description\": \"Removes completed matching-job audit records older than 90 days.\",\n      \"purpose\": \"maintenance\"\n    }\n  ],\n  \"retentionPolicy\": \"Absence and substitute eligibility records retained 7 years per Clifford's standard records-retention policy; matching-job audit trail purged after 90 days.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-coverage-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "B7D1D3WT1A-9RDP",
+      "uid": "B7D1D3WT1A-9RDP",
+      "name": "People Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding the canonical employees table, org-structure taxonomy, and lifecycle state for every Clifford employee.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-people-database.yaml",
+      "tags": [
+        "people",
+        "database",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"B7D1D3WT1A-9RDP\",\n  \"type\": \"data_component\",\n  \"name\": \"People Database\",\n  \"description\": \"Logical PostgreSQL database holding the canonical employees table, org-structure taxonomy, and lifecycle state for every Clifford employee.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-people-product\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"people\",\n    \"database\",\n    \"system-of-record\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"employees\",\n      \"description\": \"Canonical employee identity record referenced by ID from every other product (no cross-database foreign keys - lookups via API or event payloads only).\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"org_structure\",\n      \"description\": \"District org-structure taxonomy and position assignments.\",\n      \"containsPII\": false\n    },\n    {\n      \"name\": \"lifecycle_transitions\",\n      \"description\": \"Audit trail of employee lifecycle state machine transitions.\",\n      \"containsPII\": true\n    }\n  ],\n  \"retentionPolicy\": \"Employee records retained 7 years post-separation per Clifford's standard records-retention policy.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-people-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "091XCJENF7-HN4C",
+      "uid": "091XCJENF7-HN4C",
+      "name": "Talent Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding job postings, applicant pipeline state, and restricted background-check adjudication results for the Talent product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-talent-database.yaml",
+      "tags": [
+        "talent",
+        "database",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"091XCJENF7-HN4C\",\n  \"type\": \"data_component\",\n  \"name\": \"Talent Database\",\n  \"description\": \"Logical PostgreSQL database holding job postings, applicant pipeline state, and restricted background-check adjudication results for the Talent product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-talent-product\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"restricted\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"talent\",\n    \"database\",\n    \"background-check\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"candidates\",\n      \"description\": \"Applicant profile and pipeline stage.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"background_check_results\",\n      \"description\": \"Adjudication result and vendor reference ID only - no raw report content stored. Restricted classification.\",\n      \"containsPII\": true,\n      \"classification\": \"restricted\"\n    },\n    {\n      \"name\": \"job_postings\",\n      \"description\": \"District job postings configuration.\",\n      \"containsPII\": false\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"purge-rejected-candidate-background-checks\",\n      \"schedule\": \"daily at 04:00\",\n      \"description\": \"Purges background-check references for rejected candidates after 1 year with no hire.\",\n      \"purpose\": \"maintenance\"\n    }\n  ],\n  \"retentionPolicy\": \"Background-check adjudication results retained 7 years post-decision per Security & Access Controls RequirementGroup; rejected-candidate references purged after 1 year.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-talent-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "4S7K3NQ3P1-BDZA",
+      "uid": "4S7K3NQ3P1-BDZA",
+      "name": "TimePay Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding clock events, timesheets, and payroll export run history for the TimePay product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-timepay-database.yaml",
+      "tags": [
+        "timepay",
+        "database"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"4S7K3NQ3P1-BDZA\",\n  \"type\": \"data_component\",\n  \"name\": \"TimePay Database\",\n  \"description\": \"Logical PostgreSQL database holding clock events, timesheets, and payroll export run history for the TimePay product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-timepay-product\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"timepay\",\n    \"database\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"clock_events\",\n      \"description\": \"Raw clock-in/clock-out events from kiosk and mobile clients.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"timesheets\",\n      \"description\": \"Aggregated, supervisor-approved timesheets per pay period.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"export_runs\",\n      \"description\": \"Payroll export run log with row counts and checksum per district per run.\",\n      \"containsPII\": false\n    }\n  ],\n  \"storedProcedures\": [\n    {\n      \"name\": \"aggregate_timesheet\",\n      \"description\": \"Aggregates approved clock events into a pay-period timesheet row.\",\n      \"purpose\": \"transformation\"\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"nightly-payroll-export\",\n      \"schedule\": \"cron 0 2 * * *\",\n      \"description\": \"Spring Batch job exporting approved timesheets to each district's configured payroll format.\",\n      \"purpose\": \"reporting\"\n    }\n  ],\n  \"retentionPolicy\": \"Timesheet and clock-event records retained 7 years per Clifford's standard payroll records-retention policy.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-timepay-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "M8255Y9CNY-HXXJ",
+      "uid": "M8255Y9CNY-HXXJ",
+      "name": "Coverage Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Coverage",
+        "ownerNode": "coverage",
+        "notes": "One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-coverage.yaml",
+      "tags": [
+        "coverage",
+        "absence-management"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.9%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages."
+        }
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "coverage-api",
+          "type": "replicable",
+          "instanceCount": 3,
+          "notes": "Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time)."
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "Coverage API service and matching-job worker process."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "Coverage logical database on the shared Aurora cluster, plus the Redis matching-job queue."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "coverage-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "FCDCMP9CV4-FHEX",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "coverage-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "R44AEYXYT7-BARZ",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "FCDCMP9CV4-FHEX",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "R44AEYXYT7-BARZ",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"M8255Y9CNY-HXXJ\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Coverage Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"tags\": [\n    \"coverage\",\n    \"absence-management\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Coverage\",\n    \"ownerNode\": \"coverage\",\n    \"notes\": \"One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Coverage API service and matching-job worker process.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"Coverage logical database on the shared Aurora cluster, plus the Redis matching-job queue.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"coverage-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"FCDCMP9CV4-FHEX\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"coverage-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"R44AEYXYT7-BARZ\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"coverage-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 3,\n      \"notes\": \"Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time).\"\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.9%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages.\"\n    }\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-coverage.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "VZ4EGYZP2B-5VD6",
+      "uid": "VZ4EGYZP2B-5VD6",
+      "name": "People Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "People",
+        "ownerNode": "people",
+        "notes": "High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-people.yaml",
+      "tags": [
+        "people",
+        "hr-core",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.5%",
+        "failureDomain": {
+          "scope": "cross-team",
+          "description": "People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers."
+        },
+        "teamContribution": "The People team's reviewer (enthusiastic disposition) validated the admin's draft SDP without raising blocking questions, and additionally flagged that the messaging-platform shared service (event bus) should be explicitly listed as a deployable object in the people-data service group rather than only implied by the stack.yaml event-publishing description, since People is the most event-publish-heavy team in the company and the cross-team failure-domain note above depends on that dependency being visible in the SDP itself. Incorporated directly above."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "people-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "People API service and the event publisher for employee.hired and employee.terminated."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "People logical database, the canonical employee-record table set."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "people-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "ZSNCNFHWJP-99XP",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "people-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "B7D1D3WT1A-9RDP",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "Y1X0S7X9R9-F0DE",
+              "networkZone": "app",
+              "diagramTier": "application"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "ZSNCNFHWJP-99XP",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "B7D1D3WT1A-9RDP",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "serviceGroups[1].deployableObjects[2].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"VZ4EGYZP2B-5VD6\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"People Deployment Pattern\",\n  \"description\": \"Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"tags\": [\n    \"people\",\n    \"hr-core\",\n    \"system-of-record\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"People\",\n    \"ownerNode\": \"people\",\n    \"notes\": \"High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"People API service and the event publisher for employee.hired and employee.terminated.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"People logical database, the canonical employee-record table set.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"people-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"ZSNCNFHWJP-99XP\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"people-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"B7D1D3WT1A-9RDP\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"Y1X0S7X9R9-F0DE\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"people-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.5%\",\n    \"failureDomain\": {\n      \"scope\": \"cross-team\",\n      \"description\": \"People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers.\"\n    },\n    \"teamContribution\": \"The People team's reviewer (enthusiastic disposition) validated the admin's draft SDP without raising blocking questions, and additionally flagged that the messaging-platform shared service (event bus) should be explicitly listed as a deployable object in the people-data service group rather than only implied by the stack.yaml event-publishing description, since People is the most event-publish-heavy team in the company and the cross-team failure-domain note above depends on that dependency being visible in the SDP itself. Incorporated directly above.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-people.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "CDR0FRKQHE-EZM9",
+      "uid": "CDR0FRKQHE-EZM9",
+      "name": "Platform Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Clifford Platform team. Most of this team's output is the shared Terraform ECS service module and infra conventions consumed by the other four product teams, which has no independent runtime and is not represented below; the only independently-deployed artifact is the internal developer portal (module usage guide, service catalog UI) that the module-usage-guide.md in the product repo documents.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Platform",
+        "ownerNode": "platform",
+        "notes": "Internal-only tooling team; no direct district-facing surface. Availability tier set lower than the four product lines since an outage of the developer portal degrades engineering velocity, not live district operations."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship",
+          "notes": "Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies."
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "Internal/non-sensitive classification - the portal stores no student, employee, or district data."
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "platform",
+        "contact": "platform-engineering@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-platform.yaml",
+      "tags": [
+        "platform",
+        "internal-tooling",
+        "developer-portal"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.0%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "A portal outage affects only internal engineering self-service workflows; it has no path to district-facing downtime since the shared Terraform module itself is consumed at build time, not runtime."
+        },
+        "teamObjection": "The Platform team's reviewer (skeptical disposition) objected to being asked to produce a software_deployment_pattern at all, on the grounds that the team's primary output (the shared ECS Terraform module and platform conventions other teams build on) has no independent runtime footprint - it is consumed at build/infra-provisioning time by every other team's own SDP, not deployed as a running service of its own, so forcing it into networkZones/serviceGroups/deployableObjects produces an SDP that describes almost none of the team's actual engineering surface area. The admin agreed this is a legitimate gap rather than something to argue around: DRAFT's SDP concept models deployed runtime topology well, but has no object type for \"library/module consumed by other SDPs at build time,\" so that side of the Platform team's work is invisible to the catalog entirely. Resolved by scoping this SDP to only the one artifact that is genuinely deployed (the developer portal) and logging the missing build-time-dependency concept as a friction point rather than inventing an unsupported field."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "platform-portal",
+          "type": "single-instance",
+          "instanceCount": 1,
+          "notes": "Low-traffic internal tool; no autoscaling configured."
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "internal",
+          "name": "Internal Tooling Zone",
+          "tier": "application",
+          "description": "Internal-only developer portal, not exposed through the public API Gateway; reachable only from the corporate VPN and CI/CD network."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "platform-portal",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "G5JM9CZA6X-4V82",
+              "networkZone": "internal",
+              "diagramTier": "application",
+              "intent": "single-instance"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "G5JM9CZA6X-4V82",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[12].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"CDR0FRKQHE-EZM9\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Platform Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Clifford Platform team. Most of this team's output is the shared Terraform ECS service module and infra conventions consumed by the other four product teams, which has no independent runtime and is not represented below; the only independently-deployed artifact is the internal developer portal (module usage guide, service catalog UI) that the module-usage-guide.md in the product repo documents.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"platform\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  },\n  \"tags\": [\n    \"platform\",\n    \"internal-tooling\",\n    \"developer-portal\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Platform\",\n    \"ownerNode\": \"platform\",\n    \"notes\": \"Internal-only tooling team; no direct district-facing surface. Availability tier set lower than the four product lines since an outage of the developer portal degrades engineering velocity, not live district operations.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"internal\",\n      \"name\": \"Internal Tooling Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Internal-only developer portal, not exposed through the public API Gateway; reachable only from the corporate VPN and CI/CD network.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"platform-portal\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"G5JM9CZA6X-4V82\",\n          \"networkZone\": \"internal\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"single-instance\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"platform-portal\",\n      \"type\": \"single-instance\",\n      \"instanceCount\": 1,\n      \"notes\": \"Low-traffic internal tool; no autoscaling configured.\"\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.0%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"A portal outage affects only internal engineering self-service workflows; it has no path to district-facing downtime since the shared Terraform module itself is consumed at build time, not runtime.\"\n    },\n    \"teamObjection\": \"The Platform team's reviewer (skeptical disposition) objected to being asked to produce a software_deployment_pattern at all, on the grounds that the team's primary output (the shared ECS Terraform module and platform conventions other teams build on) has no independent runtime footprint - it is consumed at build/infra-provisioning time by every other team's own SDP, not deployed as a running service of its own, so forcing it into networkZones/serviceGroups/deployableObjects produces an SDP that describes almost none of the team's actual engineering surface area. The admin agreed this is a legitimate gap rather than something to argue around: DRAFT's SDP concept models deployed runtime topology well, but has no object type for \\\"library/module consumed by other SDPs at build time,\\\" so that side of the Platform team's work is invisible to the catalog entirely. Resolved by scoping this SDP to only the one artifact that is genuinely deployed (the developer portal) and logging the missing build-time-dependency concept as a friction point rather than inventing an unsupported field.\"\n  },\n  \"decisionRecords\": [],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\",\n      \"notes\": \"Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies.\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"Internal/non-sensitive classification - the portal stores no student, employee, or district data.\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-platform.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "8SDKKYYD2D-Y8BP",
+      "uid": "8SDKKYYD2D-Y8BP",
+      "name": "Talent Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers site left unauthenticated by design.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Talent",
+        "ownerNode": "talent",
+        "notes": "Standard availability tier - hiring workflows are important but not time-critical the way live school-day operations are."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship",
+          "notes": "Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated."
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "background-check-data-handling",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level."
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-talent.yaml",
+      "tags": [
+        "talent",
+        "recruiting",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.0%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "Talent outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures."
+        },
+        "teamQuestions": "The Talent team's reviewer (informed disposition, having read the vendor docs) asked three questions before contributing: (1) does the background-check-data-handling requirement's \"restricted\" applicability match correctly resolve against this SDP, given the requirement is declared on the RequirementGroup with applicability.field: dataClassification, but the SDP itself has no single dataClassification field - only the underlying data_component does; (2) should the public careers site's unauthenticated interface be modeled as a separate networkZone with no tier, given it doesn't cleanly match frontend/ application/data; and (3) whether naAllowed:true on a background-check requirement is appropriate at all, given background checks are mandatory for every K-12 hire. The admin resolved (1) by noting the requirement's applicability is evaluated against the data_component it's actually answered on (talent-database, classification restricted), not the SDP - a real ambiguity in how applicability composes across object types, kept on the data_component rather than duplicated here; resolved (2) by keeping the public-careers zone tagged frontend since it is the internet-facing zone even though it carries no authentication; left (3) as a valid open question carried to Recommended Changes."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "talent-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "public-careers",
+          "name": "Public Careers Site",
+          "tier": "frontend",
+          "description": "Unauthenticated public application-submission surface, rate-limited at the shared API Gateway rather than authenticated."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "Talent API service and the Celery background-check worker."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "Talent logical database, including the restricted-classification background-check result columns."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "talent-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "M8FWWA842S-VADG",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "talent-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "091XCJENF7-HN4C",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "M8FWWA842S-VADG",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "091XCJENF7-HN4C",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"8SDKKYYD2D-Y8BP\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Talent Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers site left unauthenticated by design.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"tags\": [\n    \"talent\",\n    \"recruiting\",\n    \"background-check\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Talent\",\n    \"ownerNode\": \"talent\",\n    \"notes\": \"Standard availability tier - hiring workflows are important but not time-critical the way live school-day operations are.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"public-careers\",\n      \"name\": \"Public Careers Site\",\n      \"tier\": \"frontend\",\n      \"description\": \"Unauthenticated public application-submission surface, rate-limited at the shared API Gateway rather than authenticated.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Talent API service and the Celery background-check worker.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"Talent logical database, including the restricted-classification background-check result columns.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"talent-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"M8FWWA842S-VADG\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"talent-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"091XCJENF7-HN4C\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"talent-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.0%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"Talent outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.\"\n    },\n    \"teamQuestions\": \"The Talent team's reviewer (informed disposition, having read the vendor docs) asked three questions before contributing: (1) does the background-check-data-handling requirement's \\\"restricted\\\" applicability match correctly resolve against this SDP, given the requirement is declared on the RequirementGroup with applicability.field: dataClassification, but the SDP itself has no single dataClassification field - only the underlying data_component does; (2) should the public careers site's unauthenticated interface be modeled as a separate networkZone with no tier, given it doesn't cleanly match frontend/ application/data; and (3) whether naAllowed:true on a background-check requirement is appropriate at all, given background checks are mandatory for every K-12 hire. The admin resolved (1) by noting the requirement's applicability is evaluated against the data_component it's actually answered on (talent-database, classification restricted), not the SDP - a real ambiguity in how applicability composes across object types, kept on the data_component rather than duplicated here; resolved (2) by keeping the public-careers zone tagged frontend since it is the internet-facing zone even though it carries no authentication; left (3) as a valid open question carried to Recommended Changes.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\",\n      \"notes\": \"Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated.\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"background-check-data-handling\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level.\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-talent.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    {
+      "id": "Z1E81AD5T8-0S75",
+      "uid": "Z1E81AD5T8-0S75",
+      "name": "TimePay Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the TimePay time-and-attendance product - a Spring Boot API service plus a separately-scheduled Spring Batch payroll export job, deployed behind the shared Clifford API Gateway and Identity Gateway.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "TimePay",
+        "ownerNode": "timepay",
+        "notes": "High availability tier - clock-in/clock-out is time-sensitive but tolerates brief degradation better than Coverage's live substitute matching."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 2 hours / RPO 1 hour for the timepay-api service group."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "not-compliant",
+          "notes": "Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap."
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-timepay.yaml",
+      "tags": [
+        "timepay",
+        "time-and-attendance",
+        "payroll"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.5%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "TimePay outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures."
+        },
+        "teamObjection": "The TimePay team's reviewer (skeptical disposition) pushed back on declaring the nightly payroll-export batch task as part of the same serviceGroup as the API service, arguing a scheduled batch job has a fundamentally different deployment and scaling profile (one-shot task vs. long-running service) and the schema gives no first-class way to distinguish them within serviceGroups/scalingUnits - both are typed generically as deployable objects with a replicable/shared scaling unit, with no \"scheduled task\" or \"batch job\" concept. The admin agreed this is a real gap and chose to model the batch task only at the product_component and data_component level (data_component.scheduledJobs) rather than inventing an unsupported SDP-level construct, logged as a friction point rather than worked around with a non-standard field."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "timepay-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "TimePay API service and the scheduled payroll-export batch task."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "TimePay logical database plus the S3 payroll export drop bucket."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "timepay-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "GPPADF0FWM-GWB6",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "timepay-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "4S7K3NQ3P1-BDZA",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        },
+        {
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "GPPADF0FWM-GWB6",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "4S7K3NQ3P1-BDZA",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "decisionRecords[1].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"Z1E81AD5T8-0S75\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"TimePay Deployment Pattern\",\n  \"description\": \"Deployment pattern for the TimePay time-and-attendance product - a Spring Boot API service plus a separately-scheduled Spring Batch payroll export job, deployed behind the shared Clifford API Gateway and Identity Gateway.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"tags\": [\n    \"timepay\",\n    \"time-and-attendance\",\n    \"payroll\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"TimePay\",\n    \"ownerNode\": \"timepay\",\n    \"notes\": \"High availability tier - clock-in/clock-out is time-sensitive but tolerates brief degradation better than Coverage's live substitute matching.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"TimePay API service and the scheduled payroll-export batch task.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"TimePay logical database plus the S3 payroll export drop bucket.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"timepay-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"GPPADF0FWM-GWB6\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"timepay-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"4S7K3NQ3P1-BDZA\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"timepay-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.5%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"TimePay outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.\"\n    },\n    \"teamObjection\": \"The TimePay team's reviewer (skeptical disposition) pushed back on declaring the nightly payroll-export batch task as part of the same serviceGroup as the API service, arguing a scheduled batch job has a fundamentally different deployment and scaling profile (one-shot task vs. long-running service) and the schema gives no first-class way to distinguish them within serviceGroups/scalingUnits - both are typed generically as deployable objects with a replicable/shared scaling unit, with no \\\"scheduled task\\\" or \\\"batch job\\\" concept. The admin agreed this is a real gap and chose to model the batch task only at the product_component and data_component level (data_component.scheduledJobs) rather than inventing an unsupported SDP-level construct, logged as a friction point rather than worked around with a non-standard field.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    },\n    {\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 2 hours / RPO 1 hour for the timepay-api service group.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"not-compliant\",\n      \"notes\": \"Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap.\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-timepay.yaml\"\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -20441,7 +24314,28 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[0].substrate"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -20695,6 +24589,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
           "source": "CA6JK9KWNR-A8SX",
           "path": "linkedObject"
         }
@@ -20913,7 +24823,28 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[2].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -21556,7 +25487,12 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "G5JM9CZA6X-4V82",
+          "path": "runtimeSpec.dependencies[0].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -21813,6 +25749,54 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "R44AEYXYT7-BARZ",
+          "path": "runsOn"
+        },
+        {
+          "source": "B7D1D3WT1A-9RDP",
+          "path": "runsOn"
+        },
+        {
+          "source": "091XCJENF7-HN4C",
+          "path": "runsOn"
+        },
+        {
+          "source": "4S7K3NQ3P1-BDZA",
+          "path": "runsOn"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
         {
           "source": "F8F4VF6QKB-419V",
           "path": "linkedObject"
@@ -22600,6 +26584,30 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[12].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "decisionRecords[1].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
           "source": "5REFR4GN1D-SEAH",
           "path": "decisionRecords[0].ref"
         },
@@ -22772,6 +26780,22 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "decisionRecords[0].ref"
+        },
         {
           "source": "TX94DCX1HE-ZQX8",
           "path": "decisionRecords[0].ref"
@@ -41864,6 +45888,66 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
           "source": "N6FMAR8Y15-NX57",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -42104,6 +46188,46 @@ window.DRAFT_BROWSER_DATA = {
       "hasRiskRef": false,
       "outboundRefs": [],
       "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
         {
           "source": "5REFR4GN1D-SEAH",
           "path": "requirementImplementations[0].requirementGroup"
@@ -42395,6 +46519,70 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
           "source": "TX94DCX1HE-ZQX8",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -42647,6 +46835,58 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
           "source": "6A9ECMX3KC-5078",
           "path": "requirementImplementations[0].requirementGroup"
         },
@@ -42896,6 +47136,66 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
           "source": "N6FMAR8Y15-NX57",
           "path": "requirementImplementations[1].requirementGroup"
         }
@@ -42959,6 +47259,3603 @@ window.DRAFT_BROWSER_DATA = {
         "schemaPath": "framework/schemas/requirement-group.schema.yaml"
       },
       "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"BVQAD2CJKY-C45E\",\n  \"type\": \"requirement_group\",\n  \"name\": \"Vulnerability Management RequirementGroup\",\n  \"description\": \"Activated control set requiring every SoftwareDeploymentPattern and shared TechnologyComponent to declare its patching cadence and vulnerability remediation SLA, aligned to Clifford's 30/60/90-day severity-based remediation policy.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"authority\": {\n    \"name\": \"Clifford Vulnerability Management Policy\",\n    \"shortName\": \"Clifford VM\",\n    \"source\": \"Internal security policy aligned to SOC 2 CC7.1 (vulnerability identification) and CC7.2 (remediation), informally benchmarked against NIST CSF\"\n  },\n  \"activation\": \"workspace\",\n  \"appliesTo\": [\n    \"software_deployment_pattern\",\n    \"technology_component\"\n  ],\n  \"requirements\": [\n    {\n      \"id\": \"patch-management-mechanism\",\n      \"name\": \"Declared Patch Management Mechanism\",\n      \"description\": \"The object must declare how OS- and dependency-level patches are applied (automated base-image rebuilds, dependency-bot PRs, managed-service auto-patching).\",\n      \"rationale\": \"Unpatched dependencies are the most common finding in Clifford's quarterly penetration tests (simulated baseline assumption); a declared mechanism lets the Draftsman flag components with no patching story at all.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"relationship\",\n          \"criteria\": {\n            \"capability\": \"01KQQ4Q026-BH6E\"\n          },\n          \"example\": \"A relationship to a patch-management-capable platform service.\"\n        },\n        {\n          \"mechanism\": \"decisionRecord\",\n          \"key\": \"patchManagementMechanism\",\n          \"example\": \"A committed DecisionRecord describing the patching mechanism.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"relatedCapability\": \"01KQQ4Q026-BH6E\",\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": false,\n      \"validAnswerTypes\": [\n        \"decisionRecord\",\n        \"relationship\"\n      ]\n    },\n    {\n      \"id\": \"remediation-sla\",\n      \"name\": \"Vulnerability Remediation SLA\",\n      \"description\": \"The object must declare the remediation SLA it follows for Critical/High/Medium/Low severity findings (Clifford baseline: 7/30/60/90 days respectively).\",\n      \"rationale\": \"A patching mechanism without a declared SLA gives the CAB no way to measure whether remediation is happening fast enough for the object's risk level.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"decisionRecord\",\n          \"key\": \"remediationSla\",\n          \"example\": \"A committed DecisionRecord stating the remediation SLA by severity, or confirming the Clifford baseline (7/30/60/90 days) applies unmodified.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": false,\n      \"validAnswerTypes\": [\n        \"decisionRecord\"\n      ]\n    },\n    {\n      \"id\": \"dependency-scanning\",\n      \"name\": \"Dependency / Image Scanning Coverage\",\n      \"description\": \"The object must declare whether automated dependency and container image scanning runs as part of its pipeline.\",\n      \"rationale\": \"Scanning coverage is the leading indicator of whether the patch-management and remediation-SLA commitments above are even detectable in practice.\",\n      \"canBeSatisfiedBy\": [\n        {\n          \"mechanism\": \"relationship\",\n          \"criteria\": {\n            \"capability\": \"01KT0XNZEY-Q2TF\"\n          },\n          \"example\": \"A relationship to the CI/CD platform that runs dependency/image scanning as a pipeline stage.\"\n        }\n      ],\n      \"minimumSatisfactions\": 1,\n      \"requirementMode\": \"mandatory\",\n      \"naAllowed\": true,\n      \"validAnswerTypes\": [\n        \"relationship\"\n      ]\n    }\n  ],\n  \"lifecycleStatus\": \"candidate\",\n  \"tags\": [\n    \"vulnerability-management\",\n    \"patching\",\n    \"security\",\n    \"clifford\"\n  ],\n  \"_source\": \"configurations/requirement-groups/requirement-group-vulnerability-management.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "FCDCMP9CV4-FHEX": {
+      "id": "FCDCMP9CV4-FHEX",
+      "uid": "FCDCMP9CV4-FHEX",
+      "name": "Coverage API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "NestJS API service implementing absence creation, the substitute-matching engine, and notification fan-out for the Coverage product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-coverage-api.yaml",
+      "tags": [
+        "coverage",
+        "absence-management",
+        "substitute-matching"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"FCDCMP9CV4-FHEX\",\n  \"type\": \"product_component\",\n  \"name\": \"Coverage API\",\n  \"description\": \"NestJS API service implementing absence creation, the substitute-matching engine, and notification fan-out for the Coverage product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-coverage-product\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"coverage\",\n    \"absence-management\",\n    \"substitute-matching\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Coverage Partner API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/absences\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Public partner API for district SIS vendors to push absence records.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 3000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 3000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for absence and substitute-matching records\",\n        \"interface\": \"coverage logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes absence.created/absence.filled/substitute.declined, subscribes to employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the coverage logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"TWILIO_API_KEY\",\n      \"description\": \"Substitute SMS notification provider credential\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-coverage-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "G5JM9CZA6X-4V82": {
+      "id": "G5JM9CZA6X-4V82",
+      "uid": "G5JM9CZA6X-4V82",
+      "name": "Identity Gateway Service",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Express application that is the first-party code backing the Clifford Identity Gateway shared service - the deployable artifact Platform owns and operates.",
+      "version": "2.3.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "platform",
+        "contact": "platform-engineering@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-identity-gateway.yaml",
+      "tags": [
+        "platform",
+        "identity",
+        "sso"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "runsOnNote": "This component IS the Clifford Identity Gateway runtime_service (TX94DCX1HE-ZQX8) - declared separately here as required by the product_component/runtime_service split, with runsOn intentionally omitted since the SDP's serviceGroup substrate declares the hosting relationship instead, per the schema's own guidance for when runsOn may be omitted."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "8MF78PZNG4-738A",
+          "path": "runtimeSpec.dependencies[0].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"G5JM9CZA6X-4V82\",\n  \"type\": \"product_component\",\n  \"name\": \"Identity Gateway Service\",\n  \"description\": \"Express application that is the first-party code backing the Clifford Identity Gateway shared service - the deployable artifact Platform owns and operates.\",\n  \"version\": \"2.3.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-platform-product\",\n  \"owner\": {\n    \"team\": \"platform\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"platform\",\n    \"identity\",\n    \"sso\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Identity Gateway Session API\",\n      \"protocol\": \"REST\",\n      \"authenticationModel\": \"saml\",\n      \"description\": \"Issues normalized Clifford session tokens after Okta SAML or Clever/ClassLink OAuth sign-in.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 4000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 4000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"8MF78PZNG4-738A\",\n        \"purpose\": \"Retrieves Okta client secret and Clever/ClassLink API keys at deploy time\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"OKTA_CLIENT_SECRET\",\n      \"description\": \"Okta SAML/OIDC client secret\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CLEVER_API_KEY\",\n      \"description\": \"Clever Instant Login API key\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CLASSLINK_API_KEY\",\n      \"description\": \"ClassLink LaunchPad API key\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"notes\": {\n    \"runsOnNote\": \"This component IS the Clifford Identity Gateway runtime_service (TX94DCX1HE-ZQX8) - declared separately here as required by the product_component/runtime_service split, with runsOn intentionally omitted since the SDP's serviceGroup substrate declares the hosting relationship instead, per the schema's own guidance for when runsOn may be omitted.\"\n  },\n  \"_source\": \"catalog/engineering/product-components/product-component-identity-gateway.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "ZSNCNFHWJP-99XP": {
+      "id": "ZSNCNFHWJP-99XP",
+      "uid": "ZSNCNFHWJP-99XP",
+      "name": "People API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "NestJS API service implementing the canonical employee record, org-structure taxonomy, and the employee lifecycle state machine for the People product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-people-api.yaml",
+      "tags": [
+        "people",
+        "hr-core",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"ZSNCNFHWJP-99XP\",\n  \"type\": \"product_component\",\n  \"name\": \"People API\",\n  \"description\": \"NestJS API service implementing the canonical employee record, org-structure taxonomy, and the employee lifecycle state machine for the People product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-people-product\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"TypeScript\",\n  \"tags\": [\n    \"people\",\n    \"hr-core\",\n    \"system-of-record\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"People Internal Lookup API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/employees/{employeeId}\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Internal employee-lookup API called by Coverage, TimePay, and Talent.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 3000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 3000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"System-of-record OLTP store for canonical employee identity\",\n        \"interface\": \"people logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Subscribes to candidate.hired, publishes employee.hired and employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the people logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-people-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "M8FWWA842S-VADG": {
+      "id": "M8FWWA842S-VADG",
+      "uid": "M8FWWA842S-VADG",
+      "name": "Talent API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "FastAPI service implementing job postings, applicant pipeline, and the Celery-backed background-check workflow for the Talent product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-talent-api.yaml",
+      "tags": [
+        "talent",
+        "recruiting",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"M8FWWA842S-VADG\",\n  \"type\": \"product_component\",\n  \"name\": \"Talent API\",\n  \"description\": \"FastAPI service implementing job postings, applicant pipeline, and the Celery-backed background-check workflow for the Talent product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-talent-product\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"Python\",\n  \"tags\": [\n    \"talent\",\n    \"recruiting\",\n    \"background-check\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"Talent Public & HR API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/applications\",\n      \"authenticationModel\": \"TBD\",\n      \"description\": \"Public unauthenticated careers-site application endpoint plus OAuth-protected HR console endpoints under the same service.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 8000,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 8000,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for applicants and restricted background-check results\",\n        \"interface\": \"talent logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"Authenticates internal HR console users only; public careers site is unauthenticated\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes candidate.applied and candidate.hired\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"DATABASE_URL\",\n      \"description\": \"Aurora connection string for the talent logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"CHECKR_API_KEY\",\n      \"description\": \"Background-check vendor credential\",\n      \"required\": true,\n      \"sensitive\": true\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-talent-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "GPPADF0FWM-GWB6": {
+      "id": "GPPADF0FWM-GWB6",
+      "uid": "GPPADF0FWM-GWB6",
+      "name": "TimePay API",
+      "aliases": [],
+      "type": "product_component",
+      "typeLabel": "ProductComponent / Api Service",
+      "filterType": "product_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Spring Boot API service handling clock-in/out events, timesheet approval workflow, and the trigger point for the nightly Spring Batch payroll export.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "api-service",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/product-components/product-component-timepay-api.yaml",
+      "tags": [
+        "timepay",
+        "time-and-attendance",
+        "payroll"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "target": "TX94DCX1HE-ZQX8",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "runtimeSpec.dependencies[2].ref"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "classification",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "runsOn",
+          "language",
+          "interfaces",
+          "networkBindings",
+          "environmentConfiguration",
+          "runtimeSpec",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "interfaces": "list",
+          "networkBindings": "list",
+          "environmentConfiguration": "list",
+          "runtimeSpec": "dict",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "classification": [
+            "web-application",
+            "api-service",
+            "worker",
+            "library",
+            "cli",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "interfaces": "interface",
+          "networkBindings": "networkBinding",
+          "environmentConfiguration": "environmentVariable",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/product-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"GPPADF0FWM-GWB6\",\n  \"type\": \"product_component\",\n  \"name\": \"TimePay API\",\n  \"description\": \"Spring Boot API service handling clock-in/out events, timesheet approval workflow, and the trigger point for the nightly Spring Batch payroll export.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-timepay-product\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"classification\": \"api-service\",\n  \"language\": \"Java\",\n  \"tags\": [\n    \"timepay\",\n    \"time-and-attendance\",\n    \"payroll\"\n  ],\n  \"interfaces\": [\n    {\n      \"name\": \"TimePay Client API\",\n      \"protocol\": \"REST\",\n      \"path\": \"/v1/clock-events\",\n      \"authenticationModel\": \"oauth\",\n      \"description\": \"Kiosk and supervisor client API for clock events and timesheet approval.\"\n    }\n  ],\n  \"networkBindings\": [\n    {\n      \"port\": 8080,\n      \"protocol\": \"HTTPS\",\n      \"direction\": \"inbound\"\n    }\n  ],\n  \"runtimeSpec\": {\n    \"ports\": [\n      {\n        \"number\": 8080,\n        \"protocol\": \"HTTP\",\n        \"name\": \"web\",\n        \"direction\": \"inbound\"\n      }\n    ],\n    \"dependencies\": [\n      {\n        \"ref\": \"5REFR4GN1D-SEAH\",\n        \"purpose\": \"Primary OLTP store for timesheets and clock events\",\n        \"interface\": \"timepay logical database\"\n      },\n      {\n        \"ref\": \"TX94DCX1HE-ZQX8\",\n        \"purpose\": \"All authentication delegated to the Identity Gateway\"\n      },\n      {\n        \"ref\": \"Y1X0S7X9R9-F0DE\",\n        \"purpose\": \"Publishes timesheet.approved, subscribes to employee.hired/employee.terminated\"\n      }\n    ]\n  },\n  \"environmentConfiguration\": [\n    {\n      \"name\": \"SPRING_DATASOURCE_URL\",\n      \"description\": \"Aurora connection string for the timepay logical database\",\n      \"required\": true,\n      \"sensitive\": true\n    },\n    {\n      \"name\": \"PAYROLL_EXPORT_BUCKET\",\n      \"description\": \"S3 bucket name for district payroll export file drop\",\n      \"required\": true,\n      \"sensitive\": false\n    }\n  ],\n  \"_source\": \"catalog/engineering/product-components/product-component-timepay-api.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "R44AEYXYT7-BARZ": {
+      "id": "R44AEYXYT7-BARZ",
+      "uid": "R44AEYXYT7-BARZ",
+      "name": "Coverage Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding absence records, substitute eligibility, and matching-job history for the Coverage product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-coverage-database.yaml",
+      "tags": [
+        "coverage",
+        "database"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"R44AEYXYT7-BARZ\",\n  \"type\": \"data_component\",\n  \"name\": \"Coverage Database\",\n  \"description\": \"Logical PostgreSQL database holding absence records, substitute eligibility, and matching-job history for the Coverage product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-coverage-product\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"coverage\",\n    \"database\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"absences\",\n      \"description\": \"One row per reported absence with required credential type and school site.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"substitutes\",\n      \"description\": \"Substitute staff eligibility, credential type, and prior-assignment history.\",\n      \"containsPII\": true,\n      \"classification\": \"confidential\"\n    },\n    {\n      \"name\": \"matching_jobs\",\n      \"description\": \"BullMQ job audit trail for the substitute-matching engine.\",\n      \"containsPII\": false\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"purge-stale-matching-jobs\",\n      \"schedule\": \"daily at 03:00\",\n      \"description\": \"Removes completed matching-job audit records older than 90 days.\",\n      \"purpose\": \"maintenance\"\n    }\n  ],\n  \"retentionPolicy\": \"Absence and substitute eligibility records retained 7 years per Clifford's standard records-retention policy; matching-job audit trail purged after 90 days.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-coverage-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "B7D1D3WT1A-9RDP": {
+      "id": "B7D1D3WT1A-9RDP",
+      "uid": "B7D1D3WT1A-9RDP",
+      "name": "People Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding the canonical employees table, org-structure taxonomy, and lifecycle state for every Clifford employee.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-people-database.yaml",
+      "tags": [
+        "people",
+        "database",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"B7D1D3WT1A-9RDP\",\n  \"type\": \"data_component\",\n  \"name\": \"People Database\",\n  \"description\": \"Logical PostgreSQL database holding the canonical employees table, org-structure taxonomy, and lifecycle state for every Clifford employee.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-people-product\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"people\",\n    \"database\",\n    \"system-of-record\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"employees\",\n      \"description\": \"Canonical employee identity record referenced by ID from every other product (no cross-database foreign keys - lookups via API or event payloads only).\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"org_structure\",\n      \"description\": \"District org-structure taxonomy and position assignments.\",\n      \"containsPII\": false\n    },\n    {\n      \"name\": \"lifecycle_transitions\",\n      \"description\": \"Audit trail of employee lifecycle state machine transitions.\",\n      \"containsPII\": true\n    }\n  ],\n  \"retentionPolicy\": \"Employee records retained 7 years post-separation per Clifford's standard records-retention policy.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-people-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "091XCJENF7-HN4C": {
+      "id": "091XCJENF7-HN4C",
+      "uid": "091XCJENF7-HN4C",
+      "name": "Talent Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding job postings, applicant pipeline state, and restricted background-check adjudication results for the Talent product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-talent-database.yaml",
+      "tags": [
+        "talent",
+        "database",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"091XCJENF7-HN4C\",\n  \"type\": \"data_component\",\n  \"name\": \"Talent Database\",\n  \"description\": \"Logical PostgreSQL database holding job postings, applicant pipeline state, and restricted background-check adjudication results for the Talent product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-talent-product\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"restricted\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"talent\",\n    \"database\",\n    \"background-check\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"candidates\",\n      \"description\": \"Applicant profile and pipeline stage.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"background_check_results\",\n      \"description\": \"Adjudication result and vendor reference ID only - no raw report content stored. Restricted classification.\",\n      \"containsPII\": true,\n      \"classification\": \"restricted\"\n    },\n    {\n      \"name\": \"job_postings\",\n      \"description\": \"District job postings configuration.\",\n      \"containsPII\": false\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"purge-rejected-candidate-background-checks\",\n      \"schedule\": \"daily at 04:00\",\n      \"description\": \"Purges background-check references for rejected candidates after 1 year with no hire.\",\n      \"purpose\": \"maintenance\"\n    }\n  ],\n  \"retentionPolicy\": \"Background-check adjudication results retained 7 years post-decision per Security & Access Controls RequirementGroup; rejected-candidate references purged after 1 year.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-talent-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "4S7K3NQ3P1-BDZA": {
+      "id": "4S7K3NQ3P1-BDZA",
+      "uid": "4S7K3NQ3P1-BDZA",
+      "name": "TimePay Database",
+      "aliases": [],
+      "type": "data_component",
+      "typeLabel": "DataComponent / Postgresql",
+      "filterType": "data_component",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Logical PostgreSQL database holding clock events, timesheets, and payroll export run history for the TimePay product.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {},
+      "product": "",
+      "runsOn": "5REFR4GN1D-SEAH",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "round-rectangle",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/data-components/data-component-timepay-database.yaml",
+      "tags": [
+        "timepay",
+        "database"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {},
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [],
+      "networkZones": [],
+      "sdpConnections": [],
+      "serviceGroups": [],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "runsOn"
+        }
+      ],
+      "referencedBy": [
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        }
+      ],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "repoUrl",
+          "owner",
+          "runsOn",
+          "targetEngine",
+          "dataClassification",
+          "containsPII",
+          "catalogStatus"
+        ],
+        "optionalFields": [
+          "lifecycleStatus",
+          "aliases",
+          "description",
+          "version",
+          "tags",
+          "tables",
+          "storedProcedures",
+          "scheduledJobs",
+          "retentionPolicy",
+          "notes",
+          "decisionRecords",
+          "requirementImplementations"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "runsOn": "str",
+          "tags": "list",
+          "tables": "list",
+          "storedProcedures": "list",
+          "scheduledJobs": "list",
+          "containsPII": "bool",
+          "notes": "dict",
+          "requirementGroups": "list",
+          "decisionRecords": "list",
+          "requirementImplementations": "list"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ],
+          "dataClassification": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ],
+          "targetEngine": [
+            "postgresql",
+            "mysql",
+            "mssql",
+            "oracle",
+            "sqlite",
+            "mongodb",
+            "dynamodb",
+            "bigquery",
+            "snowflake",
+            "other"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "tables": "tableDefinition",
+          "storedProcedures": "storedProcedure",
+          "scheduledJobs": "scheduledJob",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation"
+        },
+        "schemaPath": "framework/schemas/data-component.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"4S7K3NQ3P1-BDZA\",\n  \"type\": \"data_component\",\n  \"name\": \"TimePay Database\",\n  \"description\": \"Logical PostgreSQL database holding clock events, timesheets, and payroll export run history for the TimePay product.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"repoUrl\": \"https://github.com/getdraft/clifford-timepay-product\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"runsOn\": \"5REFR4GN1D-SEAH\",\n  \"targetEngine\": \"postgresql\",\n  \"dataClassification\": \"confidential\",\n  \"containsPII\": true,\n  \"tags\": [\n    \"timepay\",\n    \"database\"\n  ],\n  \"tables\": [\n    {\n      \"name\": \"clock_events\",\n      \"description\": \"Raw clock-in/clock-out events from kiosk and mobile clients.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"timesheets\",\n      \"description\": \"Aggregated, supervisor-approved timesheets per pay period.\",\n      \"containsPII\": true\n    },\n    {\n      \"name\": \"export_runs\",\n      \"description\": \"Payroll export run log with row counts and checksum per district per run.\",\n      \"containsPII\": false\n    }\n  ],\n  \"storedProcedures\": [\n    {\n      \"name\": \"aggregate_timesheet\",\n      \"description\": \"Aggregates approved clock events into a pay-period timesheet row.\",\n      \"purpose\": \"transformation\"\n    }\n  ],\n  \"scheduledJobs\": [\n    {\n      \"name\": \"nightly-payroll-export\",\n      \"schedule\": \"cron 0 2 * * *\",\n      \"description\": \"Spring Batch job exporting approved timesheets to each district's configured payroll format.\",\n      \"purpose\": \"reporting\"\n    }\n  ],\n  \"retentionPolicy\": \"Timesheet and clock-event records retained 7 years per Clifford's standard payroll records-retention policy.\",\n  \"_source\": \"catalog/engineering/data-components/data-component-timepay-database.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "M8255Y9CNY-HXXJ": {
+      "id": "M8255Y9CNY-HXXJ",
+      "uid": "M8255Y9CNY-HXXJ",
+      "name": "Coverage Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Coverage",
+        "ownerNode": "coverage",
+        "notes": "One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "coverage",
+        "contact": "coverage-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-coverage.yaml",
+      "tags": [
+        "coverage",
+        "absence-management"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.9%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages."
+        }
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "coverage-api",
+          "type": "replicable",
+          "instanceCount": 3,
+          "notes": "Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time)."
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "Coverage API service and matching-job worker process."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "Coverage logical database on the shared Aurora cluster, plus the Redis matching-job queue."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "coverage-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "FCDCMP9CV4-FHEX",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "coverage-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "R44AEYXYT7-BARZ",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "FCDCMP9CV4-FHEX",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "R44AEYXYT7-BARZ",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"M8255Y9CNY-HXXJ\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Coverage Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"coverage\",\n    \"contact\": \"coverage-team@clifford.example\"\n  },\n  \"tags\": [\n    \"coverage\",\n    \"absence-management\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Coverage\",\n    \"ownerNode\": \"coverage\",\n    \"notes\": \"One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Coverage API service and matching-job worker process.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"Coverage logical database on the shared Aurora cluster, plus the Redis matching-job queue.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"coverage-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"FCDCMP9CV4-FHEX\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"coverage-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"R44AEYXYT7-BARZ\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"coverage-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 3,\n      \"notes\": \"Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time).\"\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.9%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages.\"\n    }\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-coverage.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "VZ4EGYZP2B-5VD6": {
+      "id": "VZ4EGYZP2B-5VD6",
+      "uid": "VZ4EGYZP2B-5VD6",
+      "name": "People Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "People",
+        "ownerNode": "people",
+        "notes": "High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "people",
+        "contact": "people-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-people.yaml",
+      "tags": [
+        "people",
+        "hr-core",
+        "system-of-record"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.5%",
+        "failureDomain": {
+          "scope": "cross-team",
+          "description": "People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers."
+        },
+        "teamContribution": "The People team's reviewer (enthusiastic disposition) validated the admin's draft SDP without raising blocking questions, and additionally flagged that the messaging-platform shared service (event bus) should be explicitly listed as a deployable object in the people-data service group rather than only implied by the stack.yaml event-publishing description, since People is the most event-publish-heavy team in the company and the cross-team failure-domain note above depends on that dependency being visible in the SDP itself. Incorporated directly above."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "people-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "People API service and the event publisher for employee.hired and employee.terminated."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "People logical database, the canonical employee-record table set."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "people-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "ZSNCNFHWJP-99XP",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "people-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "B7D1D3WT1A-9RDP",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "Y1X0S7X9R9-F0DE",
+              "networkZone": "app",
+              "diagramTier": "application"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "ZSNCNFHWJP-99XP",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "B7D1D3WT1A-9RDP",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "Y1X0S7X9R9-F0DE",
+          "path": "serviceGroups[1].deployableObjects[2].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"VZ4EGYZP2B-5VD6\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"People Deployment Pattern\",\n  \"description\": \"Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"people\",\n    \"contact\": \"people-team@clifford.example\"\n  },\n  \"tags\": [\n    \"people\",\n    \"hr-core\",\n    \"system-of-record\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"People\",\n    \"ownerNode\": \"people\",\n    \"notes\": \"High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"People API service and the event publisher for employee.hired and employee.terminated.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"People logical database, the canonical employee-record table set.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"people-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"ZSNCNFHWJP-99XP\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"people-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"B7D1D3WT1A-9RDP\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"Y1X0S7X9R9-F0DE\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"people-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.5%\",\n    \"failureDomain\": {\n      \"scope\": \"cross-team\",\n      \"description\": \"People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers.\"\n    },\n    \"teamContribution\": \"The People team's reviewer (enthusiastic disposition) validated the admin's draft SDP without raising blocking questions, and additionally flagged that the messaging-platform shared service (event bus) should be explicitly listed as a deployable object in the people-data service group rather than only implied by the stack.yaml event-publishing description, since People is the most event-publish-heavy team in the company and the cross-team failure-domain note above depends on that dependency being visible in the SDP itself. Incorporated directly above.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-people.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "CDR0FRKQHE-EZM9": {
+      "id": "CDR0FRKQHE-EZM9",
+      "uid": "CDR0FRKQHE-EZM9",
+      "name": "Platform Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Clifford Platform team. Most of this team's output is the shared Terraform ECS service module and infra conventions consumed by the other four product teams, which has no independent runtime and is not represented below; the only independently-deployed artifact is the internal developer portal (module usage guide, service catalog UI) that the module-usage-guide.md in the product repo documents.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Platform",
+        "ownerNode": "platform",
+        "notes": "Internal-only tooling team; no direct district-facing surface. Availability tier set lower than the four product lines since an outage of the developer portal degrades engineering velocity, not live district operations."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship",
+          "notes": "Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies."
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "Internal/non-sensitive classification - the portal stores no student, employee, or district data."
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "platform",
+        "contact": "platform-engineering@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-platform.yaml",
+      "tags": [
+        "platform",
+        "internal-tooling",
+        "developer-portal"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.0%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "A portal outage affects only internal engineering self-service workflows; it has no path to district-facing downtime since the shared Terraform module itself is consumed at build time, not runtime."
+        },
+        "teamObjection": "The Platform team's reviewer (skeptical disposition) objected to being asked to produce a software_deployment_pattern at all, on the grounds that the team's primary output (the shared ECS Terraform module and platform conventions other teams build on) has no independent runtime footprint - it is consumed at build/infra-provisioning time by every other team's own SDP, not deployed as a running service of its own, so forcing it into networkZones/serviceGroups/deployableObjects produces an SDP that describes almost none of the team's actual engineering surface area. The admin agreed this is a legitimate gap rather than something to argue around: DRAFT's SDP concept models deployed runtime topology well, but has no object type for \"library/module consumed by other SDPs at build time,\" so that side of the Platform team's work is invisible to the catalog entirely. Resolved by scoping this SDP to only the one artifact that is genuinely deployed (the developer portal) and logging the missing build-time-dependency concept as a friction point rather than inventing an unsupported field."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "platform-portal",
+          "type": "single-instance",
+          "instanceCount": 1,
+          "notes": "Low-traffic internal tool; no autoscaling configured."
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "internal",
+          "name": "Internal Tooling Zone",
+          "tier": "application",
+          "description": "Internal-only developer portal, not exposed through the public API Gateway; reachable only from the corporate VPN and CI/CD network."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "platform-portal",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "G5JM9CZA6X-4V82",
+              "networkZone": "internal",
+              "diagramTier": "application",
+              "intent": "single-instance"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "G5JM9CZA6X-4V82",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[12].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"CDR0FRKQHE-EZM9\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Platform Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Clifford Platform team. Most of this team's output is the shared Terraform ECS service module and infra conventions consumed by the other four product teams, which has no independent runtime and is not represented below; the only independently-deployed artifact is the internal developer portal (module usage guide, service catalog UI) that the module-usage-guide.md in the product repo documents.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"platform\",\n    \"contact\": \"platform-engineering@clifford.example\"\n  },\n  \"tags\": [\n    \"platform\",\n    \"internal-tooling\",\n    \"developer-portal\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Platform\",\n    \"ownerNode\": \"platform\",\n    \"notes\": \"Internal-only tooling team; no direct district-facing surface. Availability tier set lower than the four product lines since an outage of the developer portal degrades engineering velocity, not live district operations.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"internal\",\n      \"name\": \"Internal Tooling Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Internal-only developer portal, not exposed through the public API Gateway; reachable only from the corporate VPN and CI/CD network.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"platform-portal\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"G5JM9CZA6X-4V82\",\n          \"networkZone\": \"internal\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"single-instance\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"platform-portal\",\n      \"type\": \"single-instance\",\n      \"instanceCount\": 1,\n      \"notes\": \"Low-traffic internal tool; no autoscaling configured.\"\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.0%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"A portal outage affects only internal engineering self-service workflows; it has no path to district-facing downtime since the shared Terraform module itself is consumed at build time, not runtime.\"\n    },\n    \"teamObjection\": \"The Platform team's reviewer (skeptical disposition) objected to being asked to produce a software_deployment_pattern at all, on the grounds that the team's primary output (the shared ECS Terraform module and platform conventions other teams build on) has no independent runtime footprint - it is consumed at build/infra-provisioning time by every other team's own SDP, not deployed as a running service of its own, so forcing it into networkZones/serviceGroups/deployableObjects produces an SDP that describes almost none of the team's actual engineering surface area. The admin agreed this is a legitimate gap rather than something to argue around: DRAFT's SDP concept models deployed runtime topology well, but has no object type for \\\"library/module consumed by other SDPs at build time,\\\" so that side of the Platform team's work is invisible to the catalog entirely. Resolved by scoping this SDP to only the one artifact that is genuinely deployed (the developer portal) and logging the missing build-time-dependency concept as a friction point rather than inventing an unsupported field.\"\n  },\n  \"decisionRecords\": [],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\",\n      \"notes\": \"Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies.\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"Internal/non-sensitive classification - the portal stores no student, employee, or district data.\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-platform.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "8SDKKYYD2D-Y8BP": {
+      "id": "8SDKKYYD2D-Y8BP",
+      "uid": "8SDKKYYD2D-Y8BP",
+      "name": "Talent Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers site left unauthenticated by design.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "Talent",
+        "ownerNode": "talent",
+        "notes": "Standard availability tier - hiring workflows are important but not time-critical the way live school-day operations are."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship",
+          "notes": "Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated."
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "background-check-data-handling",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level."
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "talent",
+        "contact": "talent-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-talent.yaml",
+      "tags": [
+        "talent",
+        "recruiting",
+        "background-check"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.0%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "Talent outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures."
+        },
+        "teamQuestions": "The Talent team's reviewer (informed disposition, having read the vendor docs) asked three questions before contributing: (1) does the background-check-data-handling requirement's \"restricted\" applicability match correctly resolve against this SDP, given the requirement is declared on the RequirementGroup with applicability.field: dataClassification, but the SDP itself has no single dataClassification field - only the underlying data_component does; (2) should the public careers site's unauthenticated interface be modeled as a separate networkZone with no tier, given it doesn't cleanly match frontend/ application/data; and (3) whether naAllowed:true on a background-check requirement is appropriate at all, given background checks are mandatory for every K-12 hire. The admin resolved (1) by noting the requirement's applicability is evaluated against the data_component it's actually answered on (talent-database, classification restricted), not the SDP - a real ambiguity in how applicability composes across object types, kept on the data_component rather than duplicated here; resolved (2) by keeping the public-careers zone tagged frontend since it is the internet-facing zone even though it carries no authentication; left (3) as a valid open question carried to Recommended Changes."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "talent-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "public-careers",
+          "name": "Public Careers Site",
+          "tier": "frontend",
+          "description": "Unauthenticated public application-submission surface, rate-limited at the shared API Gateway rather than authenticated."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "Talent API service and the Celery background-check worker."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "Talent logical database, including the restricted-classification background-check result columns."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "talent-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "M8FWWA842S-VADG",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "talent-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "091XCJENF7-HN4C",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "M8FWWA842S-VADG",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "091XCJENF7-HN4C",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"8SDKKYYD2D-Y8BP\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"Talent Deployment Pattern\",\n  \"description\": \"Deployment pattern for the Talent recruiting and hiring product - a FastAPI service plus a Celery background-check worker, deployed behind the shared Clifford API Gateway, with the public careers site left unauthenticated by design.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"talent\",\n    \"contact\": \"talent-team@clifford.example\"\n  },\n  \"tags\": [\n    \"talent\",\n    \"recruiting\",\n    \"background-check\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"Talent\",\n    \"ownerNode\": \"talent\",\n    \"notes\": \"Standard availability tier - hiring workflows are important but not time-critical the way live school-day operations are.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"public-careers\",\n      \"name\": \"Public Careers Site\",\n      \"tier\": \"frontend\",\n      \"description\": \"Unauthenticated public application-submission surface, rate-limited at the shared API Gateway rather than authenticated.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"Talent API service and the Celery background-check worker.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"Talent logical database, including the restricted-classification background-check result columns.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"talent-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"M8FWWA842S-VADG\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"talent-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"091XCJENF7-HN4C\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"talent-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.0%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"Talent outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.\"\n    },\n    \"teamQuestions\": \"The Talent team's reviewer (informed disposition, having read the vendor docs) asked three questions before contributing: (1) does the background-check-data-handling requirement's \\\"restricted\\\" applicability match correctly resolve against this SDP, given the requirement is declared on the RequirementGroup with applicability.field: dataClassification, but the SDP itself has no single dataClassification field - only the underlying data_component does; (2) should the public careers site's unauthenticated interface be modeled as a separate networkZone with no tier, given it doesn't cleanly match frontend/ application/data; and (3) whether naAllowed:true on a background-check requirement is appropriate at all, given background checks are mandatory for every K-12 hire. The admin resolved (1) by noting the requirement's applicability is evaluated against the data_component it's actually answered on (talent-database, classification restricted), not the SDP - a real ambiguity in how applicability composes across object types, kept on the data_component rather than duplicated here; resolved (2) by keeping the public-careers zone tagged frontend since it is the internet-facing zone even though it carries no authentication; left (3) as a valid open question carried to Recommended Changes.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\",\n      \"notes\": \"Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated.\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"background-check-data-handling\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level.\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-talent.yaml\"\n}",
+      "existsInCatalog": true,
+      "outboundRelationships": [],
+      "inboundRelationships": []
+    },
+    "Z1E81AD5T8-0S75": {
+      "id": "Z1E81AD5T8-0S75",
+      "uid": "Z1E81AD5T8-0S75",
+      "name": "TimePay Deployment Pattern",
+      "aliases": [],
+      "type": "software_deployment_pattern",
+      "typeLabel": "SoftwareDeploymentPattern",
+      "filterType": "software_deployment_pattern",
+      "category": "",
+      "deliveryModel": "",
+      "domain": "",
+      "description": "Deployment pattern for the TimePay time-and-attendance product - a Spring Boot API service plus a separately-scheduled Spring Batch payroll export job, deployed behind the shared Clifford API Gateway and Identity Gateway.",
+      "version": "1.0.0",
+      "catalogStatus": "complete",
+      "lifecycleStatus": "preferred",
+      "status": "",
+      "businessContext": {
+        "pillar": "engineering",
+        "productFamily": "TimePay",
+        "ownerNode": "timepay",
+        "notes": "High availability tier - clock-in/clock-out is time-sensitive but tolerates brief degradation better than Coverage's live substitute matching."
+      },
+      "product": "",
+      "runsOn": "",
+      "subtype": "",
+      "vendor": "",
+      "productName": "",
+      "productVersion": "",
+      "classification": "",
+      "platformDependency": "",
+      "capabilities": [],
+      "configurations": [],
+      "networkPlacement": "",
+      "patchingOwner": "",
+      "complianceCerts": [],
+      "requirementGroups": [],
+      "requirementImplementations": [
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "mechanism": "field",
+          "notes": "RTO 2 hours / RPO 1 hour for the timepay-api service group."
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "not-compliant",
+          "notes": "Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap."
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "mechanism": "relationship"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "mechanism": "field"
+        },
+        {
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "mechanism": "decisionRecord",
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "dataLeavesInfrastructure": null,
+      "dataResidencyCommitment": "",
+      "dpaNotes": "",
+      "vendorSLA": "",
+      "authenticationModel": "",
+      "incidentNotificationProcess": "",
+      "owner": {
+        "team": "timepay",
+        "contact": "timepay-team@clifford.example"
+      },
+      "definitionOwner": {},
+      "provider": {},
+      "authority": {},
+      "shape": "star",
+      "color": "#1f8a5b",
+      "source": "catalog/engineering/software-deployment-patterns/software-deployment-pattern-timepay.yaml",
+      "tags": [
+        "timepay",
+        "time-and-attendance",
+        "payroll"
+      ],
+      "ardCategory": "",
+      "internalComponents": [],
+      "notes": {
+        "availabilityTarget": "99.5%",
+        "failureDomain": {
+          "scope": "service-group",
+          "description": "TimePay outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures."
+        },
+        "teamObjection": "The TimePay team's reviewer (skeptical disposition) pushed back on declaring the nightly payroll-export batch task as part of the same serviceGroup as the API service, arguing a scheduled batch job has a fundamentally different deployment and scaling profile (one-shot task vs. long-running service) and the schema gives no first-class way to distinguish them within serviceGroups/scalingUnits - both are typed generically as deployable objects with a replicable/shared scaling unit, with no \"scheduled task\" or \"batch job\" concept. The admin agreed this is a real gap and chose to model the batch task only at the product_component and data_component level (data_component.scheduledJobs) rather than inventing an unsupported SDP-level construct, logged as a friction point rather than worked around with a non-standard field."
+      },
+      "requirements": [],
+      "implementations": [],
+      "appliesTo": {},
+      "inherits": "",
+      "scalingUnits": [
+        {
+          "name": "timepay-api",
+          "type": "replicable",
+          "instanceCount": 2
+        }
+      ],
+      "networkZones": [
+        {
+          "id": "edge",
+          "name": "Public Edge",
+          "tier": "frontend",
+          "description": "Shared API Gateway + WAF edge."
+        },
+        {
+          "id": "app",
+          "name": "Application Zone",
+          "tier": "application",
+          "description": "TimePay API service and the scheduled payroll-export batch task."
+        },
+        {
+          "id": "data",
+          "name": "Data Zone",
+          "tier": "data",
+          "description": "TimePay logical database plus the S3 payroll export drop bucket."
+        }
+      ],
+      "sdpConnections": [],
+      "serviceGroups": [
+        {
+          "name": "timepay-api",
+          "deploymentTarget": "aws-us-east-1",
+          "substrate": "6A9ECMX3KC-5078",
+          "deployableObjects": [
+            {
+              "ref": "GPPADF0FWM-GWB6",
+              "networkZone": "app",
+              "diagramTier": "application",
+              "intent": "ha"
+            }
+          ]
+        },
+        {
+          "name": "timepay-data",
+          "deploymentTarget": "aws-us-east-1",
+          "deployableObjects": [
+            {
+              "ref": "4S7K3NQ3P1-BDZA",
+              "networkZone": "data",
+              "diagramTier": "data"
+            },
+            {
+              "ref": "5REFR4GN1D-SEAH",
+              "networkZone": "data",
+              "diagramTier": "data"
+            }
+          ]
+        }
+      ],
+      "tierVariants": [],
+      "tierId": "",
+      "purpose": "",
+      "availabilityExpectation": "",
+      "costPosture": "",
+      "complianceScope": [],
+      "parameterSurface": [],
+      "followsReferenceArchitecture": "",
+      "decisionRecords": [
+        {
+          "ref": "CA6JK9KWNR-A8SX"
+        },
+        {
+          "ref": "F8F4VF6QKB-419V"
+        }
+      ],
+      "affectedComponent": "",
+      "impact": "",
+      "mitigationPath": "",
+      "decisionRationale": "",
+      "relatedDecisionRecords": [],
+      "linkedObject": "",
+      "primaryObjectType": "",
+      "primaryObjectUid": "",
+      "generatedObjects": [],
+      "unresolvedQuestions": [],
+      "assumptions": [],
+      "nextSteps": [],
+      "defaultSelection": false,
+      "requirementCount": 0,
+      "hasRiskRef": false,
+      "outboundRefs": [
+        {
+          "target": "6A9ECMX3KC-5078",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "target": "GPPADF0FWM-GWB6",
+          "path": "serviceGroups[0].deployableObjects[0].ref"
+        },
+        {
+          "target": "4S7K3NQ3P1-BDZA",
+          "path": "serviceGroups[1].deployableObjects[0].ref"
+        },
+        {
+          "target": "5REFR4GN1D-SEAH",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "target": "CA6JK9KWNR-A8SX",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "decisionRecords[1].ref"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[0].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[1].requirementGroup"
+        },
+        {
+          "target": "TXKTEP0GVA-00VQ",
+          "path": "requirementImplementations[2].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[3].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[4].requirementGroup"
+        },
+        {
+          "target": "Y53Z3HXWX6-11KR",
+          "path": "requirementImplementations[5].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[6].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[7].requirementGroup"
+        },
+        {
+          "target": "BVQAD2CJKY-C45E",
+          "path": "requirementImplementations[8].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[9].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[10].requirementGroup"
+        },
+        {
+          "target": "SFSE49JDWK-FKPD",
+          "path": "requirementImplementations[11].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[12].requirementGroup"
+        },
+        {
+          "target": "6T3RS5BZGK-ZD6Z",
+          "path": "requirementImplementations[13].requirementGroup"
+        },
+        {
+          "target": "F8F4VF6QKB-419V",
+          "path": "requirementImplementations[13].ref"
+        }
+      ],
+      "referencedBy": [],
+      "editorSchema": {
+        "requiredFields": [
+          "schemaVersion",
+          "uid",
+          "type",
+          "name",
+          "catalogStatus",
+          "lifecycleStatus"
+        ],
+        "optionalFields": [
+          "aliases",
+          "description",
+          "version",
+          "owner",
+          "tags",
+          "businessContext",
+          "followsReferenceArchitecture",
+          "notes",
+          "scalingUnits",
+          "networkZones",
+          "serviceGroups",
+          "decisionRecords",
+          "requirementImplementations",
+          "tierVariants"
+        ],
+        "fieldTypes": {
+          "aliases": "list",
+          "owner": "dict",
+          "tags": "list",
+          "businessContext": "dict",
+          "notes": "dict"
+        },
+        "enumFields": {
+          "catalogStatus": [
+            "stub",
+            "incomplete",
+            "complete"
+          ],
+          "lifecycleStatus": [
+            "candidate",
+            "preferred",
+            "existing-only",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "enumListFields": {},
+        "collectionSchemas": {
+          "scalingUnits": "scalingUnit",
+          "networkZones": "networkZone",
+          "serviceGroups": "serviceGroup",
+          "decisionRecords": "decisionRecordRef",
+          "requirementImplementations": "requirementImplementation",
+          "tierVariants": "tierVariant"
+        },
+        "schemaPath": "framework/schemas/software-deployment-pattern.schema.yaml"
+      },
+      "detail": "{\n  \"schemaVersion\": \"1.0\",\n  \"uid\": \"Z1E81AD5T8-0S75\",\n  \"type\": \"software_deployment_pattern\",\n  \"name\": \"TimePay Deployment Pattern\",\n  \"description\": \"Deployment pattern for the TimePay time-and-attendance product - a Spring Boot API service plus a separately-scheduled Spring Batch payroll export job, deployed behind the shared Clifford API Gateway and Identity Gateway.\",\n  \"version\": \"1.0.0\",\n  \"catalogStatus\": \"complete\",\n  \"lifecycleStatus\": \"preferred\",\n  \"owner\": {\n    \"team\": \"timepay\",\n    \"contact\": \"timepay-team@clifford.example\"\n  },\n  \"tags\": [\n    \"timepay\",\n    \"time-and-attendance\",\n    \"payroll\"\n  ],\n  \"businessContext\": {\n    \"pillar\": \"engineering\",\n    \"productFamily\": \"TimePay\",\n    \"ownerNode\": \"timepay\",\n    \"notes\": \"High availability tier - clock-in/clock-out is time-sensitive but tolerates brief degradation better than Coverage's live substitute matching.\"\n  },\n  \"networkZones\": [\n    {\n      \"id\": \"edge\",\n      \"name\": \"Public Edge\",\n      \"tier\": \"frontend\",\n      \"description\": \"Shared API Gateway + WAF edge.\"\n    },\n    {\n      \"id\": \"app\",\n      \"name\": \"Application Zone\",\n      \"tier\": \"application\",\n      \"description\": \"TimePay API service and the scheduled payroll-export batch task.\"\n    },\n    {\n      \"id\": \"data\",\n      \"name\": \"Data Zone\",\n      \"tier\": \"data\",\n      \"description\": \"TimePay logical database plus the S3 payroll export drop bucket.\"\n    }\n  ],\n  \"serviceGroups\": [\n    {\n      \"name\": \"timepay-api\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"substrate\": \"6A9ECMX3KC-5078\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"GPPADF0FWM-GWB6\",\n          \"networkZone\": \"app\",\n          \"diagramTier\": \"application\",\n          \"intent\": \"ha\"\n        }\n      ]\n    },\n    {\n      \"name\": \"timepay-data\",\n      \"deploymentTarget\": \"aws-us-east-1\",\n      \"deployableObjects\": [\n        {\n          \"ref\": \"4S7K3NQ3P1-BDZA\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        },\n        {\n          \"ref\": \"5REFR4GN1D-SEAH\",\n          \"networkZone\": \"data\",\n          \"diagramTier\": \"data\"\n        }\n      ]\n    }\n  ],\n  \"scalingUnits\": [\n    {\n      \"name\": \"timepay-api\",\n      \"type\": \"replicable\",\n      \"instanceCount\": 2\n    }\n  ],\n  \"notes\": {\n    \"availabilityTarget\": \"99.5%\",\n    \"failureDomain\": {\n      \"scope\": \"service-group\",\n      \"description\": \"TimePay outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.\"\n    },\n    \"teamObjection\": \"The TimePay team's reviewer (skeptical disposition) pushed back on declaring the nightly payroll-export batch task as part of the same serviceGroup as the API service, arguing a scheduled batch job has a fundamentally different deployment and scaling profile (one-shot task vs. long-running service) and the schema gives no first-class way to distinguish them within serviceGroups/scalingUnits - both are typed generically as deployable objects with a replicable/shared scaling unit, with no \\\"scheduled task\\\" or \\\"batch job\\\" concept. The admin agreed this is a real gap and chose to model the batch task only at the product_component and data_component level (data_component.scheduledJobs) rather than inventing an unsupported SDP-level construct, logged as a friction point rather than worked around with a non-standard field.\"\n  },\n  \"decisionRecords\": [\n    {\n      \"ref\": \"CA6JK9KWNR-A8SX\"\n    },\n    {\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"requirementImplementations\": [\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"availability-tier\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"monitoring-coverage\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"TXKTEP0GVA-00VQ\",\n      \"requirementId\": \"disaster-recovery-objective\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\",\n      \"notes\": \"RTO 2 hours / RPO 1 hour for the timepay-api service group.\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"cicd-pipeline\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"production-change-approval\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"Y53Z3HXWX6-11KR\",\n      \"requirementId\": \"rollback-strategy\",\n      \"status\": \"not-compliant\",\n      \"notes\": \"Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap.\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"patch-management-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"remediation-sla\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"BVQAD2CJKY-C45E\",\n      \"requirementId\": \"dependency-scanning\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"authentication-mechanism\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"access-control-model\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"SFSE49JDWK-FKPD\",\n      \"requirementId\": \"secrets-management\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"relationship\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"data-classification\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"field\"\n    },\n    {\n      \"requirementGroup\": \"6T3RS5BZGK-ZD6Z\",\n      \"requirementId\": \"hosting-region\",\n      \"status\": \"satisfied\",\n      \"mechanism\": \"decisionRecord\",\n      \"ref\": \"F8F4VF6QKB-419V\"\n    }\n  ],\n  \"_source\": \"catalog/engineering/software-deployment-patterns/software-deployment-pattern-timepay.yaml\"\n}",
       "existsInCatalog": true,
       "outboundRelationships": [],
       "inboundRelationships": []
@@ -43297,7 +51194,28 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[0].substrate"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[0].substrate"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -43551,6 +51469,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[1].ref"
+        },
+        {
           "source": "CA6JK9KWNR-A8SX",
           "path": "linkedObject"
         }
@@ -43769,7 +51703,28 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[2].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[2].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -44412,7 +52367,12 @@ window.DRAFT_BROWSER_DATA = {
           "path": "requirementImplementations[0].requirementGroup"
         }
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        {
+          "source": "G5JM9CZA6X-4V82",
+          "path": "runtimeSpec.dependencies[0].ref"
+        }
+      ],
       "editorSchema": {
         "requiredFields": [
           "schemaVersion",
@@ -44669,6 +52629,54 @@ window.DRAFT_BROWSER_DATA = {
         }
       ],
       "referencedBy": [
+        {
+          "source": "FCDCMP9CV4-FHEX",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "ZSNCNFHWJP-99XP",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "M8FWWA842S-VADG",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "GPPADF0FWM-GWB6",
+          "path": "runtimeSpec.dependencies[0].ref"
+        },
+        {
+          "source": "R44AEYXYT7-BARZ",
+          "path": "runsOn"
+        },
+        {
+          "source": "B7D1D3WT1A-9RDP",
+          "path": "runsOn"
+        },
+        {
+          "source": "091XCJENF7-HN4C",
+          "path": "runsOn"
+        },
+        {
+          "source": "4S7K3NQ3P1-BDZA",
+          "path": "runsOn"
+        },
+        {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "serviceGroups[1].deployableObjects[1].ref"
+        },
         {
           "source": "F8F4VF6QKB-419V",
           "path": "linkedObject"
@@ -45456,6 +53464,30 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "CDR0FRKQHE-EZM9",
+          "path": "requirementImplementations[12].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "decisionRecords[1].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "requirementImplementations[13].ref"
+        },
+        {
           "source": "5REFR4GN1D-SEAH",
           "path": "decisionRecords[0].ref"
         },
@@ -45629,6 +53661,22 @@ window.DRAFT_BROWSER_DATA = {
       ],
       "referencedBy": [
         {
+          "source": "M8255Y9CNY-HXXJ",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "VZ4EGYZP2B-5VD6",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "8SDKKYYD2D-Y8BP",
+          "path": "decisionRecords[0].ref"
+        },
+        {
+          "source": "Z1E81AD5T8-0S75",
+          "path": "decisionRecords[0].ref"
+        },
+        {
           "source": "TX94DCX1HE-ZQX8",
           "path": "decisionRecords[0].ref"
         },
@@ -45721,13 +53769,16 @@ window.DRAFT_BROWSER_DATA = {
   },
   "filterValues": [
     "capability",
+    "data_component",
     "data_store_service",
     "decision_record",
     "domain",
     "network_service",
+    "product_component",
     "reference_architecture",
     "requirement_group",
     "runtime_service",
+    "software_deployment_pattern",
     "technology_component"
   ],
   "lifecycleValues": [
@@ -46411,23 +54462,227 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirements[2].relatedCapability"
       }
     ],
-    "Y53Z3HXWX6-11KR": [
+    "5REFR4GN1D-SEAH": [
       {
-        "source": "N6FMAR8Y15-NX57",
-        "path": "requirementImplementations[0].requirementGroup"
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[0].ref"
       },
       {
-        "source": "Y1X0S7X9R9-F0DE",
-        "path": "requirementImplementations[0].requirementGroup"
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[0].ref"
+      },
+      {
+        "source": "R44AEYXYT7-BARZ",
+        "path": "runsOn"
+      },
+      {
+        "source": "B7D1D3WT1A-9RDP",
+        "path": "runsOn"
+      },
+      {
+        "source": "091XCJENF7-HN4C",
+        "path": "runsOn"
+      },
+      {
+        "source": "4S7K3NQ3P1-BDZA",
+        "path": "runsOn"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[1].deployableObjects[1].ref"
+      },
+      {
+        "source": "F8F4VF6QKB-419V",
+        "path": "linkedObject"
       }
     ],
-    "BVQAD2CJKY-C45E": [
+    "TX94DCX1HE-ZQX8": [
       {
-        "source": "N6FMAR8Y15-NX57",
-        "path": "requirementImplementations[1].requirementGroup"
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[1].ref"
+      },
+      {
+        "source": "CA6JK9KWNR-A8SX",
+        "path": "linkedObject"
+      }
+    ],
+    "Y1X0S7X9R9-F0DE": [
+      {
+        "source": "FCDCMP9CV4-FHEX",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "ZSNCNFHWJP-99XP",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "M8FWWA842S-VADG",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "GPPADF0FWM-GWB6",
+        "path": "runtimeSpec.dependencies[2].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[1].deployableObjects[2].ref"
+      }
+    ],
+    "8MF78PZNG4-738A": [
+      {
+        "source": "G5JM9CZA6X-4V82",
+        "path": "runtimeSpec.dependencies[0].ref"
+      }
+    ],
+    "6A9ECMX3KC-5078": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[0].substrate"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[0].substrate"
+      }
+    ],
+    "FCDCMP9CV4-FHEX": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[0].deployableObjects[0].ref"
+      }
+    ],
+    "R44AEYXYT7-BARZ": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "serviceGroups[1].deployableObjects[0].ref"
+      }
+    ],
+    "CA6JK9KWNR-A8SX": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "decisionRecords[0].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "decisionRecords[0].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "decisionRecords[0].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "decisionRecords[0].ref"
+      },
+      {
+        "source": "TX94DCX1HE-ZQX8",
+        "path": "decisionRecords[0].ref"
+      },
+      {
+        "source": "TX94DCX1HE-ZQX8",
+        "path": "requirementImplementations[0].ref"
+      },
+      {
+        "source": "TX94DCX1HE-ZQX8",
+        "path": "requirementImplementations[1].ref"
       }
     ],
     "TXKTEP0GVA-00VQ": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[1].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[2].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[1].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[2].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[1].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[1].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[1].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[2].requirementGroup"
+      },
       {
         "source": "6A9ECMX3KC-5078",
         "path": "requirementImplementations[0].requirementGroup"
@@ -46445,21 +54700,207 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirementImplementations[0].requirementGroup"
       }
     ],
-    "CA6JK9KWNR-A8SX": [
+    "Y53Z3HXWX6-11KR": [
       {
-        "source": "TX94DCX1HE-ZQX8",
-        "path": "decisionRecords[0].ref"
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[3].requirementGroup"
       },
       {
-        "source": "TX94DCX1HE-ZQX8",
-        "path": "requirementImplementations[0].ref"
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[4].requirementGroup"
       },
       {
-        "source": "TX94DCX1HE-ZQX8",
-        "path": "requirementImplementations[1].ref"
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[5].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[3].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[4].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[5].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[2].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[3].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[4].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[2].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[3].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[4].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[3].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[4].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[5].requirementGroup"
+      },
+      {
+        "source": "N6FMAR8Y15-NX57",
+        "path": "requirementImplementations[0].requirementGroup"
+      },
+      {
+        "source": "Y1X0S7X9R9-F0DE",
+        "path": "requirementImplementations[0].requirementGroup"
+      }
+    ],
+    "BVQAD2CJKY-C45E": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[6].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[7].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[8].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[6].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[7].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[8].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[5].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[6].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[7].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[5].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[6].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[7].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[6].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[7].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[8].requirementGroup"
+      },
+      {
+        "source": "N6FMAR8Y15-NX57",
+        "path": "requirementImplementations[1].requirementGroup"
       }
     ],
     "SFSE49JDWK-FKPD": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[9].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[10].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[11].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[9].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[10].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[11].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[8].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[9].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[10].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[8].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[9].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[10].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[11].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[9].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[10].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[11].requirementGroup"
+      },
       {
         "source": "TX94DCX1HE-ZQX8",
         "path": "requirementImplementations[0].requirementGroup"
@@ -46481,13 +54922,77 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirementImplementations[0].requirementGroup"
       }
     ],
-    "MNV0EPA2AG-9CPF": [
+    "6T3RS5BZGK-ZD6Z": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[12].requirementGroup"
+      },
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[13].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[12].requirementGroup"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[13].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[11].requirementGroup"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[12].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[12].requirementGroup"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[13].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[12].requirementGroup"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[13].requirementGroup"
+      },
       {
         "source": "5REFR4GN1D-SEAH",
-        "path": "primaryTechnologyComponent"
+        "path": "requirementImplementations[0].requirementGroup"
       }
     ],
     "F8F4VF6QKB-419V": [
+      {
+        "source": "M8255Y9CNY-HXXJ",
+        "path": "requirementImplementations[13].ref"
+      },
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "requirementImplementations[13].ref"
+      },
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "requirementImplementations[12].ref"
+      },
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "requirementImplementations[13].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "decisionRecords[1].ref"
+      },
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "requirementImplementations[13].ref"
+      },
       {
         "source": "5REFR4GN1D-SEAH",
         "path": "decisionRecords[0].ref"
@@ -46497,22 +55002,52 @@ window.DRAFT_BROWSER_DATA = {
         "path": "requirementImplementations[0].ref"
       }
     ],
-    "6T3RS5BZGK-ZD6Z": [
+    "ZSNCNFHWJP-99XP": [
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[0].deployableObjects[0].ref"
+      }
+    ],
+    "B7D1D3WT1A-9RDP": [
+      {
+        "source": "VZ4EGYZP2B-5VD6",
+        "path": "serviceGroups[1].deployableObjects[0].ref"
+      }
+    ],
+    "G5JM9CZA6X-4V82": [
+      {
+        "source": "CDR0FRKQHE-EZM9",
+        "path": "serviceGroups[0].deployableObjects[0].ref"
+      }
+    ],
+    "M8FWWA842S-VADG": [
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[0].deployableObjects[0].ref"
+      }
+    ],
+    "091XCJENF7-HN4C": [
+      {
+        "source": "8SDKKYYD2D-Y8BP",
+        "path": "serviceGroups[1].deployableObjects[0].ref"
+      }
+    ],
+    "GPPADF0FWM-GWB6": [
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[0].deployableObjects[0].ref"
+      }
+    ],
+    "4S7K3NQ3P1-BDZA": [
+      {
+        "source": "Z1E81AD5T8-0S75",
+        "path": "serviceGroups[1].deployableObjects[0].ref"
+      }
+    ],
+    "MNV0EPA2AG-9CPF": [
       {
         "source": "5REFR4GN1D-SEAH",
-        "path": "requirementImplementations[0].requirementGroup"
-      }
-    ],
-    "5REFR4GN1D-SEAH": [
-      {
-        "source": "F8F4VF6QKB-419V",
-        "path": "linkedObject"
-      }
-    ],
-    "TX94DCX1HE-ZQX8": [
-      {
-        "source": "CA6JK9KWNR-A8SX",
-        "path": "linkedObject"
+        "path": "primaryTechnologyComponent"
       }
     ]
   },
@@ -47012,6 +55547,77 @@ window.DRAFT_BROWSER_DATA = {
       "source": "object.requirementImplementations",
       "rows": [
         {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "data-classification",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "Internal/non-sensitive classification - the portal stores no student, employee, or district data.",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "data-classification",
+            "status": "satisfied",
+            "mechanism": "field",
+            "notes": "Internal/non-sensitive classification - the portal stores no student, employee, or district data."
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "data-classification",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "data-classification",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "data-classification",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "data-classification",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
           "object": "5REFR4GN1D-SEAH",
           "requirementGroup": "6T3RS5BZGK-ZD6Z",
           "requirementId": "hosting-region",
@@ -47027,6 +55633,123 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "hosting-region",
+            "status": "satisfied",
+            "mechanism": "decisionRecord",
+            "ref": "F8F4VF6QKB-419V"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "hosting-region",
+            "status": "satisfied",
+            "mechanism": "decisionRecord",
+            "ref": "F8F4VF6QKB-419V"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "hosting-region",
+            "status": "satisfied",
+            "mechanism": "decisionRecord",
+            "ref": "F8F4VF6QKB-419V"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "hosting-region",
+            "status": "satisfied",
+            "mechanism": "decisionRecord",
+            "ref": "F8F4VF6QKB-419V"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "6T3RS5BZGK-ZD6Z",
+          "requirementId": "hosting-region",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "6T3RS5BZGK-ZD6Z",
+            "requirementId": "hosting-region",
+            "status": "satisfied",
+            "mechanism": "decisionRecord",
+            "ref": "F8F4VF6QKB-419V"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
           "object": "N6FMAR8Y15-NX57",
           "requirementGroup": "BVQAD2CJKY-C45E",
           "requirementId": "dependency-scanning",
@@ -47036,6 +55759,174 @@ window.DRAFT_BROWSER_DATA = {
           "implementation": {
             "requirementGroup": "BVQAD2CJKY-C45E",
             "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "dependency-scanning",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "dependency-scanning",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "patch-management-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "patch-management-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "patch-management-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "patch-management-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "patch-management-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "patch-management-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "remediation-sla",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "remediation-sla",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "remediation-sla",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "remediation-sla",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "BVQAD2CJKY-C45E",
+          "requirementId": "remediation-sla",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "BVQAD2CJKY-C45E",
+            "requirementId": "remediation-sla",
             "status": "satisfied",
             "mechanism": "field"
           }
@@ -47055,7 +55946,121 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "access-control-model",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "access-control-model",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "access-control-model",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "access-control-model",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "access-control-model",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "access-control-model",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
           "object": "8K6HX7GY2N-VH6A",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "authentication-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated.",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "authentication-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship",
+            "notes": "Applies to the HR console interface; the public careers-site interface is intentionally unauthenticated."
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies.",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "authentication-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship",
+            "notes": "Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies."
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
           "requirementGroup": "SFSE49JDWK-FKPD",
           "requirementId": "authentication-mechanism",
           "status": "satisfied",
@@ -47098,6 +56103,49 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "authentication-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "authentication-mechanism",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "authentication-mechanism",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "background-check-data-handling",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level.",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "background-check-data-handling",
+            "status": "satisfied",
+            "mechanism": "field",
+            "notes": "Answered on the Talent data_component (restricted classification, 7-year retention, no raw report content stored), not duplicated at the SDP level."
+          }
+        },
+        {
           "object": "8MF78PZNG4-738A",
           "requirementGroup": "SFSE49JDWK-FKPD",
           "requirementId": "secrets-management",
@@ -47107,6 +56155,118 @@ window.DRAFT_BROWSER_DATA = {
           "implementation": {
             "requirementGroup": "SFSE49JDWK-FKPD",
             "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "SFSE49JDWK-FKPD",
+          "requirementId": "secrets-management",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "SFSE49JDWK-FKPD",
+            "requirementId": "secrets-management",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "availability-tier",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "availability-tier",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "availability-tier",
             "status": "satisfied",
             "mechanism": "field"
           }
@@ -47127,7 +56287,108 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "availability-tier",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "availability-tier",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "availability-tier",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier.",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "disaster-recovery-objective",
+            "status": "satisfied",
+            "mechanism": "field",
+            "notes": "RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier."
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime.",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "disaster-recovery-objective",
+            "status": "satisfied",
+            "mechanism": "field",
+            "notes": "RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime."
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "disaster-recovery-objective",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "RTO 2 hours / RPO 1 hour for the timepay-api service group.",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "disaster-recovery-objective",
+            "status": "satisfied",
+            "mechanism": "field",
+            "notes": "RTO 2 hours / RPO 1 hour for the timepay-api service group."
+          }
+        },
+        {
           "object": "6A9ECMX3KC-5078",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
           "requirementGroup": "TXKTEP0GVA-00VQ",
           "requirementId": "monitoring-coverage",
           "status": "satisfied",
@@ -47155,6 +56416,34 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
           "object": "X98AFF5FTK-4TN6",
           "requirementGroup": "TXKTEP0GVA-00VQ",
           "requirementId": "monitoring-coverage",
@@ -47164,6 +56453,62 @@ window.DRAFT_BROWSER_DATA = {
           "implementation": {
             "requirementGroup": "TXKTEP0GVA-00VQ",
             "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "TXKTEP0GVA-00VQ",
+          "requirementId": "monitoring-coverage",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "TXKTEP0GVA-00VQ",
+            "requirementId": "monitoring-coverage",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "cicd-pipeline",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "cicd-pipeline",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "cicd-pipeline",
             "status": "satisfied",
             "mechanism": "relationship"
           }
@@ -47183,6 +56528,20 @@ window.DRAFT_BROWSER_DATA = {
           }
         },
         {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "cicd-pipeline",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
           "object": "Y1X0S7X9R9-F0DE",
           "requirementGroup": "Y53Z3HXWX6-11KR",
           "requirementId": "cicd-pipeline",
@@ -47194,6 +56553,160 @@ window.DRAFT_BROWSER_DATA = {
             "requirementId": "cicd-pipeline",
             "status": "not-applicable",
             "notes": "This is a managed AWS service with no team-owned pipeline; schema/consumer changes ship through each consuming product's own pipeline instead."
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "cicd-pipeline",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "cicd-pipeline",
+            "status": "satisfied",
+            "mechanism": "relationship"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "production-change-approval",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "production-change-approval",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "production-change-approval",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "production-change-approval",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "production-change-approval",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "production-change-approval",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "8SDKKYYD2D-Y8BP",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "rollback-strategy",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "CDR0FRKQHE-EZM9",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "rollback-strategy",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "M8255Y9CNY-HXXJ",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "rollback-strategy",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "VZ4EGYZP2B-5VD6",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "satisfied",
+          "evidence": "",
+          "notes": "",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "rollback-strategy",
+            "status": "satisfied",
+            "mechanism": "field"
+          }
+        },
+        {
+          "object": "Z1E81AD5T8-0S75",
+          "requirementGroup": "Y53Z3HXWX6-11KR",
+          "requirementId": "rollback-strategy",
+          "status": "not-compliant",
+          "evidence": "",
+          "notes": "Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap.",
+          "implementation": {
+            "requirementGroup": "Y53Z3HXWX6-11KR",
+            "requirementId": "rollback-strategy",
+            "status": "not-compliant",
+            "notes": "Skeptical team reviewer flagged that the nightly payroll-export batch job has no documented rollback strategy distinct from the API service's blue/green deploy - a bad export run currently requires a manual re-run after a code fix, with no automated revert. Recorded as not-compliant rather than papered over with a satisfied status, and carried into the exercise's recommended-changes list as a real TimePay follow-up rather than a DRAFT schema gap."
           }
         }
       ]

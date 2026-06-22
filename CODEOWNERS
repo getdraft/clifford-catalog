@@ -32,18 +32,19 @@ catalog/governance/decision-records/             @getdraft/shared-services @getd
 
 # ── Engineering ──────────────────────────────────────────────────────────────
 # Each engineering team owns their product components, data components, and
-# SDPs. Add one line per team. If using a team-first folder structure
-# (catalog/engineering/[team]/), one line covers all three object types.
+# SDPs.
 #
-# Team-first structure (recommended):
-#   catalog/engineering/[team-slug]/     @getdraft/[github-team-slug]
-#
-# Object-type structure (default seeded layout):
-#   catalog/engineering/product-components/           @getdraft/engineering-team
-#   catalog/engineering/data-components/              @getdraft/engineering-team
-#   catalog/engineering/software-deployment-patterns/ @getdraft/engineering-team
-#
-# Example team-first lines — replace with your teams:
-# catalog/engineering/absence-management/  @getdraft/absence-management
-# catalog/engineering/benefits-delivery/   @getdraft/benefits-delivery
-# catalog/engineering/platform/            @getdraft/platform-engineering
+# NOTE: the template originally offered here labeled a team-first folder
+# structure (catalog/engineering/[team]/) as "recommended" alongside an
+# "object-type structure (default seeded layout)". We initially built the
+# team-first layout per that recommendation, but framework/tools/generate_browser.py
+# (the GitHub Pages catalog browser) hardcodes the object-type folder names
+# below and does not discover team-first folders at all - it has no error or
+# warning for an empty/missing folder, so the team-first layout silently
+# produced a browser with zero SDPs/components. Reorganized to the object-type
+# structure to match the tooling's actual (undocumented-as-such) requirement.
+# Logged as a Friction Log entry in EXERCISE_REPORT.md.
+
+catalog/engineering/product-components/           @getdraft/engineering-team
+catalog/engineering/data-components/              @getdraft/engineering-team
+catalog/engineering/software-deployment-patterns/ @getdraft/engineering-team
