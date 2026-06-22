@@ -1,0 +1,32 @@
+schemaVersion: "1.0"
+workspace:
+  name: clifford-catalog
+  displayName: Clifford DRAFT Catalog
+  companyName: Clifford
+
+repository:
+  provider: github
+  owner: getdraft
+  name: clifford-catalog
+  defaultBranch: main
+
+framework:
+  source: https://github.com/getdraft/draftsman.git
+  vendoredPath: .draft/framework
+  updatePolicy: explicit
+  updateWorkflow: enabled
+
+paths:
+  catalog: catalog
+  configurations: configurations
+
+requirements:
+  activeRequirementGroups: []
+  requireActiveRequirementGroupDisposition: false
+
+contribution:
+  branchingStrategy: github-flow
+
+# Optional company vocabulary lists. Declare lists gradually. Use advisory while
+# onboarding and gated when the company wants validation to block non-standard values.
+vocabulary: {}

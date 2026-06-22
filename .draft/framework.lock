@@ -1,0 +1,9 @@
+schemaVersion: "1.0"
+framework:
+  source: https://github.com/getdraft/draftsman.git
+  vendoredPath: .draft/framework
+  updatePolicy: explicit
+  syncedRef: main
+  version: "0.60.0"
+  syncedTag: ""
+  syncedCommit: 8a1f3bbb5354d11b8bfaa80d37402a5dafb247ec
