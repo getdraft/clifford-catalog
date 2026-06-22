@@ -22,7 +22,7 @@ requirements:
   canBeSatisfiedBy:
   - mechanism: relationship
     criteria:
-      capability: 961FZVC89R-PW1R
+      capability: 01KQQ4Q026-MHJM
     example: A relationship to the clifford-identity-gateway runtime_service, which fronts Clever/ClassLink/SAML auth.
   - mechanism: decisionRecord
     key: authenticationMechanism
@@ -60,7 +60,7 @@ requirements:
   canBeSatisfiedBy:
   - mechanism: relationship
     criteria:
-      capability: P0VYG7NE7F-6Q09
+      capability: 01KQQ4Q026-DTJJ
     example: A relationship to the clifford-vault secrets-management technology_component.
   minimumSatisfactions: 1
   relatedCapability: 01KQQ4Q026-DTJJ
