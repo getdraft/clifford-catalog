@@ -1,0 +1,142 @@
+schemaVersion: '1.0'
+uid: Z1E81AD5T8-0S75
+type: software_deployment_pattern
+name: TimePay Deployment Pattern
+description: Deployment pattern for the TimePay time-and-attendance product - a Spring Boot API service plus a separately-scheduled Spring Batch payroll export job, deployed behind the shared Clifford API Gateway and Identity Gateway.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: timepay
+  contact: timepay-team@clifford.example
+tags:
+- timepay
+- time-and-attendance
+- payroll
+businessContext:
+  pillar: engineering
+  productFamily: TimePay
+  ownerNode: timepay
+  notes: High availability tier - clock-in/clock-out is time-sensitive but tolerates brief degradation better than Coverage's live substitute matching.
+networkZones:
+- id: edge
+  name: Public Edge
+  tier: frontend
+  description: Shared API Gateway + WAF edge.
+- id: app
+  name: Application Zone
+  tier: application
+  description: TimePay API service and the scheduled payroll-export batch task.
+- id: data
+  name: Data Zone
+  tier: data
+  description: TimePay logical database plus the S3 payroll export drop bucket.
+serviceGroups:
+- name: timepay-api
+  deploymentTarget: aws-us-east-1
+  substrate: 6A9ECMX3KC-5078
+  deployableObjects:
+  - ref: GPPADF0FWM-GWB6
+    networkZone: app
+    diagramTier: application
+    intent: ha
+- name: timepay-data
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: 4S7K3NQ3P1-BDZA
+    networkZone: data
+    diagramTier: data
+  - ref: 5REFR4GN1D-SEAH
+    networkZone: data
+    diagramTier: data
+scalingUnits:
+- name: timepay-api
+  type: replicable
+  instanceCount: 2
+notes:
+  availabilityTarget: '99.5%'
+  failureDomain:
+    scope: service-group
+    description: TimePay outages are isolated to its own service group except for shared Compute Platform and Data Platform cluster-wide failures.
+  teamObjection: >-
+    The TimePay team's reviewer (skeptical disposition) pushed back on
+    declaring the nightly payroll-export batch task as part of the same
+    serviceGroup as the API service, arguing a scheduled batch job has a
+    fundamentally different deployment and scaling profile (one-shot task vs.
+    long-running service) and the schema gives no first-class way to
+    distinguish them within serviceGroups/scalingUnits - both are typed
+    generically as deployable objects with a replicable/shared scaling unit,
+    with no "scheduled task" or "batch job" concept. The admin agreed this is
+    a real gap and chose to model the batch task only at the product_component
+    and data_component level (data_component.scheduledJobs) rather than
+    inventing an unsupported SDP-level construct, logged as a friction point
+    rather than worked around with a non-standard field.
+decisionRecords:
+- ref: CA6JK9KWNR-A8SX
+- ref: F8F4VF6QKB-419V
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: availability-tier
+  status: satisfied
+  mechanism: field
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: disaster-recovery-objective
+  status: satisfied
+  mechanism: field
+  notes: RTO 2 hours / RPO 1 hour for the timepay-api service group.
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: production-change-approval
+  status: satisfied
+  mechanism: field
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: rollback-strategy
+  status: not-compliant
+  notes: >-
+    Skeptical team reviewer flagged that the nightly payroll-export batch job
+    has no documented rollback strategy distinct from the API service's
+    blue/green deploy - a bad export run currently requires a manual
+    re-run after a code fix, with no automated revert. Recorded as
+    not-compliant rather than papered over with a satisfied status, and
+    carried into the exercise's recommended-changes list as a real TimePay
+    follow-up rather than a DRAFT schema gap.
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: patch-management-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: remediation-sla
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: dependency-scanning
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: access-control-model
+  status: satisfied
+  mechanism: field
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: secrets-management
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: data-classification
+  status: satisfied
+  mechanism: field
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: hosting-region
+  status: satisfied
+  mechanism: decisionRecord
+  ref: F8F4VF6QKB-419V

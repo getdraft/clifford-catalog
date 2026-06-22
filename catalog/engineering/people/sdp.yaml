@@ -1,0 +1,133 @@
+schemaVersion: '1.0'
+uid: VZ4EGYZP2B-5VD6
+type: software_deployment_pattern
+name: People Deployment Pattern
+description: Deployment pattern for the People HR core product - the canonical employee-record system of record, a Ruby on Rails API service publishing employee.hired and employee.terminated events consumed by TimePay and Coverage.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: people
+  contact: people-team@clifford.example
+tags:
+- people
+- hr-core
+- system-of-record
+businessContext:
+  pillar: engineering
+  productFamily: People
+  ownerNode: people
+  notes: High availability tier - People is the canonical employee system of record; an outage stalls onboarding/offboarding propagation to TimePay and Coverage even though those teams' own services stay up.
+networkZones:
+- id: edge
+  name: Public Edge
+  tier: frontend
+  description: Shared API Gateway + WAF edge.
+- id: app
+  name: Application Zone
+  tier: application
+  description: People API service and the event publisher for employee.hired and employee.terminated.
+- id: data
+  name: Data Zone
+  tier: data
+  description: People logical database, the canonical employee-record table set.
+serviceGroups:
+- name: people-api
+  deploymentTarget: aws-us-east-1
+  substrate: 6A9ECMX3KC-5078
+  deployableObjects:
+  - ref: ZSNCNFHWJP-99XP
+    networkZone: app
+    diagramTier: application
+    intent: ha
+- name: people-data
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: B7D1D3WT1A-9RDP
+    networkZone: data
+    diagramTier: data
+  - ref: 5REFR4GN1D-SEAH
+    networkZone: data
+    diagramTier: data
+  - ref: Y1X0S7X9R9-F0DE
+    networkZone: app
+    diagramTier: application
+scalingUnits:
+- name: people-api
+  type: replicable
+  instanceCount: 2
+notes:
+  availabilityTarget: '99.5%'
+  failureDomain:
+    scope: cross-team
+    description: People's events are consumed downstream by TimePay and Coverage; a People outage does not take those services down but does stall onboarding/offboarding propagation across the company until People recovers.
+  teamContribution: >-
+    The People team's reviewer (enthusiastic disposition) validated the
+    admin's draft SDP without raising blocking questions, and additionally
+    flagged that the messaging-platform shared service (event bus) should be
+    explicitly listed as a deployable object in the people-data service
+    group rather than only implied by the stack.yaml event-publishing
+    description, since People is the most event-publish-heavy team in the
+    company and the cross-team failure-domain note above depends on that
+    dependency being visible in the SDP itself. Incorporated directly above.
+decisionRecords:
+- ref: CA6JK9KWNR-A8SX
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: availability-tier
+  status: satisfied
+  mechanism: field
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: disaster-recovery-objective
+  status: satisfied
+  mechanism: field
+  notes: RTO 1 hour / RPO 15 minutes - same tier as Coverage, since downstream event consumers amplify the cost of extended People downtime.
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: production-change-approval
+  status: satisfied
+  mechanism: field
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: rollback-strategy
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: patch-management-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: remediation-sla
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: dependency-scanning
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: access-control-model
+  status: satisfied
+  mechanism: field
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: secrets-management
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: data-classification
+  status: satisfied
+  mechanism: field
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: hosting-region
+  status: satisfied
+  mechanism: decisionRecord
+  ref: F8F4VF6QKB-419V

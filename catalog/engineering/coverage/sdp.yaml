@@ -1,0 +1,121 @@
+schemaVersion: '1.0'
+uid: M8255Y9CNY-HXXJ
+type: software_deployment_pattern
+name: Coverage Deployment Pattern
+description: Deployment pattern for the Coverage absence and substitute-management product - a single containerized NestJS API service plus a BullMQ/Redis-backed matching-job queue, deployed behind the shared Clifford API Gateway and Identity Gateway.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: coverage
+  contact: coverage-team@clifford.example
+tags:
+- coverage
+- absence-management
+businessContext:
+  pillar: engineering
+  productFamily: Coverage
+  ownerNode: coverage
+  notes: One of Clifford's four district-facing product lines; Critical availability tier because substitute matching runs during live school-day absence reporting windows.
+networkZones:
+- id: edge
+  name: Public Edge
+  tier: frontend
+  description: Shared API Gateway + WAF edge that all Coverage traffic passes through before reaching the application zone.
+- id: app
+  name: Application Zone
+  tier: application
+  description: Coverage API service and matching-job worker process.
+- id: data
+  name: Data Zone
+  tier: data
+  description: Coverage logical database on the shared Aurora cluster, plus the Redis matching-job queue.
+serviceGroups:
+- name: coverage-api
+  deploymentTarget: aws-us-east-1
+  substrate: 6A9ECMX3KC-5078
+  deployableObjects:
+  - ref: FCDCMP9CV4-FHEX
+    networkZone: app
+    diagramTier: application
+    intent: ha
+- name: coverage-data
+  deploymentTarget: aws-us-east-1
+  deployableObjects:
+  - ref: R44AEYXYT7-BARZ
+    networkZone: data
+    diagramTier: data
+  - ref: 5REFR4GN1D-SEAH
+    networkZone: data
+    diagramTier: data
+scalingUnits:
+- name: coverage-api
+  type: replicable
+  instanceCount: 3
+  notes: Scales up automatically during early-morning absence-reporting peak (5:30-7:00am district-local time).
+notes:
+  availabilityTarget: '99.9%'
+  failureDomain:
+    scope: service-group
+    description: A Coverage-specific outage is isolated to the coverage-api service group; it does not affect TimePay, Talent, or People, though it shares fate with the underlying Compute Platform and Data Platform cluster-wide outages.
+decisionRecords:
+- ref: CA6JK9KWNR-A8SX
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: availability-tier
+  status: satisfied
+  mechanism: field
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: disaster-recovery-objective
+  status: satisfied
+  mechanism: field
+  notes: RTO 1 hour / RPO 15 minutes for the coverage-api service group, inherited from the shared Aurora cluster's RTO 2h / continuous-replication RPO for the data tier.
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: production-change-approval
+  status: satisfied
+  mechanism: field
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: rollback-strategy
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: patch-management-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: remediation-sla
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: dependency-scanning
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: access-control-model
+  status: satisfied
+  mechanism: field
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: secrets-management
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: data-classification
+  status: satisfied
+  mechanism: field
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: hosting-region
+  status: satisfied
+  mechanism: decisionRecord
+  ref: F8F4VF6QKB-419V

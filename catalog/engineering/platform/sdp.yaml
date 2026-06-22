@@ -1,0 +1,118 @@
+schemaVersion: '1.0'
+uid: CDR0FRKQHE-EZM9
+type: software_deployment_pattern
+name: Platform Deployment Pattern
+description: Deployment pattern for the Clifford Platform team. Most of this team's output is the shared Terraform ECS service module and infra conventions consumed by the other four product teams, which has no independent runtime and is not represented below; the only independently-deployed artifact is the internal developer portal (module usage guide, service catalog UI) that the module-usage-guide.md in the product repo documents.
+version: 1.0.0
+catalogStatus: complete
+lifecycleStatus: preferred
+owner:
+  team: platform
+  contact: platform-engineering@clifford.example
+tags:
+- platform
+- internal-tooling
+- developer-portal
+businessContext:
+  pillar: engineering
+  productFamily: Platform
+  ownerNode: platform
+  notes: Internal-only tooling team; no direct district-facing surface. Availability tier set lower than the four product lines since an outage of the developer portal degrades engineering velocity, not live district operations.
+networkZones:
+- id: internal
+  name: Internal Tooling Zone
+  tier: application
+  description: Internal-only developer portal, not exposed through the public API Gateway; reachable only from the corporate VPN and CI/CD network.
+serviceGroups:
+- name: platform-portal
+  deploymentTarget: aws-us-east-1
+  substrate: 6A9ECMX3KC-5078
+  deployableObjects:
+  - ref: G5JM9CZA6X-4V82
+    networkZone: internal
+    diagramTier: application
+    intent: single-instance
+scalingUnits:
+- name: platform-portal
+  type: single-instance
+  instanceCount: 1
+  notes: Low-traffic internal tool; no autoscaling configured.
+notes:
+  availabilityTarget: '99.0%'
+  failureDomain:
+    scope: service-group
+    description: A portal outage affects only internal engineering self-service workflows; it has no path to district-facing downtime since the shared Terraform module itself is consumed at build time, not runtime.
+  teamObjection: >-
+    The Platform team's reviewer (skeptical disposition) objected to being
+    asked to produce a software_deployment_pattern at all, on the grounds
+    that the team's primary output (the shared ECS Terraform module and
+    platform conventions other teams build on) has no independent runtime
+    footprint - it is consumed at build/infra-provisioning time by every
+    other team's own SDP, not deployed as a running service of its own, so
+    forcing it into networkZones/serviceGroups/deployableObjects produces an
+    SDP that describes almost none of the team's actual engineering surface
+    area. The admin agreed this is a legitimate gap rather than something
+    to argue around: DRAFT's SDP concept models deployed runtime topology
+    well, but has no object type for "library/module consumed by other
+    SDPs at build time," so that side of the Platform team's work is
+    invisible to the catalog entirely. Resolved by scoping this SDP to only
+    the one artifact that is genuinely deployed (the developer portal) and
+    logging the missing build-time-dependency concept as a friction point
+    rather than inventing an unsupported field.
+decisionRecords: []
+requirementImplementations:
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: availability-tier
+  status: satisfied
+  mechanism: field
+- requirementGroup: TXKTEP0GVA-00VQ
+  requirementId: monitoring-coverage
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: cicd-pipeline
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: production-change-approval
+  status: satisfied
+  mechanism: field
+- requirementGroup: Y53Z3HXWX6-11KR
+  requirementId: rollback-strategy
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: patch-management-mechanism
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: remediation-sla
+  status: satisfied
+  mechanism: field
+- requirementGroup: BVQAD2CJKY-C45E
+  requirementId: dependency-scanning
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: authentication-mechanism
+  status: satisfied
+  mechanism: relationship
+  notes: Internal SSO only, via the shared Identity Gateway; no district-facing authentication applies.
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: access-control-model
+  status: satisfied
+  mechanism: field
+- requirementGroup: SFSE49JDWK-FKPD
+  requirementId: secrets-management
+  status: satisfied
+  mechanism: relationship
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: data-classification
+  status: satisfied
+  mechanism: field
+  notes: Internal/non-sensitive classification - the portal stores no student, employee, or district data.
+- requirementGroup: 6T3RS5BZGK-ZD6Z
+  requirementId: hosting-region
+  status: satisfied
+  mechanism: decisionRecord
+  ref: F8F4VF6QKB-419V
