@@ -3,14 +3,18 @@ framework:
   source: https://github.com/getdraft/draftsman.git
   vendoredPath: .draft/framework
   updatePolicy: explicit
-  # NOTE: the fix/inline-relationships branch we previously pinned to has
-  # since been merged into main and released as part of the 0.61.0
-  # changelog entry. We are now synced to main again, not a branch - the
-  # one remaining gap is that main has not yet been tagged v0.61.0 (only
-  # v0.60.0 exists as a tag at the time of this sync), so syncedTag is
-  # still empty. See EXERCISE_REPORT.md's "Version Update" section for
-  # the full history and rationale.
-  syncedRef: main
+  # NOTE: v0.61.0 is now an actual annotated git tag upstream - the gap we
+  # flagged at the last sync (main had advanced past the 0.61.0 changelog
+  # entry with no tag to pin to) is closed. The tag itself points one commit
+  # further than the "promote Unreleased to 0.61.0" chore commit we'd
+  # previously vendored - it also includes PR #172, which fixes both
+  # findings we logged against that earlier state (Friction #11 duplicate
+  # relationship edges, Friction #12 dead object-patch templates / blank
+  # Acceptable Use view). main has since moved on to a 0.62.0 cycle, but
+  # that's just a version-string bump with zero functional diff vs this
+  # tag, so pinning to the tag is strictly correct, not stale. See
+  # EXERCISE_REPORT.md's "Version Update" section for the full history.
+  syncedRef: v0.61.0
   version: "0.61.0"
-  syncedTag: ""
-  syncedCommit: 2d25d16a7776d6a9e725408cbe3b7704ab5b0819
+  syncedTag: v0.61.0
+  syncedCommit: fd8ca376fc7f6730220f7f7eb140af1f0e74fa0d
